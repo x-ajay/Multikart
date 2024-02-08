@@ -1,0 +1,57 @@
+.dropdown-menu {
+    width: max-content!important;
+    height: max-content!important;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+
+.dropdown-menu .dropdown-submenu-right {
+    right: auto;
+    left: 100%;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+    display: block;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar .dropdown-menu-right {
+    right: auto;
+    left: auto;
+}
+
+li:hover a {
+    border-radius: 5px;
+}
+
+i:hover {
+    color: red;
+}
+
+nav-link:hover {
+    color: red;
+}
+
+.dropdown-menu-center {
+    left: 50% !important;
+    right: auto !important;
+    text-align: start !important;
+    transform: translate(-50%, 0) !important;
+}

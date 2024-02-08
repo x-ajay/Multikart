@@ -1,0 +1,463 @@
+<nav class="navbar navbar-expand-md navbar-white bg-white">
+    <div class="container-fluid">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item active">
+                    <a class="nav-link fw-bold" href="#">welcome to Our store Multikart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="//codeply.com">Call Us: 123 - 456 - 7890</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>   </span>wishlist</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <!-- <a class="nav-link fw-bold" href="#"><i class="fa fa-user" aria-hidden="true"></i><span>   </span>myAccount</a> -->
+                    <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-user" aria-hidden="true"></i><span>   </span>myAccount
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Login &raquo </a></li>
+                        <li><a class="dropdown-item" href="#">Register &raquo </a></li>
+                        <li><a class="dropdown-item" href="#">Logout &raquo </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <Img src="assets/Images/logo1.png" alt="multikart">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100 order-3 ms-auto">
+            <li class="nav-item active dropdown ms-5">
+                <a class="nav-link dropdown-toggle fw-bold" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="home">
+            HOME
+            </a>
+                <!-- <li class="nav-item active"><a class="nav-link" routerLink="">Home</a></li> -->
+                <ul class="dropdown-menu nav-item active" aria-labelledby="navbarDropdown">
+                    <li class="nav-item active"><a class="dropdown-item nav-link">New Demos &raquo </a>
+                        <ul class="dropdown-menu dropdown-submenu nav-item active">
+                            <li class="nav-item active">
+                                <button class="dropdown-item nav-link" (click)="Ontools()">Tools</button>
+                            </li>
+                            <li class="nav-item active">
+                                <button class="dropdown-item nav-link" (click)="Onchristmas()">Christmas</button>
+                            </li>
+                            <li class="nav-item active">
+                                <button class="dropdown-item" (click)="Onmarketplace()">marketplace</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Ongame()">Game</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Ongym()">Gym</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="OnMarjuana()">Marjuana</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Onleftsidebar()">Left-sidebar</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Onjwellery()">Jwellery</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Onpets()">Pets</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="OnMetros()">Metros</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Onvideoslider()">Video Slider</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="OnNursery()">Nursery</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Clothing &raquo </a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <button class="dropdown-item" (click)="Onfashion1()">Fashion 1</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Onfashion2()">Fashion 2</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Onfashion3()">Fashion 3</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Onkids()">kids</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Basics</a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <button class="dropdown-item" (click)="Onlookbook()">lookbook</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="OnInstagram()">Instagram</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="OnVideo()">Video</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Onparallax()">parallax</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="OnFullpage()">Full page</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><button class="dropdown-item" href="#" routerLink="beauty">Beauty</button></li>
+                    <li><a class="dropdown-item" href="#">Electronic &raquo</a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <button class="dropdown-item" (click)="Electronic1()">Electronic 1</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" (click)="Electronic2()">Electronic 2</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><button class="dropdown-item" routerLink="furniture">Furniture</button></li>
+                    <li><button class="dropdown-item" routerLink="vegetables">Vegetables</button></li>
+                    <li><button class="dropdown-item" routerLink="watch">Watch</button></li>
+                    <li><button class="dropdown-item" routerLink="light">Light</button></li>
+                    <li><button class="dropdown-item" routerLink="googles">Goggles</button></li>
+                    <li><button class="dropdown-item" routerLink="shoes">Shoes</button></li>
+                    <li><button class="dropdown-item" routerLink="bags">Bags</button></li>
+                    <li><button class="dropdown-item" routerLink="Flowers">Flowers</button></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown ms-5">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="shop">
+                SHOP
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><button class="dropdown-item" routerLink="left">left sidebar</button></li>
+                    <li><button class="dropdown-item" routerLink="right">Right Sidebar</button></li>
+                    <li><button class="dropdown-item" routerLink="no">No Sidebar</button></li>
+                    <li><button class="dropdown-item" routerLink="sidebar">Sidebar Popup</button></li>
+                    <li><button class="dropdown-item" routerLink="metro">Metro New</button></li>
+                    <li><button class="dropdown-item" routerLink="full">Full width New</button></li>
+                    <li><button class="dropdown-item" routerLink="gridthree">3 grid</button></li>
+                    <li><button class="dropdown-item" routerLink="gridsix">6 grid</button></li>
+                    <li><button class="dropdown-item" routerLink="last">List View</button></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown ms-5">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="product">
+                PRODUCTS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">sidebar &raquo</a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <button class="dropdown-item" routerLink="left">Left sidebar</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="right">Right sidebar</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="no">No sidebar</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#">THumbnail Image &raquo</a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <button class="dropdown-item" routerLink="left1">Left Image</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="right1">Right Image</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="image">Image Outside</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#">3-Column &raquo</a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <button class="dropdown-item" routerLink="left2">Thumbnail Left</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="right2">Thumbnail Right</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="bottom">Thumbnail Bottom</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><button class="dropdown-item" routerLink="image2">4 Image</button></li>
+                    <li><button class="dropdown-item" routerLink="bundle">Bundle Product</button></li>
+                    <li><button class="dropdown-item" routerLink="sticky">Sticky</button></li>
+                    <li><button class="dropdown-item" routerLink="accordian">Accordian</button></li>
+                    <li><button class="dropdown-item" routerLink="image">Image Swatch</button></li>
+                    <li><button class="dropdown-item" routerLink="vertical">Vertical Tab</button></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown ms-5">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="features">
+                FEATURES
+                </a>
+                <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="navbarDropdown">
+                    <div class="container-fluid p-4 d-flex justify-content-lg-evenly">
+                        <!--Grid row-->
+                        <div class="row d-flex justify-content-lg-evenly align-content-center">
+                            <!--Grid column-->
+                            <div class="col">
+                                <h5 class="dropdown-item fw-bold">Portfolio</h5>
+
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <button class="dropdown-item" routerLink="portfolio2">Portfolio 2</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="portfolio3">Portfolio 3</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="portfolio4">Portfolio 4</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="masonary2">Masonary grid 2</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="masonary3">Masonary grid 3</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="masonary4">Masonary grid 4</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="fullwidth">Masonary Full width</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col">
+                                <h5 class="dropdown-item fw-bold">Add To Cart</h5>
+
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <button class="dropdown-item" routerLink="cartmodal">Cart Modal Popup</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="qtyc">Qty Quanter</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="carttop">Cart top</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="cartbottom">Cart Bottom</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="cartleft">Cart Left</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="cartright">Cart Right</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col">
+                                <h5 class="dropdown-item fw-bold">Theme Element</h5>
+
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <button class="dropdown-item" routerLink="tittle">Tittle</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="collection">Collection Banner</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="home2">Home Slider</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="category">Category</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="service">Service</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col">
+                                <h5 class="dropdown-item fw-bold">Product Element</h5>
+
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <button class="dropdown-item" routerLink="box">Product Box</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="slider">Product Slider</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="nos">No Slider</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="multi">Multi Slider</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="tab">Tab</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+
+                            <div class="col">
+                                <h5 class="dropdown-item fw-bold">Email Template</h5>
+
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <button class="dropdown-item" routerLink="orders">Order Success</button>
+                                    </li>
+                                    <li>
+                                        <button class="dropdown-item" routerLink="orders2">Order Success 2</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Grid container -->
+                    <!-- </footer> -->
+                    <!-- Footer -->
+                </ul>
+            </li>
+            <li class="nav-item dropdown ms-5">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="pages">
+                PAGES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Vendor New  &raquo</a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <button class="dropdown-item" routerLink="dashboard">Vendor dashboard</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="profilev">Vendor profile</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="became">Become Vendor</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Account  &raquo</a>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <button class="dropdown-item" routerLink="wishlist">wishlist</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="cart">cart</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="dashboard2">Dashboard</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="login">Login</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="loginauth">Login Auth</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="register">Register</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="contact">Contact</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="forgetpass">FOrget Password</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="profile3">Profile</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="checkout">Checkout</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><button class="dropdown-item" routerLink="aboutus">About Us</button></li>
+                    <li><button class="dropdown-item" routerLink="search">Search</button></li>
+                    <li><button class="dropdown-item" routerLink="typographyn">typography New</button></li>
+                    <li><button class="dropdown-item" routerLink="review">Review</button></li>
+                    <li><button class="dropdown-item" routerLink="sucess1">order-success</button></li>
+                    <li><button class="dropdown-item">compare  &raquo</button>
+                        <ul class="dropdown-menu dropdown-submenu">
+                            <li>
+                                <button class="dropdown-item" routerLink="compare1">compare</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" routerLink="compare2">compare 2 new</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><button class="dropdown-item" routerLink="collection">collection</button></li>
+                    <li><button class="dropdown-item" routerLink="lookbook1">Look book</button></li>
+                    <li><button class="dropdown-item" routerLink="sitemap">Site map</button></li>
+                    <li><button class="dropdown-item" routerLink="404">404</button></li>
+                    <li><button class="dropdown-item" routerLink="comingsoon">Coming soon</button></li>
+                    <li><button class="dropdown-item" routerLink="faq">Fag</button></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown ms-5">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerlink="blog">
+                BLOGS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><button class="dropdown-item" routerLink="left">Blog left Sidebar</button></li>
+                    <li><button class="dropdown-item" routerLink="right">Blog RIght Sidebar</button></li>
+                    <li><button class="dropdown-item" routerLink="no">No Sidebar</button></li>
+                    <li><button class="dropdown-item" routerLink="detail">Blog detail</button></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-bold me-2" href="#"><i class="fa fa-search fa-lg" aria-hidden="true"></i><span>   </span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <!-- <a class="nav-link fw-bold" href="#"><i class="fa fa-user" aria-hidden="true"></i><span>   </span>myAccount</a> -->
+                    <a class="nav-link fw-bold me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-cog fa-lg " aria-hidden="true"></i><span>   </span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Language </a></li>
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">French</a></li>
+                        <li><a class="dropdown-item" href="#">Currency</a></li>
+                        <li><a class="dropdown-item" href="#">$USD</a></li>
+                        <li><a class="dropdown-item" href="#">IND</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <!-- <a class="nav-link fw-bold" href="#"><i class="fa fa-user" aria-hidden="true"></i><span>   </span>myAccount</a> -->
+                    <a class="nav-link fw-bold me-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-shopping-cart fa-lg fa-lg" aria-hidden="true"></i><span>   </span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">This cart is currently Empty</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
