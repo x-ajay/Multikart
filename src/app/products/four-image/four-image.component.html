@@ -1,1 +1,128 @@
-<p>four-image works!</p>
+<!-- Section 1: Product title -->
+<div class="prod-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="page-title">
+                    <h2>PRODUCT</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <nav aria-label="breadcrumb" class="theme-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/">HOME</a></li>
+                        <li class="breadcrumb-item" aria-current="page">PRODUCT</li>
+                    </ol>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Section 2: Product images and details -->
+<section class="mt-3">
+    <div class="container">
+        <div class="row">
+    <!-- Product details -->
+            <div class="col-lg-6">
+                <div class="prod_img_4 row">
+                    <div class="col-6">
+                        <img [src]="img1" class="img-fluid" alt="first_img">
+                    </div>
+                    <div class="col-6">
+                        <img [src]="img2" class="img-fluid" alt="second_img">
+                    </div>
+                    <div class="col-6">
+                        <img [src]="img3" class="img-fluid" alt="third_img">
+                    </div>
+                    <div class="col-6">
+                        <img [src]="img4" class="img-fluid" alt="fourth_img">
+                    </div>
+                </div>
+            </div>
+    <!-- Product details -->
+            <div class="rtl-text col-lg-6">
+                <div class="product-right undefined">
+                    <h2> TRIM DRESS </h2>
+                    <h4><del>$145</del><span>40% off</span></h4>
+                    <h3>$87</h3>
+                    <ul class="color-variant">
+                        <li class="yellow" title="yellow"></li>
+                        <li class="white" title="white"></li>
+                        <li class="pink" title="pink"></li>
+                    </ul>
+                    <div class="product-description border-product">
+                        <div>
+                            <h6 class="product-title size-text">Select Size<span><a data-toggle="modal"
+                                        data-target="#sizemodal">Size Chart</a></span></h6>
+                            <div class="size-box">
+                                <ul>
+                                    <li><a>s</a></li>
+                                    <li><a>m</a></li>
+                                    <li><a>l</a></li>
+                                </ul>
+                            </div>
+                        </div><span class="instock-cls">InStock</span>
+                        <h6 class="product-title">Quantity</h6>
+                        <div class="qty-box">
+                            <div class="input-group">
+                                <span class="input-group-prepend">
+                                    <button type="button" class="btn quantity-left-minus"
+                                        data-type="minus" data-field=""><i class="bi bi-chevron-left"></i></button>
+                                    </span>
+                                    <input name="quantity"
+                                    type="text" class="form-control input-number form-control" value="1">
+                                    <span class="input-group-prepend"><button
+                                        type="button" class="btn quantity-right-plus" data-type="plus" data-field=""><i
+                                            class="bi bi-chevron-right"></i></button>
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-buttons"><a class="btn btn-solid">ADD TO CART</a>
+                        <a class="btn btn-solid" href="#">BUY NOW</a></div>
+
+                    <div class="border-product">
+                        <h6 class="product-title">Product Details</h6>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters,It is a long established fact that a reader will
+                            be distracted by the readable content of a page when looking at its layout. The point of
+                            using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                    </div>
+                    <div class="border-product">
+                        <h6 class="product-title">Share It</h6>
+                        <div class="product-icon">
+                            <ul class="product-social">
+                                <li><a [href]="facebook" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li><a [href]="google" target="_blank"><i class="bi bi-google"></i></a></li>
+                                <li><a [href]="twitter" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                                <li><a [href]="instagram" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li><a [href]="rss" target="_blank"><i class="bi bi-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="border-product">
+                        <h6 class="product-title">Time Reminder</h6>
+                        <div class="timer-box">
+                            <div class="timer">
+                                <div class="timer-p" id="demo"><span>9<span class="padding-l">:</span><span
+                                            class="timer-cal">Days</span></span><span>7<span
+                                            class="padding-l">:</span><span
+                                            class="timer-cal">Hrs</span></span><span>5<span
+                                            class="padding-l">:</span><span
+                                            class="timer-cal">Min</span></span><span>3<span
+                                            class="timer-cal">Sec</span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+    </div>
+    </div>
+</section>
