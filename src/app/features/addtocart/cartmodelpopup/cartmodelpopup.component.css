@@ -1,0 +1,8 @@
+.bgimg{
+    background-image: url("F:\git\Multikart\src\assets\Images\cartmodalpopup\bg.jpg");
+    height: 99vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
