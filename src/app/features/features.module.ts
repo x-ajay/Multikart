@@ -35,7 +35,7 @@ import { FullWidthComponent } from '../shop/full-width/full-width.component';
 import { OrderSucessComponent } from './email-template/order-sucess/order-sucess.component';
 
 const routes: Routes = [
-  {path: "portfolio2", component: PortfolioGridTwoComponent },
+  {path: "", component: PortfolioGridTwoComponent },
   {path: "portfolio3", component: PortfolioGridThreeComponent },
   {path: "portfolio4", component: PortfolioGridFourComponent },
   {path: "masonary2", component: MasonaryGridTwoComponent },
