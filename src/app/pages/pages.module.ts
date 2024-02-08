@@ -32,7 +32,7 @@ import { LookbookComponent } from '../home/basics/lookbook/lookbook.component';
 
 
 const routes: Routes = [
-  { path: "dashboard", component: VendorDashboardComponent },
+  { path: "", component: VendorDashboardComponent },
   { path: "became", component: BecomeVendorComponent },
   { path: "profilev", component: VendorProfileComponent },
   { path: "wishlist", component: WishlistComponent },

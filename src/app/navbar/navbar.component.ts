@@ -12,73 +12,73 @@ export class NavbarComponent {
   }
 
   Ontools() {
-    this.router.navigate(['new/tools']);
+    this.router.navigate(['home/tools']);
   }
   Onchristmas() {
-    this.router.navigate(['new/christmas']);
+    this.router.navigate(['home/christmas']);
   }
   Onmarketplace() {
-    this.router.navigate(['new/marketplace']);
+    this.router.navigate(['home/marketplace']);
   }
   Ongame() {
-    this.router.navigate(['new/game']);
+    this.router.navigate(['home/game']);
   }
   Ongym() {
-    this.router.navigate(['new/gym']);
+    this.router.navigate(['home/gym']);
   }
   OnMarjuana() {
-    this.router.navigate(['new/marijuana']);
+    this.router.navigate(['home/marijuana']);
   }
   Onleftsidebar() {
-    this.router.navigate(['new/leftsidebar']);
+    this.router.navigate(['home/leftsidebar']);
   }
   Onjwellery() {
-    this.router.navigate(['new/jwellery']);
+    this.router.navigate(['home/jwellery']);
   }
   Onpets() {
-    this.router.navigate(['new/pets']);
+    this.router.navigate(['home/pets']);
   }
   OnMetros(){
-    this.router.navigate(['new/metros']);
+    this.router.navigate(['home/metros']);
   }
   Onvideoslider() {
-    this.router.navigate(['new/videoslider']);
+    this.router.navigate(['home/videoslider']);
   }
   OnNursery() {
-    this.router.navigate(['new/nursery']);
+    this.router.navigate(['home/nursery']);
   }
   Onfashion1() {
-    this.router.navigate(['fashion1']);
+    this.router.navigate(['home/fashion1']);
   }
   Onfashion2() {
-    this.router.navigate(['fashion2']);
+    this.router.navigate(['home/fashion2']);
   }
   Onfashion3() {
-    this.router.navigate(['fashion3']);
+    this.router.navigate(['home/fashion3']);
   }
   Onkids() {
-    this.router.navigate(['kids']);
+    this.router.navigate(['home/kids']);
   }
   Onlookbook() {
-     this.router.navigate(['lookbook']);
+     this.router.navigate(['home/lookbook']);
   }
   OnInstagram() {
-     this.router.navigate(['instagram']);
+     this.router.navigate(['home/instagram']);
   }
   OnVideo() {
-     this.router.navigate(['video']);
+     this.router.navigate(['home/video']);
   }
   Onparallax() {
-    this.router.navigate(['parallax']);
+    this.router.navigate(['home/parallax']);
   }
   OnFullpage() {
-    this.router.navigate(['fullpage']);
+    this.router.navigate(['home/fullpage']);
   }
   Electronic1() {
-     this.router.navigate(['electronic1']);
+     this.router.navigate(['home/electronic1']);
   }
   Electronic2() {
-     this.router.navigate(['electronic2']);
+     this.router.navigate(['home/electronic2']);
   }
 
 }
