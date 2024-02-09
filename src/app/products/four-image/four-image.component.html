@@ -126,3 +126,36 @@
     </div>
     </div>
 </section>
+
+<br><br>
+<div *ngFor="let product of products" class="card">
+    <div class="image-container">
+    <div class="card-img-container">
+    <img class="card-img-top" [src]="product.image" alt="Product Image">
+    <img class="card-hover-image" [src]="product.hoverImageUrl" alt="Product Hover Image">
+    <div class="icons">
+        <div class="card-hover">
+          <i class="bi bi-cart3"></i>
+          <i class="bi bi-search"></i>
+          <i class="bi bi-heart"></i>
+        </div>
+    </div>
+    </div>
+</div>
+    <div class="card-body">
+        <div class="rating">
+            <span *ngFor="let star of [1, 2, 3, 4, 5]" class="star" [class.filled]="star <= product.rating">
+              <i class="bi bi-star-fill color-fill"></i>
+            </span>
+          </div>
+      <h5 class="card-title">{{ product.name }}</h5>
+      <p class="card-text">{{ product.price | currency:'USD': true:'1.0-0' }}</p>
+    
+      <ul class="color-variant">
+        <li class="skyblue"></li>
+        <li class="lightpink"></li>
+        <li class="grey"></li>
+    </ul>
+
+    </div>
+  </div>
