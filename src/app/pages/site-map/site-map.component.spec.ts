@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SidemapComponent } from './sidemap.component';
+import { SiteMapComponent } from './site-map.component';
 
-describe('SidemapComponent', () => {
-  let component: SidemapComponent;
-  let fixture: ComponentFixture<SidemapComponent>;
+describe('SiteMapComponent', () => {
+  let component: SiteMapComponent;
+  let fixture: ComponentFixture<SiteMapComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SidemapComponent ]
+      declarations: [ SiteMapComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SidemapComponent);
+    fixture = TestBed.createComponent(SiteMapComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

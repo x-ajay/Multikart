@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LongbookComponent } from './longbook.component';
+import { LookbookComponent } from './lookbook.component';
 
-describe('LongbookComponent', () => {
-  let component: LongbookComponent;
-  let fixture: ComponentFixture<LongbookComponent>;
+describe('LookbookComponent', () => {
+  let component: LookbookComponent;
+  let fixture: ComponentFixture<LookbookComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LongbookComponent ]
+      declarations: [ LookbookComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LongbookComponent);
+    fixture = TestBed.createComponent(LookbookComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
