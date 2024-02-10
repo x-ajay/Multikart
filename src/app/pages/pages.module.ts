@@ -22,17 +22,16 @@ import { ReviewComponent } from './review/review.component';
 import { CompareComponent } from './compare/compare.component';
 import { Compare2Component } from './compare/compare2/compare2.component';
 import { CollectionComponent } from './collection/collection.component';
-import { LongbookComponent } from './longbook/longbook.component';
-import { SidemapComponent } from './sidemap/sidemap.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { FaqComponent } from './faq/faq.component';
 import { RouterModule, Routes } from '@angular/router';
 import { OrderSucessComponent } from './../pages/order-sucess/order-sucess.component';
+import { SiteMapComponent } from './site-map/site-map.component';
 import { LookbookComponent } from '../home/basics/lookbook/lookbook.component';
 
 
 const routes: Routes = [
-  { path: "dashboard", component: VendorDashboardComponent },
+  { path: "", component: VendorDashboardComponent },
   { path: "became", component: BecomeVendorComponent },
   { path: "profilev", component: VendorProfileComponent },
   { path: "wishlist", component: WishlistComponent },
@@ -54,7 +53,7 @@ const routes: Routes = [
   { path: "compare2", component: Compare2Component },
   { path: "collection", component: CollectionComponent },
   { path: "lookbook1", component: LookbookComponent },
-  { path: "sitemap", component: SidemapComponent },
+  { path: "sitemap", component: SiteMapComponent},
   { path: "comingsoon", component: ComingSoonComponent },
   { path: "faq", component: FaqComponent },
 
@@ -90,10 +89,10 @@ const routes: Routes = [
     CompareComponent,
     Compare2Component,
     CollectionComponent,
-    LongbookComponent,
-    SidemapComponent,
     ComingSoonComponent,
-    FaqComponent
+    FaqComponent,
+    LookbookComponent,
+    SiteMapComponent
   ],
   imports: [
     CommonModule,

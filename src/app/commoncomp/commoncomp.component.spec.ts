@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LongbookComponent } from './longbook.component';
+import { CommoncompComponent } from './commoncomp.component';
 
-describe('LongbookComponent', () => {
-  let component: LongbookComponent;
-  let fixture: ComponentFixture<LongbookComponent>;
+describe('CommoncompComponent', () => {
+  let component: CommoncompComponent;
+  let fixture: ComponentFixture<CommoncompComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LongbookComponent ]
+      declarations: [ CommoncompComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LongbookComponent);
+    fixture = TestBed.createComponent(CommoncompComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

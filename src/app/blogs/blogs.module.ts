@@ -8,9 +8,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { RightSidebarComponent } from '../shop/right-sidebar/right-sidebar.component';
 
 const routes: Routes = [
-  {path:"left", component: BlogleftsidebarComponent },
+  {path:"", component: BlogleftsidebarComponent },
   {path:"right", component: RightSidebarComponent },
-  {path: "no", component: NosidebarComponent },
+  {path:"no", component: NosidebarComponent },
   {path:"detail",component:BlogdetailComponent}
 
 ]

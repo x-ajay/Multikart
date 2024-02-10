@@ -30,7 +30,7 @@ import { ButtonModule } from 'primeng/button';
 import { GalleriaModule } from 'primeng/galleria';
 
 const routes: Routes = [
-  { path: "left",component:LeftSidebarComponent},
+  { path: "",component:LeftSidebarComponent},
   { path: "right", component: RightSidebarComponent },
   { path: "no", component: NoSidebarComponent },
   { path: "left1", component: LeftImageComponent},
