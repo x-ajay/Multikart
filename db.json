@@ -1,0 +1,75 @@
+{
+    "ABproducts": [
+      {
+        "id": "1",
+        "title": "trim dress",
+        "price": "145",
+        "rating":4,
+        "image1": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/39.jpg ",
+        
+        "image2": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/6.jpg"
+      },
+      {
+        "id": "2",
+        "title": "trim dress",
+        "price": "185",
+        "rating":5,
+        "image1": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/3.jpg",
+        "image2": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/4.jpg"
+      },
+      {
+        "id": "3",
+        "title": "fitted dress",
+        "price": "174",
+        "rating":3,
+        "image1": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/1.jpg",
+        "image2": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/2.jpg"
+      },
+      {
+        "id": "4",
+        "title": "belted top",
+        "price": "98",
+        "rating":5,
+        "image1": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/8.jpg",
+        "image2": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/7.jpg"
+      },
+      {
+        "id": "5",
+        "title": "waist dress",
+        "price": "230",
+        "rating":4,
+        "image1": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/9.jpg",
+        "image2": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/10.jpg"
+      },
+      {
+        "id": "6",
+        "title": "crop top",
+        "price": "121",
+        "rating":3,
+        "image1": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/11.jpg",
+        "image2": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/12.jpg"
+      },
+      {
+        "id": "7",
+        "title": "sleeveless dress",
+        "price": "290",
+        "rating":5,
+        "image1": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/13.jpg"
+      },
+      {
+        "id": "8",
+        "title": "maxi dress",
+        "price": "266",
+        "rating":2,
+        "image1": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/5.jpg"
+      },
+      {
+        "id": "9",
+        "title": "mini skirt",
+        "price": "285",
+        "rating":5,
+        "image1": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/36.jpg"
+      }
+    ]
+   
+  }

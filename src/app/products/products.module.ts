@@ -19,6 +19,15 @@ import { AccordianComponent } from './accordian/accordian.component';
 import { ImageSwatchComponent } from './image-swatch/image-swatch.component';
 import { VerticalTabComponent } from './vertical-tab/vertical-tab.component';
 import { RouterModule, Routes } from '@angular/router';
+import { CommonComp1Component } from './sidebar/common-comp1/common-comp1.component';
+
+// third party 
+
+import { NgbDropdownModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import { CarouselModule } from 'primeng/carousel';
+import { ButtonModule } from 'primeng/button';
+import { GalleriaModule } from 'primeng/galleria';
 
 const routes: Routes = [
   { path: "left",component:LeftSidebarComponent},
@@ -62,10 +71,16 @@ const routes: Routes = [
     StickyComponent,
     AccordianComponent,
     ImageSwatchComponent,
-    VerticalTabComponent
+    VerticalTabComponent,
+    CommonComp1Component
   ],
   imports: [
     CommonModule,
+    NgbModule,
+    NgbDropdownModule,
+    CarouselModule,
+    ButtonModule,
+    GalleriaModule,
     [RouterModule.forChild(routes)],
   ]
 })

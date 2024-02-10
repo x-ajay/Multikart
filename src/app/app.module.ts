@@ -7,6 +7,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CustPipe } from './common/cust.pipe';
 import { CustomDirective } from './common/custom.directive';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,9 @@ import { CustomDirective } from './common/custom.directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
