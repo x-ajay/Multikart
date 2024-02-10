@@ -7,17 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CustPipe } from './common/cust.pipe';
 import { CustomDirective } from './common/custom.directive';
-<<<<<<< HEAD
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
-
-
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-=======
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CommoncompComponent } from './commoncomp/commoncomp.component';
->>>>>>> 4f441868599dba175215f66a441c1a641b0df810
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,8 +23,8 @@ import { CommoncompComponent } from './commoncomp/commoncomp.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
-    BrowserAnimationsModule
+    HttpClientModule
+    // BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

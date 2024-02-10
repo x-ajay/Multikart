@@ -24,7 +24,6 @@ import { CommonComp1Component } from './sidebar/common-comp1/common-comp1.compon
 // third party 
 
 import { NgbDropdownModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
 import { CarouselModule } from 'primeng/carousel';
 import { ButtonModule } from 'primeng/button';
 import { GalleriaModule } from 'primeng/galleria';

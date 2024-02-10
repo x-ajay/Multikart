@@ -9,6 +9,6 @@ export class ProductsAService {
   constructor(private http:HttpClient) { }
 
   getProducts():Promise<any> {
-    return  this.http.get("http://localhost:3000/products").toPromise()
+    return  this.http.get("http://localhost:3000/ABproducts").toPromise()
   }
 }

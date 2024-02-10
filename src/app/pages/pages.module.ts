@@ -27,7 +27,7 @@ import { FaqComponent } from './faq/faq.component';
 import { RouterModule, Routes } from '@angular/router';
 import { OrderSucessComponent } from './../pages/order-sucess/order-sucess.component';
 import { SiteMapComponent } from './site-map/site-map.component';
-import { LookbookComponent } from '../home/basics/lookbook/lookbook.component';
+import { LookbookComponent} from '../pages/lookbook/lookbook.component';
 
 
 const routes: Routes = [
