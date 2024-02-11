@@ -1,1 +1,68 @@
-<p>service works!</p>
+<!-- nav element -->
+<div class="bgcolor">
+    <nav class="flexnav">
+        <div>
+            Elements
+        </div>
+        <div >
+            <ul type="none" class="listflex">
+                <li class="listcur"><a href="#">home</a><span class="listspan">/</span></li>
+                <li>elements<span class="listspan">/</span></li>
+                <li>title</li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<div class="ms-5 me-5 mb-5 ">
+    <div class="maindiv row">
+        <div class="col borderlr" *ngFor="let serv of showserv">
+            <div class="serv">
+                <div>
+                    <img src="{{serv.image}}" height="100px" width="100px">
+                </div>
+              <div>
+                <h2 class="servtitle">{{serv.title}}</h2>
+                <h6 class="servdis">{{serv.discription}}</h6>
+              </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ms-5 me-5 mt-5 ">
+    <div class="row">
+        <div class="col " *ngFor="let serv of showserv2">
+            <div>
+                <div class="servimg">
+                    <img src="{{serv.image}}" height="60px" width="60px">
+                </div>
+              <div class="servtext">
+                <h2 class="servtitle">{{serv.title}}</h2>
+                <h6 class="servdis">{{serv.discription}}</h6>
+              </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="ms-5 me-5 mb-5 ">
+    <div class="maindiv1 row">
+        <div class="col borderlr" *ngFor="let serv of showserv3">
+            <div class="serv">
+                <div>
+                    <img src="{{serv.image}}" height="80px" width="80px">
+                </div>
+              <div>
+                <h2 class="servtitle">{{serv.title}}</h2>
+                <h6 class="servdis">{{serv.discription}}</h6>
+              </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,5 +1,5 @@
 .bgimg{
-    background-image: url("F:\git\Multikart\src\assets\Images\cartmodalpopup\bg.jpg");
+    background-image: url("https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/bg.jpg");
     /* height: 100vh;
     width: 100%; */
     background-position: center;
@@ -7,9 +7,11 @@
     background-size: cover;
     background-attachment: fixed;
     margin: 0%;
-    padding: 0%;
+   padding: 0%;
+
 }
 .bg-white{
+   
     background-color: white;
     margin-left: 5%;
     margin-right: 5%;
@@ -34,7 +36,7 @@
     font-weight: 700;
     letter-spacing: .4em;
     color: #777;
-    margin-bottom: 0;
+   
  }
  .texth1{
     font-size: 60px;
@@ -47,27 +49,31 @@
  .btn-banner{
    
     padding: 13px 29px;
-    color: #fff!important;
+    color: #fff;
     letter-spacing: .05em;
     border: 2px solid #81ba00;
     border-color: #81ba00 !important;
     background-color: #81ba00;
     color: #fff;
  }
+ .btn-banner:hover{
+   background-color: #fff;
+   color:black;
+ }
 
  .title1 h4{
     
-    font-size: 40px;
+    font-size: 35px;
     color: #222;
     text-transform: uppercase;
     font-weight: bolder;
     line-height: 1;
     letter-spacing: .02em;
     text-align: center;
-    margin-top: 5%;
-   
-
- }
+    padding-bottom: 3vh;
+    padding-top: 5vh;
+ 
+}
 
  .card1{
     display: flex;
@@ -76,3 +82,133 @@
  .card{
     border: none; 
  }
+ .card-body{
+   text-align: center;
+   margin-top: 0%;
+   margin-bottom: 0%;
+ }
+
+ .cardprice{
+   margin-top: 0%;
+      font-size: 18px;
+   font-weight: 700;
+   color :#222;
+ }
+ .cardtitle{
+   line-height: 1;
+   font-weight: 400;
+   margin-bottom: 0%;
+   font-size: 20px;
+   color : #777;
+ }
+ .wintercardtitle{
+   font-weight: 100;
+   margin-bottom: 0%;
+   font-size: 5px;
+   color : #777;
+  
+ }
+ 
+ .money{
+   font-size: 14px;
+   color:#aaa;
+   font-weight: 400;
+ }
+ .ullist{
+   margin-left: 35%;
+   font-size: 20px;
+   margin-top: 5%;
+ } 
+ li{
+display: inline;
+margin-left: 5%;
+cursor: pointer;
+
+ }
+   .zoom-effect{
+      transition: transform 0.8s ease;
+      background-color: none;
+
+    }
+    
+    .zoom-effect:hover {
+      transform: scale(1.1); /* Increase the size on hover */
+    }
+    
+ 
+ .bg-gray{
+   background-color:#f9f9f9;
+ 
+
+ }
+ 
+ .card3{
+   background-color: white;
+ 
+ }
+ .card2{
+   background-color: white;
+   height: 210px;
+   width: 300px;
+ 
+ }
+ 
+.flexcard{
+   display: flex;
+}
+.card-body1{
+   text-align: center;
+   margin-top: 5vh;
+   margin-right: 25%;
+}
+.card-body1 h6{
+   font-size: 20px;
+   font-weight: normal;
+}
+
+.title1 span{
+   text-transform: capitalize;
+   margin-left: 45%;
+}
+.carddate{
+   color: #81ba00;
+   cursor: default;
+}
+.carddis:hover{
+   color: #81ba00;
+   cursor:pointer;
+}
+.cardcomm{
+   cursor: default;
+}
+.cardimg{
+   cursor: pointer;
+}
+
+/* colored image on hoverimage */
+
+ 
+ 
+ 
+ .hover-image:hover {
+   opacity: 0.6;
+   background-color: #81ba00;
+   z-index: 2; /* Hide the first image when hovered */
+ }
+ 
+ 
+
+/* ratnig */
+.star-rating {
+   color: #e2e3e5; /* Color for the stars */
+   font-size: 14px; /* Adjust the size of the stars */
+ }
+ 
+ .star-rating .fa-star {
+   cursor: pointer; /* Change cursor to pointer on hover */
+ }
+ 
+ .star-rating .fa-star.checked {
+   color: #ffc107; /* Change color for checked stars */
+ }
+ 

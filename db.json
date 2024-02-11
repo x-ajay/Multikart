@@ -1,0 +1,297 @@
+
+
+{
+    "plantproduct":[
+       { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/1.jpg",
+       "rating":4,
+       "title":"Alovera Tree",
+       "price":200.00,
+       "price1":400.00},
+       { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/7.jpg",
+       "rating":4,
+       "title":"Basli Plant",
+       "price":500,
+       "price1":700.00},
+       { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/3.jpg",
+       "rating":4,
+       "title":"Areca Palm Plant",
+       "price":400,
+       "price1":800.00},
+       { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/5.jpg",
+       "rating":4,
+       "title":"Leesa Plant",
+       "price":300,
+       "price1":500.00}
+       
+    ],
+
+    "plantproduct1":[
+        
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/7.jpg",
+        "rating":4,
+        "title":"Basli Plant",
+        "price":500,
+        "price1":700.00},
+        
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/1.jpg",
+        "rating":4,
+        "title":"Alovera Tree",
+        "price":200.00,
+        "price1":400.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/5.jpg",
+        "rating":4,
+        "title":"Leesa Plant",
+        "price":300,
+        "price1":500.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/3.jpg",
+        "rating":4,
+        "title":"Areca Palm Plant",
+        "price":400,
+        "price1":800.00}
+        
+     ],
+
+     "plantproduct2":[
+        
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/7.jpg",
+        "rating":4,
+        "title":"Basli Plant",
+        "price":500,
+        "price1":700.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/5.jpg",
+        "rating":4,
+        "title":"Leesa Plant",
+        "price":300,
+        "price1":500.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/1.jpg",
+        "rating":4,
+        "title":"Alovera Tree",
+        "price":200.00,
+        "price1":400.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/3.jpg",
+        "rating":4,
+        "title":"Areca Palm Plant",
+        "price":400,
+        "price1":800.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/7.jpg",
+        "rating":4,
+        "title":"Basli Plant",
+        "price":500,
+        "price1":700.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/5.jpg",
+        "rating":4,
+        "title":"Leesa Plant",
+        "price":300,
+        "price1":500.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/1.jpg",
+        "rating":4,
+        "title":"Alovera Tree",
+        "price":200.00,
+        "price1":400.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/3.jpg",
+        "rating":4,
+        "title":"Areca Palm Plant",
+        "price":400,
+        "price1":800.00}
+        
+     ],
+
+     "plantproduct3":[
+        
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/7.jpg",
+        "rating":4,
+        "title":"Basli Plant",
+        "price":500,
+        "price1":700.00},
+        
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/1.jpg",
+        "rating":4,
+        "title":"Alovera Tree",
+        "price":200.00,
+        "price1":400.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/5.jpg",
+        "rating":4,
+        "title":"Leesa Plant",
+        "price":300,
+        "price1":500.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/3.jpg",
+        "rating":4,
+        "title":"Areca Palm Plant",
+        "price":400,
+        "price1":800.00},
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/7.jpg",
+        "rating":4,
+        "title":"Basli Plant",
+        "price":500,
+        "price1":700.00},
+        
+        { "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/pro/1.jpg",
+        "rating":4,
+        "title":"Alovera Tree",
+        "price":200.00,
+        "price1":400.00}
+        
+     ],
+
+
+    "specialproduct":[
+        {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/1.jpg",
+        "date":"26 January 2018",
+        "discription":"lorem ipsum dolor sit consecteture adipiscing elit",
+        "comment":"by:by: john Dio , 2 comment"
+    },
+    {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/2.jpg",
+        "date":"26 January 2018",
+        "discription":"lorem ipsum dolor sit consecteture adipiscing elit",
+        "comment":"by:by: john Dio , 2 comment"
+    },
+    {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/nursery/3.jpg",
+        "date":"26 January 2018",
+        "discription":"lorem ipsum dolor sit consecteture adipiscing elit",
+        "comment":"by:by: john Dio , 2 comment"
+    }
+    ],
+    "instagram":[
+        {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/nursery/5.jpg"},
+        {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/nursery/6.jpg"},
+        {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/nursery/7.jpg"},
+        {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/nursery/8.jpg"},
+        {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/nursery/9.jpg"},
+        {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/nursery/1.jpg"},
+        {"image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/nursery/2.jpg"}
+    ],
+
+    "menwomen":[
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/sub-banner1.5d5f9c6f.jpg",
+            "offer":"10%off",
+            "name":"men"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/sub-banner2.3b2448f3.jpg",
+            "offer":"10%off",
+            "name":"women"
+        }
+    ],
+    "elec":[
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/5.jpg",
+            "offer":"10%off",
+            "name":"speaker"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/6.jpg",
+            "offer":"10%off",
+            "name":"earplug"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/7.jpg",
+            "offer":"50%off",
+            "name":"best deal"
+        }
+    ],
+    "watch":[
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/banner1.jpg",
+            "offer":"minimum 10% off",
+            "name":"new watch"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/banner2.jpg"
+           
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/banner.jpg",
+            "offer":"minimum 50% off",
+            "name":"gold watch"
+        }
+    ],
+    "newitem":[
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/banner/5.jpg",
+            "offer":"save 30%",
+            "name":"camera"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/banner/10.jpg",
+            "offer":"save 60%",
+            "name":"bags"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/banner/8.jpg",
+            "offer":"save 60%",
+            "name":"toys"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/banner/9.jpg",
+            "offer":"save 60%",
+            "name":"shoes"
+        }
+    ],
+    "serv1":[
+        {
+            "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTOb6t4HAPP-wP1zzHGI7NKm9AFvXqU7qoCOnhTmcXGiXDM_Sdi",
+            "title":"free shipping",
+            "discription":"free shipping world wide"
+        },
+        {
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxA_JXg_UioqrtHSpkC1BExY-zBRM3WVXjwjBZpbdMSm9NJfu",
+            "title":"24 * 7 sevice",
+            "discription":"online service for 24 * 7"
+        },
+        {
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKmcbZVtjbMvVGngv1bU-loYgu4a8tUtapeUT0SmvRdL4TUh4C",
+            "title":"festival offer",
+            "discription":"new online special festival offer"
+        }
+    ],
+    "serv2":[
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/service1.fe754775.png",
+            "title":"free shipping",
+            "discription":"contrary to popular belife , lorem ipsum is not simply random text"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/service2.324e1dc7.png",
+            "title":"24 * 7 sevice",
+            "discription":"contrary to popular belife , lorem ipsum is not simply random text"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/service3.2d55a661.png",
+            "title":"festival offer",
+            "discription":"contrary to popular belife , lorem ipsum is not simply random text"
+        },
+        {
+            "image":"https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/service4.6993a4ad.png",
+            "title":"online payment",
+            "discription":"contrary to popular belife , lorem ipsum is not simply random text"
+        }
+    ],
+    "serv3":[
+        {
+            "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTOb6t4HAPP-wP1zzHGI7NKm9AFvXqU7qoCOnhTmcXGiXDM_Sdi",
+            "title":"free shipping",
+            "discription":"free shipping world wide"
+        },
+        {
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxA_JXg_UioqrtHSpkC1BExY-zBRM3WVXjwjBZpbdMSm9NJfu",
+            "title":"24 * 7 sevice",
+            "discription":"online service for 24 * 7"
+        },
+        {
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKmcbZVtjbMvVGngv1bU-loYgu4a8tUtapeUT0SmvRdL4TUh4C",
+            "title":"festival offer",
+            "discription":"new online special festival offer"
+        },
+        {
+            "image":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3A2Mmjobc5Gmu_EWoSXBhyoOHnzjUlt1InVbDOV61ljPlFC8y",
+            "title":"online payment",
+            "discription":"new online special festival offer"
+        }
+    ]
+      
+
+
+}
+
+

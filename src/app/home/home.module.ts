@@ -37,20 +37,22 @@ import { ParallaxComponent } from './basics/parallax/parallax.component';
 import { FullpageComponent } from './basics/fullpage/fullpage.component';
 import { Electronics1Component } from './electronics/electronics1/electronics1.component';
 import { Electronics2Component } from './electronics/electronics2/electronics2.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 const routes: Routes = [
-  {path: "new/tools",component:ToolsComponent},
-  { path: "new/christmas", component: ChristmasComponent },
-  { path: "new/marketplace", component: MarketplaceComponent },
-  { path: "new/game", component: GameComponent },
-  { path: "new/gym", component: GymComponent },
-  { path: "new/marijuana", component: MarijuanaComponent },
-  { path: "new/leftsidebar", component: LeftSidebarComponent },
-  { path: "new/jwellery", component: JwelleryComponent },
-  { path: "new/pets", component: PetsComponent },
-  { path: "new/metros", component: MetrosComponent },
-  { path: "new/videoslider", component: VideosliderComponent },
-  { path: "new/nursery", component: NurseryComponent },
+  {path: "",component:HomepageComponent},
+  {path: "tools",component:ToolsComponent},
+  { path: "christmas", component: ChristmasComponent },
+  { path: "marketplace", component: MarketplaceComponent },
+  { path: "game", component: GameComponent },
+  { path: "gym", component: GymComponent },
+  { path: "marijuana", component: MarijuanaComponent },
+  { path: "leftsidebar", component: LeftSidebarComponent },
+  { path: "jwellery", component: JwelleryComponent },
+  { path: "pets", component: PetsComponent },
+  { path: "metros", component: MetrosComponent },
+  { path: "videoslider", component: VideosliderComponent },
+  { path: "nursery", component: NurseryComponent },
   { path: "fashion1", component: Fashion1Component },
   { path: "fashion2", component: Fashion2Component },
   { path: "fashion3", component: Fashion3Component },
@@ -114,7 +116,8 @@ const routes: Routes = [
        ParallaxComponent,
        FullpageComponent,
        Electronics1Component,
-       Electronics2Component
+       Electronics2Component,
+       HomepageComponent
   ],
   imports: [
     CommonModule,

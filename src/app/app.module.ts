@@ -7,6 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CustPipe } from './common/cust.pipe';
 import { CustomDirective } from './common/custom.directive';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { CommoncompComponent } from './commoncomp/commoncomp.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { CustomDirective } from './common/custom.directive';
     NavbarComponent,
     FooterComponent,
     CustPipe,
-    CustomDirective
+    CustomDirective,
+    SidebarComponent,
+    CommoncompComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

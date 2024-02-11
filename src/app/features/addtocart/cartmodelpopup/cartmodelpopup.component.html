@@ -1,10 +1,10 @@
-<div class="bgimg">
+<div class="bgimg pt-5 pb-5">
     <!-- navbar -->
-    <div class="bg-white">
+    <div class="bg-white container-fuild ">
 
       
 <!-- carousel -->
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src=".\assets\Images\cartmodalpopup\33.jpg" class="d-block w-100" alt="...">
@@ -40,70 +40,51 @@
         </div>
 
         <!-- cards -->
-        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
-            <div class="carousel-inner ">
-              <div class="carousel-item active">
+        <div id="carouselExampleControls" class="carousel slide  mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner" >
+              <div class="carousel-item active "  >
+  <!-- carousel item 1 -->
                 <div class="container card1">
-                    <div class="ms-5 card" style="width: 18rem;">
-                        <img src=".\assets\Images\cartmodalpopup\1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">pam tree</p>
+                    <div class=" ms-5 card " style="width:30% 18rem;" *ngFor="let item of productData1">
+
+                      <!-- routing to other component -->
+                     <img src= "{{item.image}}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <!-- rating -->
+
+                        <div class="star-rating">
+                          <span *ngFor="let star of stars" class="fa fa-star" [ngClass]="{ 'checked': star <= rating }"></span>
                         </div>
-                      </div>
-                      <div class="card" style="width: 18rem;">
-                        <img src=".\assets\Images\cartmodalpopup\2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">pam tree</p>
-                        </div>
-                      </div>
-                      <div class="card" style="width: 18rem;">
-                        <img src=".\assets\Images\cartmodalpopup\3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">pam tree</p>
-                        </div>
-                      </div>
-                      <div class="card" style="width: 18rem;">
-                        <img src=".\assets\Images\cartmodalpopup\4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">pam tree</p>
+                        
+                          <h6 class="cardtitle">{{item.title}}</h6>
+                          <h4 class="cardprice">${{item.price}} <del class="money">${{item.price1}}</del></h4>
                         </div>
                       </div>
                 </div>
               </div>
-              
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+            
+<!-- carousel item 2 -->
+             
+                  <div class="carousel-item">
                   <div class="container card1">
-                      <div class="ms-5 card" style="width: 18rem;">
-                          <img src=".\assets\Images\cartmodalpopup\7.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <p class="card-text">pam tree</p>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src=".\assets\Images\cartmodalpopup\5.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">pam tree</p>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 18rem;">
-                            <img src=".\assets\Images\cartmodalpopup\7.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">pam tree</p>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 18rem;">
-                            <img src=".\assets\Images\cartmodalpopup\5 (1).jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">pam tree</p>
-                            </div>
-                          </div>
+                    <div class="ms-5 card " style="width:30% 18rem;" *ngFor="let item of productData">
 
-                    </div>
-                </div>
-                
-              </div> 
+                      <!-- routing to other component -->
+                     <img src= "{{item.image}}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <!-- rating -->
+                        <div class="star-rating">
+                          <span *ngFor="let star of stars" class="fa fa-star" [ngClass]="{ 'checked': star <= rating }"></span>
+                        </div>
+                        
+                          <h6 class="cardtitle">{{item.title}}</h6>
+                          <h4 class="cardprice">${{item.price}} <del class="money">${{item.price1}}</del></h4>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              
+              </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -114,7 +95,136 @@
             </button>
           </div>
 
-        
-        
+          <!-- trending products -->
+  <div class="bg-gray">
+    <div class="mb-5">
+      <div class="title1 pt-3">
+        <h4>trending product</h4>
     </div>
+    <div class="ullist">
+      <ul type="none" class="list">
+        <li (click)="showcontent1($event)" [style.color]="active1">Winter</li>
+        <li (click)="showcontent2($event)"[style.color]="active2">Greens</li>
+        <li (click)="showcontent3($event)"[style.color]="active3">Various</li>
+      </ul>
+    </div>
+
+    <!-- tab-container -->
+<!-- winter tab -->
+    <div *ngIf="showData && active1">
+      <div class="container row ms-2">
+        <div class="col flexcard card2 ms-3 mb-5" *ngFor="let item of productData1">
+          <div>
+            <div class="ps-2 pt-2 zoom-effect">
+              <img src= "{{item.image}}" height="180px" width="180px"alt="...">
+          </div>
+        </div>
+              <div>
+                <div class="card-body1">
+                  <div class="star-rating">
+                    <span *ngFor="let star of stars" class="fa fa-star" [ngClass]="{ 'checked': star <= rating }"></span>
+                  </div>
+                  <h6 class="wintercardtitle">{{item.title}}</h6>
+                  <h4 class="wintercardprice">${{item.price}}</h4>
+                </div>
+              </div>
+          </div>
+      </div>
+      
+    </div>
+
+  <!-- greens tab -->
+
+  <div *ngIf="showData1">
+    <div class="container row ms-2">
+      <div class="col flexcard card2 ms-3 mb-5" *ngFor="let item of productData2">
+        <div>
+          <div class="ps-2 pt-2 zoom-effect">
+            <img src= "{{item.image}}" height="180px" width="180px" alt="...">
+        </div>
+      </div>
+            <div>
+              <div class="card-body1">
+                <div class="star-rating">
+                  <span *ngFor="let star of stars" class="fa fa-star" [ngClass]="{ 'checked': star <= rating }"></span>
+                </div>
+                <h6 class="cardtitle">{{item.title}}</h6>
+                <h4 class="cardprice">${{item.price}}</h4>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+  </div>
+
+  <!-- various tab -->
+  <div *ngIf="showData2">
+    <div class="container row ms-2">
+      <div class="col-3 flexcard card2 ms-3 mb-5" *ngFor="let item of productData3">
+        <div>
+          <div class="ps-2 pt-2 zoom-effect">
+            <img src= "{{item.image}}" height="180px" width="180px" alt="...">
+        </div>
+      </div>
+            <div>
+              <div class="card-body1">
+                <div class="star-rating">
+                  <span *ngFor="let star of stars" class="fa fa-star" [ngClass]="{ 'checked': star <= rating }"></span>
+                </div>
+                <h6 class="cardtitle">{{item.title}}</h6>
+                <h4 class="cardprice">${{item.price}}</h4>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+  </div>
+
+    </div>
+        
 </div>
+
+<!-- special products -->
+<div class="container mt-3">
+  <div class="title1">
+    <span>our collection</span>
+    <h4>special product</h4>
+</div>
+</div>
+<!-- special product tab -->
+<div class="container row pt-5">
+  <div class="col card3"  *ngFor="let item of specialProData">
+    <div class="ms-5 card " style="width:30% 18rem;">
+      <img src= "{{item.image}}" class="card-img-top cardimg hover-image " alt="">
+      <div class="card-body">
+        
+        <h6 class="carddate">{{item.date}}</h6>
+        <h4 class="carddis">{{item.discription}}</h4>
+        <p class="cardcomm">{{item.comment}}</p>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!-- instagram -->
+
+<div class="container mt-3 ">
+  <div class="title1">
+    <h4>#instagram</h4>
+</div>
+</div>
+<div class="container flexcard ms-0">
+  <div *ngFor="let item of instaData" >
+    <div>
+      <img src= "{{item.image}}" class="hover-image" height="190px" width="190px" alt="">
+    </div>
+  </div>
+  
+</div>
+
+
+</div>
+</div>
+
+

@@ -13,7 +13,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MetrosComponent } from '../home/new-demos/metros/metros.component';
 
 const routes: Routes = [
-  {path: "left", component: LeftSidebarComponent },
+  {path: "", component: LeftSidebarComponent },
   {path: "right", component: RightSidebarComponent },
   {path: "no", component: NoSidebarComponent },
   {path: "sidebar", component: SidebarPopupComponent },

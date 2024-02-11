@@ -1,0 +1,80 @@
+.flexnav{
+    position: absolute;
+    display: flex;
+    top: 25vh;
+    text-transform: uppercase;
+    font-size: 18px;
+    left: 5%;
+   
+}
+.bgcolor{
+    margin-top: 5vh;
+    padding-bottom: 30px;
+    background-color: #f8f8f8;
+
+    padding-top: 8vh;
+    
+}
+.listcur a{
+   text-decoration: none;
+   color: #555;
+   font-weight: 600;
+}
+
+.listspan{
+    padding-left: 15%;
+}
+
+.listflex{
+    display:flex;
+    position: relative;
+    left : 60vw;
+    
+}
+.listflex li{
+    padding-left: 10%;
+    color: #555;
+    font-weight: 600;
+}
+
+/* carousel */
+
+.banner-text{
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    text-align: center;
+}
+.banner-text1{
+        position: absolute;
+        top: 30vh;
+        left : 50vw;
+}
+ .texth4{
+    font-weight: 700;
+    letter-spacing: .4em;
+    color: #777;
+   
+ }
+ .texth1{
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 5%;
+    color: #222;
+    margin-bottom: 5%;
+ }
+ .btn-banner{
+   
+    padding: 13px 29px;
+    color: #fff;
+    letter-spacing: .05em;
+    border: 2px solid #ff4c3b;
+    border-color:  #ff4c3b !important;
+    background-color: #ff4c3b;
+    color: #fff;
+ }
+ .btn-banner:hover{
+   background-color: #fff;
+   color:black;
+ }

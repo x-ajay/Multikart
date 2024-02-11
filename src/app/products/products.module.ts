@@ -21,7 +21,7 @@ import { VerticalTabComponent } from './vertical-tab/vertical-tab.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: "left",component:LeftSidebarComponent},
+  { path: "",component:LeftSidebarComponent},
   { path: "right", component: RightSidebarComponent },
   { path: "no", component: NoSidebarComponent },
   { path: "left1", component: LeftImageComponent},

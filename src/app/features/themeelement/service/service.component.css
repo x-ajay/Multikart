@@ -1,0 +1,97 @@
+.flexnav{
+    position: absolute;
+    display: flex;
+    top: 25vh;
+    text-transform: uppercase;
+    font-size: 18px;
+    left: 5%;
+   
+}
+.bgcolor{
+    margin-top: 5vh;
+    padding-bottom: 30px;
+    background-color: #f8f8f8;
+    padding-top: 8vh;
+    
+}
+.listcur a{
+   text-decoration: none;
+   color: #555;
+   font-weight: 600;
+}
+
+.listspan{
+    padding-left: 15%;
+}
+
+.listflex{
+    display:flex;
+    position: relative;
+    left : 60vw;
+    
+}
+.listflex li{
+    padding-left: 10%;
+    color: #555;
+    font-weight: 600;
+}
+
+
+.maindiv{
+    border: 1px solid #ddd;
+    border-left: hidden;
+    border-right: hidden;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 10vh;
+}
+
+.borderlr{
+    border: 1px solid #ddd;
+    padding-left: 5%;
+     border-top: hidden; 
+    border-bottom: hidden; 
+    border-right: hidden;
+}
+.servtitle{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    
+}
+.servtitle:hover{
+    color: #ff4c3b;
+}
+
+.servdis{
+    line-height: 1;
+    color: #555;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.serv{
+    display: flex;
+  justify-content: center;
+   align-items: center;
+}
+
+
+.servimg{
+   
+    margin-left: 35%;
+}
+.servtext{
+    text-align: center;
+}
+
+.maindiv1{
+    border: 1px solid #ddd;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 10vh;
+}

@@ -1,1 +1,63 @@
-<p>collection-banner works!</p>
+
+<!-- nav element -->
+<div class="bgcolor">
+    <nav class="flexnav">
+        <div>
+            Elements
+        </div>
+        <div >
+            <ul type="none" class="listflex">
+                <li class="listcur"><a href="#">home</a><span class="listspan">/</span></li>
+                <li>elements<span class="listspan">/</span></li>
+                <li>title</li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- 1st banner =2 men women -->
+<div class="ps-2 pe-2 ms-5 me-5 row">
+    <div class="card col pt-5 " style="width: 25% 18rem;" *ngFor="let data of showData">
+        <a href="F:\git\Multikart\src\app\features\themeelement\collection-banner"><img src="{{data.image}}" class="card-img-top imghover" height="100%" width="100%"></a>
+       <div class="menwomentext">
+        <h4 class="textoffer">{{data.offer}}</h4>
+        <h2 class="textname">{{data.name}}</h2>
+       </div>
+    </div>
+</div>
+
+<!-- elec -->
+<div class="ps-2 pe-2 ms-5 me-5  row">
+    <div class="card pt-5 col" style="width: 25% 18rem;" *ngFor="let data of showData1">
+        <a href="F:\git\Multikart\src\app\features\themeelement\collection-banner"><img src="{{data.image}}" class="card-img-top imghover" height="100%" width="100%"></a>
+       <div class="electext">
+        <h4 class="elecoffer">{{data.offer}}</h4>
+        <h2 class="elecname">{{data.name}}</h2>
+       </div>
+    </div>
+</div>
+
+<!-- watch -->
+<div class="ps-2 pe-2 ms-5 me-5  row">
+    <div class="card pt-5 col" style="width: 25% 18rem;" *ngFor="let data of showData2">
+        <a href="F:\git\Multikart\src\app\features\themeelement\collection-banner"><img src="{{data.image}}" class="card-img-top imghover" height="100%" width="100%"></a>
+       <div class="watchtext">
+        <h4 class="watchoffer">{{data.offer}}</h4>
+        <h2 class="watchname">{{data.name}}</h2>
+       </div>
+    </div>
+</div>
+
+
+<!-- newitem -->
+
+
+<div class="ps-2 pe-2 mb-5 pb-5 row">
+    <div class="card col pt-5 " style="width: 25% 18rem;" *ngFor="let data of showData3">
+        <a href="F:\git\Multikart\src\app\features\themeelement\collection-banner"><img src="{{data.image}}" class="card-img-top imghover" height="100%" width="100%"></a>
+       <div class="text">
+        <h4 class="newoffer">{{data.offer}}</h4>
+        <h2 class="newname">{{data.name}}</h2>
+       </div>
+    </div>
+</div>

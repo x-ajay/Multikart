@@ -1,0 +1,130 @@
+.flexnav{
+    position: absolute;
+    display: flex;
+    top: 25vh;
+    text-transform: uppercase;
+    font-size: 18px;
+    left: 5%;
+   
+}
+.bgcolor{
+    margin-top: 5vh;
+    padding-bottom: 30px;
+    background-color: #f8f8f8;
+
+    padding-top: 8vh;
+    
+}
+.listcur a{
+   text-decoration: none;
+   color: #555;
+   font-weight: 600;
+}
+
+.listspan{
+    padding-left: 15%;
+}
+
+.listflex{
+    display:flex;
+    position: relative;
+    left : 60vw;
+    
+}
+.listflex li{
+    padding-left: 10%;
+    color: #555;
+    font-weight: 600;
+}
+
+/* men women */
+
+.card{
+
+   overflow: hidden; 
+   border: none;
+   
+}
+.menwomentext{
+    position: absolute;
+    left:65%;
+    top: 20vh;
+}
+.imghover{
+    transition: transform 0.5s ease;
+    background-color: none;
+}
+  
+  .imghover:hover {
+    transform: scale(1.03); /* Increase the size on hover */
+  }
+  .textoffer{
+    color: #81ba00;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .textname{
+    font-size: 50px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+  }
+  
+  .elecoffer{
+    color: #81ba00;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: end;
+  }
+  .elecname{
+    font-size: 30px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+  }
+
+  .electext{
+    position: absolute;
+    left:50%;
+    top: 19vh;
+  }
+
+  .watchoffer{
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+  
+  }
+
+  .watchname{
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .watchtext{
+    position: absolute;
+    left:15%;
+    top: 15vh;
+  }
+
+  .newoffer{
+    color: #ff4c3b;
+    font-weight: 700;
+    text-transform: uppercase;
+  
+  }
+
+  .newname{
+    font-size: 25px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+  }
+
+  .newtext{
+    position: absolute;
+    left:55%;
+    top: 16vh;
+  }
