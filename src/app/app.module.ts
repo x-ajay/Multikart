@@ -9,6 +9,7 @@ import { CustPipe } from './common/cust.pipe';
 import { CustomDirective } from './common/custom.directive';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CommoncompComponent } from './commoncomp/commoncomp.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CommoncompComponent } from './commoncomp/commoncomp.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

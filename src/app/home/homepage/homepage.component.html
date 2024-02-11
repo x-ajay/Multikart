@@ -4,6 +4,8 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <div *ngFor="let sum of formdata | slice : 0 : 1"></div>
+                        
                         <img src="assets/Images/1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
@@ -415,10 +417,10 @@
                 </div>
 
                 <div class="row justify-content-center mt-0 my-3 pt-0 mb-3">
-                    <div class="col-sm-2">
+                    <div  *mgFor ="let sum of data" class="col-sm-2">
                         <div class="container7">
                             <div>
-                                <img src="assets/Images/insta1.jpg" width="100%" alt="" class="img-fluid2">
+                                <img src={{ sum. }} width="100%" alt="" class="img-fluid2">
                                 <div class="overlay">
                                     <div class="text"></div>
                                 </div>
