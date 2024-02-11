@@ -38,6 +38,8 @@ import { Electronics1Component } from './electronics/electronics1/electronics1.c
 import { Electronics2Component } from './electronics/electronics2/electronics2.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { Lookbook1Component } from './basics/lookbook1/lookbook1.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CarouselModule } from 'primeng/carousel';
 
 const routes: Routes = [
   {path: "",component:HomepageComponent},
@@ -121,6 +123,9 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    CarouselModule,
     [RouterModule.forChild(routes)],
   ]
 })
