@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SidemapComponent } from './sidemap.component';
+import { Lookbook1Component } from './lookbook1.component';
 
-describe('SidemapComponent', () => {
-  let component: SidemapComponent;
-  let fixture: ComponentFixture<SidemapComponent>;
+describe('Lookbook1Component', () => {
+  let component: Lookbook1Component;
+  let fixture: ComponentFixture<Lookbook1Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SidemapComponent ]
+      declarations: [ Lookbook1Component ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SidemapComponent);
+    fixture = TestBed.createComponent(Lookbook1Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LongbookComponent } from './longbook.component';
+import { SiteMapComponent } from './site-map.component';
 
-describe('LongbookComponent', () => {
-  let component: LongbookComponent;
-  let fixture: ComponentFixture<LongbookComponent>;
+describe('SiteMapComponent', () => {
+  let component: SiteMapComponent;
+  let fixture: ComponentFixture<SiteMapComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LongbookComponent ]
+      declarations: [ SiteMapComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LongbookComponent);
+    fixture = TestBed.createComponent(SiteMapComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
