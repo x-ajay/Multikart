@@ -107,6 +107,43 @@
       "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
       "comment": "by: by: John Dio , 2 Comment"
     }
+  ],
+  "vegetableData1": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/pro/1.jpg",
+      "rating": 4,
+      "name": "beetroot",
+      "price": "$31.50",
+      "discunt": "$35.00"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/pro/2.jpg",
+      "rating": 4,
+      "name": "cabbage",
+      "price": "$20.00",
+      "discunt": "$25.00"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/pro/3.jpg",
+      "rating": 4,
+      "name": "Onion",
+      "price": "$27.55",
+      "discunt": "$29.00"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/pro/4.jpg",
+      "rating": 4,
+      "name": "brinjal",
+      "price": "$19.60",
+      "discunt": "$20.00"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/pro/5.jpg",
+      "rating": 4,
+      "name": "cucumber",
+      "price": "$35.20",
+      "discunt": "$44.00"
+    }
   ]
   }
   {

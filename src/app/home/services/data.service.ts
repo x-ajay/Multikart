@@ -17,4 +17,7 @@ export class DataService {
   getProductData1(): Promise<any> {
     return this.http.get('http://localhost:3000/furnitureproduct3').toPromise();
   }
+  getvegData1() {
+    return this.http.get('http://localhost:3000/vegetableData1');
+  }
 }
