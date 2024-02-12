@@ -28,62 +28,7 @@
       color: black;
     }
   
-    /* branding  */
-    .card {
-      border-radius: 0 !important;
-    }
-    #accordion {
-      border-bottom: none;
-    }
-  
-    .pserv {
-      font-size: 14px;
-      color: #777;
-      line-height: 1;
-    }
-    .bword {
-      line-height: 1;
-      letter-spacing: 0.02em;
-    }
-  
-    /* vertical carousel  */
-    .verticalhead {
-      font-size: 19px;
-  
-      font-weight: bold !important;
-      line-height: 1;
-      letter-spacing: 0.02em;
-    }
-    .cardbutton {
-      font-size: 20px;
-      color: #918d8d;
-    }
-    .rightarrow:hover {
-      color: black;
-      cursor: pointer;
-    }
-    .leftarrow:hover {
-      color: black;
-      cursor: pointer;
-    }
-    .rating {
-      font-size: 24px;
-    }
-  
-    .star {
-      cursor: pointer;
-      font-size: 13px;
-      margin-right: 7px;
-    }
-  
-    /* Set non-rated star color */
-    .star:not(.rated) {
-      color: #ddd;
-    }
-    .rated {
-      color: #ffa200; /* or any color you want for rated stars */
-    }
-  
+   
     /* description list group  */
   
     .desc-list {

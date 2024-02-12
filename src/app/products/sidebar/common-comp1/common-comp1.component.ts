@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { ProductsAService } from 'src/app/service/products-a.service';
 
 @Component({
   selector: 'app-common-comp1',
   templateUrl: './common-comp1.component.html',
-  styleUrls: ['./common-comp1.component.css']
+  styleUrls: ['./common-comp1.component.css'],
+  // encapsulation: ViewEncapsulation.None 
 })
 export class CommonComp1Component {
   public products: any[] = [];
