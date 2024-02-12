@@ -13,4 +13,13 @@ export class HomepageService {
   gethomeApidata() {
     return this.http.get("http://localhost:3000/home");
   }
+  gethomeApidata1() {
+    return this.http.get("http://localhost:3000/insta");
+  }
+  gethomeApidata2() {
+    return this.http.get("http://localhost:3000/logos");
+  }
+  gethomeApidata3() {
+    return this.http.get("http://localhost:3000/top");
+  }
 }

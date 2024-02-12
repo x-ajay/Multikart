@@ -1,9 +1,51 @@
-.col:hover img {
+.col5:hover img {
+    scale: 1.2;
+}
+
+.col6:hover img {
     scale: 1.2;
 }
 
 img {
     transition: scale 2.0s;
+}
+
+.backgroundImgContainer {
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(https://multikart-react-reactpixelstrap.vercel.app/assets/images/parallax/1.jpg);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-text {
+    position: relative;
+    top: 1vh;
+    left: -25%;
+}
+
+.b2023 {
+    font-size: 92px;
+    font-weight: 900;
+    color: red;
+    letter-spacing: 0.6rem;
+}
+
+.bg-img-text {
+    font-weight: 500;
+    font-size: 55px;
+    color: black;
+}
+
+.bg-img-Lcapital {
+    color: rgba(0, 0, 0, 0.363);
+    letter-spacing: 1rem;
+    padding-top: 10px;
 }
 
 .col5 {
@@ -213,6 +255,7 @@ h5 {
 .container7 {
     position: relative;
     width: 100%;
+    z-index: 1;
 }
 
 .img-fluid2 {
@@ -223,10 +266,10 @@ h5 {
 
 .overlay {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 10;
+    bottom: 10;
+    left: 10;
+    right: 10;
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -236,6 +279,13 @@ h5 {
 
 .container7:hover .overlay {
     opacity: 1;
+}
+
+.text {
+    background-color: pink;
+    color: white;
+    font-size: 100px;
+    padding: 50px 70px;
 }
 
 #align-middle img {
@@ -410,4 +460,9 @@ footer {
 .footer-2part-contet-links-links p {
     margin-top: -7px;
     margin-left: 5px;
+}
+
+.footer-3part-payment {
+    display: flex;
+    justify-content: flex-end;
 }

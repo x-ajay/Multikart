@@ -1,1 +1,123 @@
-<p>furniture works!</p>
+<div id="carouselExample" class="carousel carousel-dark slide mt-4">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../../../assets/Images/imgFurniture/12.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption caption-positon">
+                <p class="small-text">Furniture Sofa</p>
+                <h1 class="heading-size">HARMONY SOFA</h1>
+                <button class="shop-btn  four">SHOP NOW</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="../../../assets/Images/imgFurniture/13.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption caption-positon">
+                <p class="small-text">Furniture Sofa</p>
+                <h1 class="heading-size">HARMONY SOFA</h1>
+                <div class="">
+                    <button class="shop-btn  four ">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="card-group mt-5">
+    <div *ngFor="let item of data1" class="card p-3 border-0" style="width: 18rem;">
+        <div class="zoom-img">
+            <img [src]="item.img" class="card-img-top card-img" alt="...">
+        </div>
+        <div class="b-card">
+
+            <h5 class="card-text " style="color: #d4b196;">{{ item.test }}</h5>
+            <h2 class="card-title main-txt">{{ item.title }}</h2>
+        </div>
+    </div>
+</div>
+<section class="container ">
+    <div class=" text-center mt-5">
+        <div class="">
+            <p class="exclusive-product">Exclusive Products</p>
+            <h1 class="special-product">SPECIAL PRODUCTS</h1>
+            <div class="space-div">
+                <h1 class="space"></h1>
+
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-item-center">
+
+            <p class=" p-4 exclusive-product ">NEW ARRIVAL</p>
+            <p class=" p-4 exclusive-product " style="color: black;">FEATURED</p>
+            <p class=" p-4 exclusive-product" style="color: black;">SPECIAL</p>
+        </div>
+    </div>
+    <div class="row">
+        <div *ngFor="let item of furnitureData" class="col-md-3">
+            <div class="card border-0" style="width: 18rem;">
+                <img [src]="item.img" class="card-img-top" alt="...">
+                <div class="card-body ">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <p class="card-title" style="color: #777777;">{{item.title}}</p>
+                    <strong class="card-text">{{item.price}}</strong><del style="color: #AAAAAA;"><small>
+                            {{item.discunt}} </small></del>
+                    <br>
+                    <div class="d-flex">
+                        <p class="circle" style="background-color: #8B4513;"></p>
+                        <p class="circle " style="background-color: #556B2f;"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="backgroundImgContainer bg-img-text">
+        <div class="">
+            <h2 class="b2023">2023</h2>
+            <h3 class="bg-img-text">INTERIOR DESIGN IN HOME</h3>
+            <h4 class="bg-img-Lcapital">SPECIAL OFFER</h4>
+        </div>
+    </div>
+</section>
+<section class=" mt-5">
+    <div class="last-fur-block">
+        <p class="exclusive-product">Our Collection</p>
+        <h1 class="special-product">SPECIAL PRODUCTS</h1>
+    </div>
+    <div class="">
+        <div class="">
+            <p-carousel [value]="products" [numVisible]="3" [numScroll]="3" [circular]="true"
+                [responsiveOptions]="responsiveOptions" [autoplayInterval]="4000">
+                <ng-template let-product pTemplate="item">
+                    <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+                        <div class="mb-3">
+                            <img width="400px" src="{{ product.img }}" alt="{{ product.date }}" class="w-6 shadow-2" />
+                        </div>
+                        <div>
+                            <h4 class="mb-1 date-furnitue">{{ product.date }}</h4>
+                            <h4 class="mt-0 mb-3  text-fur">{{ product.text }}</h4>
+                            <h6 class="comment-color">{{product.comment}}</h6>
+                        </div>
+                    </div>
+                </ng-template>
+            </p-carousel>
+        </div>
+
+
+    </div>
+
+</section>
+<!-- <div class="mt-5 flex align-items-center justify-content-center gap-2">
+    <p-button icon="pi pi-search"></p-button>
+    <p-button icon="pi pi-star-fill" severity="secondary"></p-button>
+</div> -->

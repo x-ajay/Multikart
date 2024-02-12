@@ -40,6 +40,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { Lookbook1Component } from './basics/lookbook1/lookbook1.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CarouselModule } from 'primeng/carousel';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [
   {path: "",component:HomepageComponent},
@@ -75,58 +76,56 @@ const routes: Routes = [
   { path: "shoes", component: ShoesComponent },
   { path: "bags", component: BagsComponent },
   { path: "Flowers", component: FLowersComponent },
-
-
-
 ];
-
 
 @NgModule({
   declarations: [
     NewDemosComponent,
-       ToolsComponent,
-       ChristmasComponent,
-       MarketplaceComponent,
-       GameComponent,
-       GymComponent,
-       MarijuanaComponent,
-       LeftSidebarComponent,
-       JwelleryComponent,
-       PetsComponent,
-       MetrosComponent,
-       VideosliderComponent,
-       NurseryComponent,
-       ClothingComponent,
-       BasicsComponent,
-       BeautyComponent,
-       ElectronicsComponent,
-       FurnitureComponent,
-       VegetablesComponent,
-       WatchComponent,
-       LightComponent,
-       GogglesComponent,
-       ShoesComponent,
-       BagsComponent,
-       FLowersComponent,
-       Fashion1Component,
-       Fashion2Component,
-       Fashion3Component,
-       KidsComponent,
-       Lookbook1Component,
-       InstagramComponent,
-       VideoComponent,
-       ParallaxComponent,
-       FullpageComponent,
-       Electronics1Component,
-       Electronics2Component,
-       HomepageComponent,
+    ToolsComponent,
+    ChristmasComponent,
+    MarketplaceComponent,
+    GameComponent,
+    GymComponent,
+    MarijuanaComponent,
+    LeftSidebarComponent,
+    JwelleryComponent,
+    PetsComponent,
+    MetrosComponent,
+    VideosliderComponent,
+    NurseryComponent,
+    ClothingComponent,
+    BasicsComponent,
+    BeautyComponent,
+    ElectronicsComponent,
+    FurnitureComponent,
+    VegetablesComponent,
+    WatchComponent,
+    LightComponent,
+    GogglesComponent,
+    ShoesComponent,
+    BagsComponent,
+    FLowersComponent,
+    Fashion1Component,
+    Fashion2Component,
+    Fashion3Component,
+    KidsComponent,
+    Lookbook1Component,
+    InstagramComponent,
+    VideoComponent,
+    ParallaxComponent,
+    FullpageComponent,
+    Electronics1Component,
+    Electronics2Component,
+    HomepageComponent,
+
   ],
   imports: [
     CommonModule,
     FormsModule,
+    HttpClientModule,
     ReactiveFormsModule,
     CarouselModule,
-    [RouterModule.forChild(routes)],
+    [RouterModule.forChild(routes), CarouselModule],
   ]
 })
-export class HomeModule { }
+export class HomeModule {}

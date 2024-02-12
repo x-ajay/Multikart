@@ -1,0 +1,195 @@
+.caption-positon {
+    left: 12%;
+    top: 40%;
+    color: #222222;
+    text-align: left;
+    max-width: 600px;
+}
+
+.small-text {
+    color: #777;
+    font-size: 18px;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.heading-size {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.shop-btn {
+    line-height: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px 25px;
+    margin-top: 10px;
+    color: rgb(255, 253, 253);
+    background-color: #d4b196;
+    border: none;
+    position: absolute;
+    overflow: hidden;
+}
+
+.shop-btn:hover {
+    color: #222222;
+    background-color: white;
+    border: 1px solid #d4b196;
+    animation: ani 0.7s steps(70) forwards;
+    cursor: pointer;
+}
+
+
+/* second card */
+
+.card-img {
+    position: relative;
+}
+
+.b-card {
+    position: absolute;
+    text-align: right;
+    right: 15%;
+    top: 35%;
+}
+
+.card-img .item-color {
+    color: #d4b196;
+}
+
+.main-txt {
+    font-size: 2.4rem;
+}
+
+.exclusive-product {
+    color: #d4b196;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.zoom-img {
+    overflow: hidden;
+}
+
+.zoom-img img {
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.7s ease;
+}
+
+.zoom-img img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Third card 4 col */
+
+
+/* Set non-rated star color */
+
+.star:not(.rated) {
+    color: #ddd;
+}
+
+.rated {
+    color: #ffa200;
+    /* or any color you want for rated stars */
+}
+
+.space-div {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    border: 3px solid #d4b196;
+    width: 100px;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+
+/* bg-img */
+
+.backgroundImgContainer {
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(https://multikart-react-reactpixelstrap.vercel.app/assets/images/parallax/3.jpg);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.b2023 {
+    font-size: 92px;
+    font-weight: 900;
+    color: #d4b196;
+    letter-spacing: 0.6rem;
+}
+
+.bg-img-text {
+    font-weight: 500;
+    font-size: 55px;
+    color: #333333;
+}
+
+.bg-img-Lcapital {
+    color: #777777;
+    letter-spacing: 1rem;
+    padding-top: 10px;
+}
+
+
+/* last-fur-block */
+
+.last-fur-block {
+    text-align: center;
+}
+
+
+/*carosole  */
+
+:host ::ng-deep {
+    .product-item {
+        .product-item-content {
+            border: 1px solid var(--surface-d);
+            border-radius: 3px;
+            margin: 0.3rem;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .product-image {
+            width: 50%;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        }
+    }
+}
+
+.date-furnitue {
+    color: #d4b196;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+
+/* owl corosole */
+
+.text-fur:hover {
+    color: #d4b196;
+}
+
+.comment-color {
+    color: #777;
+}

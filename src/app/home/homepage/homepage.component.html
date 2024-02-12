@@ -133,6 +133,15 @@
             </div>
         </div>
     </div>
+    <section>
+        <div class="backgroundImgContainer bg-img-text">
+            <div class="banner-text">
+                <h2 class="b2023">2023</h2>
+                <h3 class="bg-img-text">FASHION TRENDS</h3>
+                <h4 class="bg-img-Lcapital">SPECIAL OFFER</h4>
+            </div>
+        </div>
+    </section>
     <div class="p-5 text-center bg-light mb-5 mt-5">
         <h5 class="mb-4" style="color: red;">Exclusive Products</h5>
         <h1 class="mb-3">SPECIAL PRODUCTS</h1>
@@ -140,9 +149,8 @@
     </div>
     <div class=" mt-5">
         <div class="row d-flex justify-content-between">
-
             <div class="col">
-                <figure> <img src="assets/Images/d5.jpg" class="img-fluid" alt="..."></figure>
+                <figure><img src="assets/Images/d6.jpg" class="img-fluid" alt="..."></figure>
                 <div class="col">
                     <div class="rating">
                         <i class="fa fa-star favourite_icon" aria-hidden="true" style="font-size:20px;color:gold"></i>
@@ -151,13 +159,13 @@
                         <i class="fa fa-star favourite_icon" aria-hidden="true" style="font-size:20px;color:gold"></i>
                         <i class="fa fa-star favourite_icon" aria-hidden="true" style="font-size:20px;color:wheat"></i>
                     </div>
-                </div>
-                <h4>belted top</h4>
-                <h5>$130</h5>
-                <div>
-                    <span class="dot" style="background-color: skyblue;"></span>
-                    <span class="dot" style="background-color: black;"></span>
-                    <span class="dot" style="background-color: white;"></span>
+                    <h4>belted top 2</h4>
+                    <h5>$330</h5>
+                    <div>
+                        <span class="dot" style="background-color: navy;"></span>
+                        <span class="dot" style="background-color: chocolate;"></span>
+                        <span class="dot" style="background-color: black;"></span>
+                    </div>
                 </div>
             </div>
 
@@ -221,7 +229,7 @@
             <div class="row d-flex justify-content-between">
 
                 <div class="col">
-                    <figure> <img src="assets/Images/d9.jpg" class="img-fluid" alt="..."></figure>
+                    <figure><img src="assets/Images/d9.jpg" class="img-fluid" alt="..."></figure>
                     <div class="col">
                         <div class="rating">
                             <i class="fa fa-star favourite_icon" aria-hidden="true" style="font-size:20px;color:gold"></i>
@@ -419,256 +427,146 @@
                 </div>
 
                 <div class="row justify-content-center mt-0 my-3 pt-0 mb-3">
-                    <div *mgFor="let sum of data" class="col-sm-2">
+                    <div *ngFor="let sum of formdata1 | slice : 0: 6" class="col-sm-2">
                         <div class="container7">
                             <div>
-                                <img src={{ sum. }} width="100%" alt="" class="img-fluid2">
+                                <img [src]="sum.image" width="100%" alt="" class="img-fluid2">
                                 <div class="overlay">
-                                    <div class="text"></div>
+                                    <div class="text"><i class="fa fa-instagram"></i></div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-2">
-                        <div class="container7">
-                            <div>
-                                <img src="assets/Images/insta2.jpg" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="container7">
-                            <div>
-                                <img src="assets/Images/insta3.jpg" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="container7">
-                            <div>
-                                <img src="assets/Images/insta4.jpg" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="container7">
-                            <div>
-                                <img src="assets/Images/insta5.jpg" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="container7">
-                            <div>
-                                <img src="assets/Images/insta6.jpg" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-5 my-3 pt-5 mb-3">
-                    <div class="col-lg-1">
-                        <div class="container7" style="border: 1px solid black;">
+                    <div *ngFor="let sum of formdata2 | slice : 0: 8" class="col-lg-1">
+                        <div class="container8" style="border: 1px solid black;">
                             <div>
-                                <img src="assets/Images/section1.png" width="100%" alt="" class="img-fluid2">
+                                <img [src]="sum.image" width="100%" alt="" class="img-fluid2">
                                 <div class="overlay">
                                     <div class="text"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="footer">
+                    <footer class="footer-last">
+                        <div class="footer-last-first-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="footer-s-section">
+                                        <div class="col-md-6">
+                                            <div class="footer-sub">
+                                                <div>
+                                                    <h6>KNOW IT ALL FIRST!</h6>
+                                                    <p class="paragraph1">Never Miss Anything From Multikart By Signing Up To Our Newsletter.</p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                    <div class="col-lg-1">
-                        <div class="container7" style="border: 1px solid black;">
-                            <div>
-                                <img src="assets/Images/section2.png" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-1">
-                        <div class="container7" style="border: 1px solid black;">
-                            <div>
-                                <img src="assets/Images/section3.png" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
-                                </div>
-                            </div>
+                                        <div class="col-md-6">
+                                            <div class="footer-2sub">
+                                                <div class="mx-sm-6">
+                                                    <input placeholder="Enter your email" type="text" class="footer-form form-control">
+                                                </div>
+                                                <button type="submit" class="btn footer-btn">subscribe</button>
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                </div>
+                                <hr>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-1">
-                        <div class="container7" style="border: 1px solid black;">
-                            <div>
-                                <img src="assets/Images/section4.png" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
+                        <div class="footer-2part mt-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="footer-2part-contet">
+                                            <div class="footer-2part-content-img">
+                                                <img style="height: 38px;" src="assets/Images/logo1.png" alt="">
+                                            </div>
+                                            <p class="paragraph2" style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                                            <div class="footer-2part-contet-social">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                                <i class="fa-brands fa-google-plus-g"></i>
+                                                <i class="fa-brands fa-twitter"></i>
+                                                <i class="fa-brands fa-instagram"></i>
+                                                <i class="fa-solid fa-wifi"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="footer-2part-contet-links">
+                                            <div class="footer-2part-contet-links-title">
+                                                <h4>my account</h4>
+                                            </div>
+                                            <div class="footer-2part-contet-links-links">
+
+                                                <a href=".\pages\collection">Women</a>
+                                                <a href=".\pages\collection">Clothing</a>
+                                                <a href=".\pages\collection">Accessories</a>
+                                                <a href=".\pages\collection">Featured</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="footer-2part-contet-links">
+                                            <div class="footer-2part-contet-links-title">
+                                                <h4>WHY WE CHOOSE</h4>
+                                            </div>
+                                            <div class="footer-2part-contet-links-links">
+
+                                                <a href="#">Shipping & Return</a>
+                                                <a href="#">Secure Shopping</a>
+                                                <a href="#">Gallary</a>
+                                                <a href="#">Affiliates</a>
+                                                <a href="#">Contacts</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="footer-2part-contet-links">
+                                            <div class="footer-2part-contet-links-title">
+                                                <h4>STORE INFORMATION</h4>
+                                            </div>
+                                            <div class="footer-2part-contet-links-links">
+
+                                                <a href="#"> <i class="fa-solid fa-location-dot"></i>
+                                                    <p>Multikart Demo Store, Demo Store India 345-659</p>
+                                                </a>
+                                                <a href="#"><i class="fa-solid fa-phone"></i><p>Call Us: 123-456-7898</p></a>
+                                                <a href="#"><i class="fa-regular fa-envelope"></i><p>Email Us: Support@Fiot.Com</p></a>
+                                                <a href="#"><i class="fa-solid fa-fax"></i><p>Fax: 123456</p></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
-                    </div>
-                    <div class="col-lg-1">
-                        <div class="container7" style="border: 1px solid black;">
-                            <div>
-                                <img src="assets/Images/section5.png" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
+                        <div class="footer-3part">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 footer-3part-last d-flex justify-content-start">
+                                        <i class="fa-regular fa-copyright"></i>
+                                        <p>2023-24 themeforest powered by pixelstrap</p>
+                                    </div>
+                                    <div class="col-md-6 footer-3part-payment">
+                                        <div class="footer-3part-payments">
+                                            <a href="#" class="footer-3part-py ps-3"><img src="assets/Images/mastercard.png" alt=""></a>
+                                            <a href="#" class="footer-3part-py ps-3"><img src="assets/Images/paypal.png" alt=""></a>
+                                            <a href="#" class="footer-3part-py ps-3"><img src="assets/Images/visa.png" alt=""></a>
+                                            <a href="#" class="footer-3part-py ps-3"><img src="assets/Images/discover.png" alt=""></a>
+                                            <a href="#" class="footer-3part-py ps-3"><img src="assets/Images/american-express.png" alt=""></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
-                    </div>
-                    <div class="col-lg-1">
-                        <div class="container7" style="border: 1px solid black;">
-                            <div>
-                                <img src="assets/Images/section1.png" width="100%" alt="" class="img-fluid2">
-                                <div class="overlay">
-                                    <div class="text"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                    </footer>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            <footer class="footer-last">
-                <div class="footer-last-first-text">
-                    <div class="container">
-                        <div class="row">
-                            <div class="footer-s-section">
-                                <div class="col-md-6">
-                                    <div class="footer-sub">
-                                        <div>
-                                            <h6>KNOW IT ALL FIRST!</h6>
-                                            <p class="paragraph1">Never Miss Anything From Multikart By Signing Up To Our Newsletter.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="footer-2sub">
-                                        <div class="mx-sm-6">
-                                            <input placeholder="Enter your email" type="text" class="footer-form form-control">
-                                        </div>
-                                        <button type="submit" class="btn footer-btn">subscribe</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <hr>
-                    </div>
-                </div>
-                <div class="footer-2part mt-5">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="footer-2part-contet">
-                                    <div class="footer-2part-content-img">
-                                        <img style="height: 38px;" src="assets/Images/logo1.png" alt="">
-                                    </div>
-                                    <p class="paragraph2" style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                                    <div class="footer-2part-contet-social">
-                                        <i class="fa-brands fa-facebook-f"></i>
-                                        <i class="fa-brands fa-google-plus-g"></i>
-                                        <i class="fa-brands fa-twitter"></i>
-                                        <i class="fa-brands fa-instagram"></i>
-                                        <i class="fa-solid fa-wifi"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="footer-2part-contet-links">
-                                    <div class="footer-2part-contet-links-title">
-                                        <h4>my account</h4>
-                                    </div>
-                                    <div class="footer-2part-contet-links-links">
-
-                                        <a href="#">Women</a>
-                                        <a href="#">Clothing</a>
-                                        <a href="#">Accessories</a>
-                                        <a href="#">Featured</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="footer-2part-contet-links">
-                                    <div class="footer-2part-contet-links-title">
-                                        <h4>WHY WE CHOOSE</h4>
-                                    </div>
-                                    <div class="footer-2part-contet-links-links">
-
-                                        <a href="#">Shipping & Return</a>
-                                        <a href="#">Secure Shopping</a>
-                                        <a href="#">Gallary</a>
-                                        <a href="#">Affiliates</a>
-                                        <a href="#">Contacts</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="footer-2part-contet-links">
-                                    <div class="footer-2part-contet-links-title">
-                                        <h4>STORE INFORMATION</h4>
-                                    </div>
-                                    <div class="footer-2part-contet-links-links">
-
-                                        <a href="#"> <i class="fa-solid fa-location-dot"></i>
-                                            <p>Multikart Demo Store, Demo Store India 345-659</p>
-                                        </a>
-                                        <a href="#"><i class="fa-solid fa-phone"></i><p>Call Us: 123-456-7898</p></a>
-                                        <a href="#"><i class="fa-regular fa-envelope"></i><p>Email Us: Support@Fiot.Com</p></a>
-                                        <a href="#"><i class="fa-solid fa-fax"></i><p>Fax: 123456</p></a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-3part">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 footer-3part-last d-flex justify-content-start">
-                                <i class="fa-regular fa-copyright"></i>
-                                <p>2023-24 themeforest powered by pixelstrap</p>
-                            </div>
-                            <div class="col-md-6 footer-3part-payment">
-                                <div class="footer-3part-payments d-flex justify-content-flex-end">
-                                    <a href="#" class="footer-3part-py"><img src="assets/Images/mastercard.png" alt=""></a>
-                                    <a href="#" class="footer-3part-py"><img src="assets/Images/paypal.png" alt=""></a>
-                                    <a href="#" class="footer-3part-py"><img src="assets/Images/visa.png" alt=""></a>
-                                    <a href="#" class="footer-3part-py"><img src="assets/Images/discover.png" alt=""></a>
-                                    <a href="#" class="footer-3part-py"><img src="assets/Images/american-express.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>

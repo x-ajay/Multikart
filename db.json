@@ -1,4 +1,112 @@
 {
+    "furnitureproduct": [{
+            "img": "./assets/Images/imgFurniture/2banner1.jpg",
+            "title": "SOFA",
+            "test": "SAVE 30%"
+        },
+        {
+            "img": "./assets/Images/imgFurniture/2banner2.jpg",
+            "title": "NEW ARRIVAL",
+            "test": "SAVE 60%"
+        },
+        {
+            "img": "./assets/Images/imgFurniture/2banner3.jpg",
+            "title": "CHAIR",
+            "test": "SAVE 60%"
+        }
+    ],
+    "furnitureproduct2": [{
+            "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/product/1.jpg",
+            "img2": "./assets/Images/imgFurniture/2.jpg",
+            "title": "arm chair",
+            "price": "$200.00",
+            "discunt": "$250.00",
+            "rating": 4
+        },
+        {
+            "img": "./assets/Images/imgFurniture/3 (2).jpg",
+            "img2": "./assets/Images/imgFurniture/1 (1).jpg",
+            "title": "oak Finish chair",
+            "price": "$275.50",
+            "discunt": "$290.00",
+            "rating": 4
+        },
+        {
+            "img": "./assets/Images/imgFurniture/7.jpg",
+            "img2": "./assets/Images/imgFurniture/10.jpg",
+            "title": "Metal Table Lamp",
+            "price": "$240.00",
+            "discunt": "$300.00",
+            "rating": 4
+        },
+        {
+            "img": "./assets/Images/imgFurniture/19.jpg",
+            "img2": "./assets/Images/imgFurniture/20.jpg",
+            "title": "Wood End Table",
+            "price": "$400.00",
+            "discunt": "$500.00",
+            "rating": 4
+        },
+        {
+            "img": "./assets/Images/imgFurniture/4.jpg",
+            "img2": "./assets/Images/imgFurniture/6.jpg",
+            "title": "wooden chair",
+            "price": "$160.00",
+            "discunt": "$400.00",
+            "rating": 4
+        },
+        {
+            "img": "./assets/Images/imgFurniture/5.jpg",
+            "img2": "./assets/Images/imgFurniture/9.jpg",
+            "title": "Lounge Chair",
+            "price": "$378.00",
+            "discunt": "$420.00",
+            "rating": 4
+        },
+        {
+            "img": "./assets/Images/imgFurniture/8.jpg",
+            "img2": "./assets/Images/imgFurniture/21.jpg",
+            "title": "Rocking Chair",
+            "price": "$448.00",
+            "discunt": "$560.00",
+            "rating": 4
+        },
+        {
+            "img": "./assets/Images/imgFurniture/2.jpg",
+            "img2": "./assets/Images/imgFurniture/24.jpg",
+            "title": "Barrel Chair",
+            "price": "$457.50",
+            "discunt": "$610.00",
+            "rating": 4
+        }
+    ],
+    "furnitureproduct3": [{
+            "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/selk.jpg",
+            "date": "26 January 2018",
+            "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+            "comment": "by: by: John Dio , 2 Comment"
+        },
+        {
+            "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/blog1.jpg",
+            "date": "26 January 2018",
+            "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+            "comment": "by: by: John Dio , 2 Comment"
+        },
+        {
+            "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/blog3.jpg",
+            "date": "26 January 2018",
+            "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+            "comment": "by: by: John Dio , 2 Comment"
+        },
+        {
+            "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/blog2.jpg",
+            "date": "26 January 2018",
+            "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+            "comment": "by: by: John Dio , 2 Comment"
+        }
+    ],
+
+
     "home": [
         { "id": "1", "title": "courosoul", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/1.jpg" },
         { "id": "2", "title": "courosoul", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/2.jpg" },
@@ -67,4 +175,5 @@
     "profile": {
         "name": "typicode"
     }
+
 }
