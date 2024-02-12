@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -10,6 +9,8 @@ import { CustomDirective } from './common/custom.directive';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CommoncompComponent } from './commoncomp/commoncomp.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,15 +19,18 @@ import { HttpClientModule } from '@angular/common/http';
     CustPipe,
     CustomDirective,
     SidebarComponent,
+    CommoncompComponent,
     CommoncompComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
-    // BrowserAnimationsModule
+    HttpClientModule,
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

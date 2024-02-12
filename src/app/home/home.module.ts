@@ -30,7 +30,6 @@ import { Fashion1Component } from './clothing/fashion1/fashion1.component';
 import { Fashion2Component } from './clothing/fashion2/fashion2.component';
 import { Fashion3Component } from './clothing/fashion3/fashion3.component';
 import { KidsComponent } from './clothing/kids/kids.component';
-import { LookbookComponent } from './basics/lookbook/lookbook.component';
 import { InstagramComponent } from './basics/instagram/instagram.component';
 import { VideoComponent } from './basics/video/video.component';
 import { ParallaxComponent } from './basics/parallax/parallax.component';
@@ -38,6 +37,10 @@ import { FullpageComponent } from './basics/fullpage/fullpage.component';
 import { Electronics1Component } from './electronics/electronics1/electronics1.component';
 import { Electronics2Component } from './electronics/electronics2/electronics2.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { Lookbook1Component } from './basics/lookbook1/lookbook1.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CarouselModule } from 'primeng/carousel';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [
   {path: "",component:HomepageComponent},
@@ -57,7 +60,7 @@ const routes: Routes = [
   { path: "fashion2", component: Fashion2Component },
   { path: "fashion3", component: Fashion3Component },
   { path: "kids", component: KidsComponent },
-  { path: "lookbook", component: LookbookComponent },
+  { path: "lookbook", component: Lookbook1Component },
   { path: "instagram", component: InstagramComponent },
   { path: "video", component: VideoComponent },
   { path: "parallax", component: ParallaxComponent },
@@ -73,55 +76,56 @@ const routes: Routes = [
   { path: "shoes", component: ShoesComponent },
   { path: "bags", component: BagsComponent },
   { path: "Flowers", component: FLowersComponent },
-
-
-
 ];
-
 
 @NgModule({
   declarations: [
     NewDemosComponent,
-       ToolsComponent,
-       ChristmasComponent,
-       MarketplaceComponent,
-       GameComponent,
-       GymComponent,
-       MarijuanaComponent,
-       LeftSidebarComponent,
-       JwelleryComponent,
-       PetsComponent,
-       MetrosComponent,
-       VideosliderComponent,
-       NurseryComponent,
-       ClothingComponent,
-       BasicsComponent,
-       BeautyComponent,
-       ElectronicsComponent,
-       FurnitureComponent,
-       VegetablesComponent,
-       WatchComponent,
-       LightComponent,
-       GogglesComponent,
-       ShoesComponent,
-       BagsComponent,
-       FLowersComponent,
-       Fashion1Component,
-       Fashion2Component,
-       Fashion3Component,
-       KidsComponent,
-       LookbookComponent,
-       InstagramComponent,
-       VideoComponent,
-       ParallaxComponent,
-       FullpageComponent,
-       Electronics1Component,
-       Electronics2Component,
-       HomepageComponent
+    ToolsComponent,
+    ChristmasComponent,
+    MarketplaceComponent,
+    GameComponent,
+    GymComponent,
+    MarijuanaComponent,
+    LeftSidebarComponent,
+    JwelleryComponent,
+    PetsComponent,
+    MetrosComponent,
+    VideosliderComponent,
+    NurseryComponent,
+    ClothingComponent,
+    BasicsComponent,
+    BeautyComponent,
+    ElectronicsComponent,
+    FurnitureComponent,
+    VegetablesComponent,
+    WatchComponent,
+    LightComponent,
+    GogglesComponent,
+    ShoesComponent,
+    BagsComponent,
+    FLowersComponent,
+    Fashion1Component,
+    Fashion2Component,
+    Fashion3Component,
+    KidsComponent,
+    Lookbook1Component,
+    InstagramComponent,
+    VideoComponent,
+    ParallaxComponent,
+    FullpageComponent,
+    Electronics1Component,
+    Electronics2Component,
+    HomepageComponent,
+
   ],
   imports: [
     CommonModule,
-    [RouterModule.forChild(routes)],
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    CarouselModule,
+    [RouterModule.forChild(routes), CarouselModule],
   ]
 })
-export class HomeModule { }
+export class HomeModule {}
