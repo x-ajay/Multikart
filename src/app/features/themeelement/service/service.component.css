@@ -95,3 +95,12 @@
     padding-bottom: 5vh;
     margin-top: 10vh;
 }
+
+.hoverimg{
+    transition: transform 0.5s ease-out;
+    background-color: none;
+}
+  
+  .hoverimg:hover {
+    transform: scale(1.05); /* Increase the size on hover */
+  }

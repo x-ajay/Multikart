@@ -25,7 +25,8 @@
 .banner-text{
     position: absolute;
     top: 30vh;
-    left: 10vw;
+    left: 1vw;
+    
 }
 .banner-text1{
         position: absolute;
@@ -42,24 +43,53 @@
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 5%;
+  
     color: #222;
-    margin-bottom: 5%;
- }
- .btn-banner{
    
+ }
+
+ /* banner button */
+ .btn-banner{
+   /* transition : color 0.5s linear; */
     padding: 13px 29px;
     color: #fff;
+    font-weight: 700;
     letter-spacing: .05em;
     border: 2px solid #81ba00;
     border-color: #81ba00 !important;
     background-color: #81ba00;
-    color: #fff;
+    position: relative;
+   
+    transform: translate(10% , 10%);
+    /* left: -3vw; */
  }
  .btn-banner:hover{
-   background-color: #fff;
+  
    color:black;
+   font-weight: 700;
  }
+
+ .btn-banner::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background: #fff;
+   z-index: -1;
+   transition: transform 0.1s;
+   transform-origin: 0.0;
+   /* transition-timing-function: cubic-bezier(0.5,1.7,0.4,0.4); */
+ }
+ .btn1::before{
+   transform: scaleX(0);
+ }
+ .btn1:hover::before{
+   transform: scaleX(1);
+ }
+
+ /* banner button complete */
 
  .title1 h4{
     
