@@ -30,6 +30,7 @@ import { OrderSucessComponent } from './../pages/order-sucess/order-sucess.compo
 import { SiteMapComponent } from './site-map/site-map.component';
 
 
+
 const routes: Routes = [
   { path: "", component: VendorDashboardComponent },
   { path: "became", component: BecomeVendorComponent },
