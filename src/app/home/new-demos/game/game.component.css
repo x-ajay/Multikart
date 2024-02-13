@@ -1,0 +1,271 @@
+.b1{
+    width: 723px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+.b2{
+    width: 738px;
+    margin-left: 25px;
+    overflow: hidden;
+}
+
+.c1{
+    position: absolute;
+    top: 980px;
+    left: 155px;
+    color:rgb(255, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.c2{
+    position: absolute;
+    top: 1000px;
+    left: 145px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.c3{
+    position: absolute;
+    top: 980px;
+    left: 1340px;
+    color:rgb(255, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.c4{
+    position: absolute;
+    top: 1000px;
+    left: 1150px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.b5{
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+.b6{
+    text-align: center;
+    font-weight: bold;
+}
+.b7{
+    text-align: center;
+}
+
+.b8{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 70px;
+
+}
+.b9{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+.b10{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+.b11{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+.b12{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+.b13{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+
+.g1{
+    position: absolute;
+    top: 1850px;
+    left: 120px;
+}
+.g2{
+    position: absolute;
+    top: 1900px;
+    left: 160px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.l1{
+    position: absolute;
+    max-width: 99%;
+    top: 2000px;
+    left: 10px;
+    right: 10px;
+     
+}
+.z1{
+    position: absolute;
+    color: rgb(255, 0, 0);
+    
+    top: 2100px;
+    left: 700px;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100px;
+
+}
+.z2{
+    position: absolute;
+     top: 2250px;
+     left: 600px;
+     color: white;
+     font-size: 70px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+}
+
+.z3{
+    position: absolute;
+    top: 2350px;
+    color: white;
+    font-size: 20px;
+    left: 740px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.z4{
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+
+.z5{
+    text-align: center;
+    font-weight: bold;
+}
+.z6{
+    text-align: center;
+}
+.z7{
+    position: absolute;
+    top: 2600px;
+    left: 380px;
+}
+
+
+.m8{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 70px;
+
+}
+.m9{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+.m10{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+.m11{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+.m12{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+.m13{
+    max-width: 14%;
+    min-height: 10px;
+    margin-left: 20px;
+
+}
+.k1{
+    position: absolute;
+    top: 2800px;
+    
+}
+
+.one20{
+    position: absolute;
+    width: 1430px;
+    height: 150px;
+    background-color: white;
+    border: 1px  gray;
+    top: 495px;
+    left: 70px;
+    bottom: 50px;
+}
+.t1{
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.t2{
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.t3{
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.t4{
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.t5{
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.t6{
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.t7{
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.t8{
+    padding: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}

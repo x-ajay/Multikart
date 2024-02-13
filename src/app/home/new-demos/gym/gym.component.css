@@ -1,0 +1,384 @@
+.a1{
+    color: white;
+    position: absolute;
+    bottom: 390px;
+    left: 625px;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+.a2{
+    color: white;
+    position: absolute;
+    bottom: 450px;
+    left: 630px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.a3{
+    position: absolute;
+    bottom: 360px;
+    left: 630px; 
+}
+.a4{
+    color: white;
+    position: absolute;
+    bottom: 400px;
+    left: 550px;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+.a5{
+    color: white;
+    position: absolute;
+    bottom: 460px;
+    left: 550px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.a6{
+    position: absolute;
+    bottom: 360px;
+    left: 560px; 
+}
+
+.image-container {
+    width: 500px;
+    height: 350px;
+    overflow: hidden; 
+    margin-left: 30px;/* Ensure the image stays within the container */
+  }
+  
+  .image-container h1 {
+    width: 100%; /* Ensure the image fills the container horizontally */
+    height: 100%; /* Ensure the image fills the container vertically */
+    object-fit: cover; /* Scale the image while maintaining aspect ratio and cropping excess */
+  }
+
+
+  .image-container1 {
+    width: 900px;
+    height: 350px;
+    overflow: hidden; 
+    margin-left: 50px;/* Ensure the image stays within the container */
+  }
+  .image-container h2 {
+    width: 100%; /* Ensure the image fills the container horizontally */
+    height: 100%; /* Ensure the image fills the container vertically */
+    object-fit: cover; /* Scale the image while maintaining aspect ratio and cropping excess */
+  }
+  
+
+  .w1{
+    position: absolute;
+    font-size: 25px;
+    left: 90px;
+    top: 1050px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .w2{
+    position: absolute;
+    font-size: 25px;
+    left: 82px;
+    top: 1080px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+  }
+  .w3{
+    position: absolute;
+    font-size: 25px;
+    left: 680px;
+    top: 1050px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .w4{
+    position: absolute;
+    font-size: 25px;
+    left: 680px;
+    top: 1080px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+  }
+  .pb{ 
+    
+    font-weight: bold;
+    font-size: 40px;
+    color:black;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 580px;
+    margin-top: 10px;
+}
+.pc{
+  position: absolute;
+  margin-left: 710px;
+}
+
+.m1{
+  margin-left: 60px;
+}
+.m2{
+  margin-left: 40px;
+}
+.m3{
+  margin-left: 40px;
+}
+.m4{
+  margin-left: 40px;
+}
+
+.v1{
+  text-align: center;
+}
+.v2{
+  text-align: center;
+}
+.v3{
+  text-align: center;
+}
+.v4{
+  text-align: center;
+}
+.one10{
+  margin-left: 105px;
+  margin-top: 10px;
+
+}
+.j1{
+  text-align: center;
+}
+.j2{
+  font-weight: lighter;
+}
+
+.u1{
+  margin-left: 60px;
+}
+.u2{
+  margin-left: 40px;
+}
+.u3{
+  margin-left: 40px;
+}
+.u4{
+  margin-left: 40px;
+}
+
+.main{
+  margin-top: 20px;
+}
+
+.pl{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 2300px;
+  margin-left: 640px;
+}
+
+.pm{
+  position: absolute;
+ top: 2280px;
+ left: 730px;
+ color: white;
+}
+
+.s1{
+  text-align: center;
+  color: white;
+  position: absolute;
+ top: 2350px;
+ left: 430px;
+}
+
+.po1{
+  width: 98vw;
+  margin-left: 6px;
+}
+
+.imgscree{
+  position: absolute;
+  top: 2430px;
+}
+
+.ff1{
+  width: 410px;
+  height: 200px;
+  border: 1px solid gray;
+  margin-left: 100px;
+}
+.ff2{
+  width: 410px;
+  height: 200px;
+  border: 1px solid gray;
+  margin-left: 40px;
+}
+.ff3{
+  width: 410px;
+  height: 200px;
+  border: 1px solid gray;
+  margin-left: 40px;
+}
+
+.fr1{
+  width: 410px;
+  height: 200px;
+}
+.fr2{
+  width: 410px;
+  height: 200px;
+}
+.fr3{
+  width: 410px;
+  height: 200px;
+}
+
+.mm1{
+  font-size: 18px;
+  color: aqua;
+  margin-top: 10px;
+}
+.mm2{
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+.oo1{
+  width: 200px;
+  height: 180px;
+  
+  margin-left: 60px;
+  
+}
+.oo2{
+  width: 200px;
+  height: 180px;
+  
+  
+}
+.oo3{
+  width: 200px;
+  height: 180px;
+  
+  
+}
+.oo4{
+  width: 200px;
+  height: 180px;
+  
+  
+}
+.oo5{
+  width: 200px;
+  height: 180px;
+  
+  
+  
+}
+.oo6{
+  width: 200px;
+  height: 180px;
+  
+  
+  
+}
+
+.pp1{
+  width: 200px;
+  height: 180px;
+}
+.pp2{
+  width: 200px;
+  height: 180px;
+}
+.pp3{
+  width: 200px;
+  height: 180px;
+}
+.pp4{
+  width: 200px;
+  height: 180px;
+}
+.pp5{
+  width: 200px;
+  height: 180px;
+}
+.pp6{
+  width: 200px;
+  height: 180px;
+}
+.pp7{
+  width: 200px;
+  height: 180px;
+}
+
+.one20{
+  position: absolute;
+  width: 1430px;
+  height: 150px;
+  background-color: white;
+  border: 1px  gray;
+  top: 3750px;
+  left: 70px;
+  bottom: 50px;
+}
+.t1{
+  padding: auto;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.t2{
+  padding: auto;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.t3{
+  padding: auto;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.t4{
+  padding: auto;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.t5{
+  padding: auto;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.t6{
+  padding: auto;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.t7{
+  padding: auto;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.t8{
+  padding: auto;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.z1{
+  position: absolute;
+  top: 1970px;
+  left: 50px;
+}
