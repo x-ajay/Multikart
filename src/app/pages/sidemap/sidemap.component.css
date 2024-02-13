@@ -1,0 +1,22 @@
+.container{
+    padding: 70px;
+}
+a{
+    text-decoration:none;
+    font-weight: 400;
+    color: #333;
+    font-size: 14px;  
+}
+ul{
+    list-style: none;
+}
+
+.head1{
+    color: red;
+    font-size: larger;
+}
+a.head2{
+    color: black;
+    font-size: 18px;
+}
+        
