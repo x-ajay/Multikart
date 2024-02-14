@@ -7,9 +7,9 @@
          
         </div>
         <div class="carousel-caption one2">
-          <p class="welcomep">W e l c o m e T o T o o l s</p>
-          <h1 class="one3">Auto Parts</h1>
-          <button class="btn btn-danger" id="b1">Shop Now</button>
+          <p *ngFor="let h1 of CarouText1" class="welcomep">{{h1.CarouText1}}</p>
+          <h1 *ngFor="let h2 of CarouText2" class="one3">{{h2.CarouText2}}</h1>
+          <button *ngFor="let btD of btnData1" class="btn btn-danger" id="b1">{{btD.btnData1}}</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -18,9 +18,9 @@
           <img src="../../../../assets/Images/images/1.5549dd3c.png" class="">
         </div>
         <div class="carousel-caption one5">
-          <p class="welcomep">W e l c o m e T o T o o l s</p>
-          <h1 class="one6">Auto Parts</h1>
-          <button class="btn btn-danger" id="b1">Shop Now</button>
+          <p *ngFor="let h1 of CarouText1" class="welcomep">{{h1.CarouText1}}</p>
+          <h1 *ngFor="let h2 of CarouText2"  class="one6">{{h2.CarouText2}}</h1>
+          <button *ngFor="let btD of btnData1" class="btn btn-danger" id="b1">{{btD.btnData1}}</button>
         </div>
       </div>
       
@@ -35,9 +35,10 @@
     </button>
   </div>
   
+  <br>
+  <br>
   
-  
-  <h2 class="pa">WELCOME TO TOOL STORE</h2>
+  <h2 *ngFor="let Mhd of middHead" class="pa">{{Mhd.middHead}}</h2>
   
   <div class="container d1">
     <h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
@@ -52,14 +53,14 @@
     <div class="card car1" style="width: 18rem;">
       <img src="../../../../assets/Images/images/1.053f84ce.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title carbo">Auto parts</h5>
+        <h5 *ngFor="let h2 of CarouText2" class="card-title carbo">{{h2.CarouText2}}</h5>
         <p class="one7">
           D1 Miano<br>
           Damaskeening<br>
           Diving Watch <br>
           Dollar Watch
         </p>
-        <a href="#" class="btn btn-outline-danger one8">View More</a>
+        <a href="#" *ngFor="let btD2 of btnData2" class="btn btn-outline-danger one8">{{btD2.btnData2}}</a>
       </div>
     </div>
     <div class="card car1" style="width: 18rem;">
@@ -72,20 +73,20 @@
           solw watch <br>
           solar power watch
         </p>
-        <a href="#" class="btn btn-outline-danger one8">View More</a>
+        <a href="#" *ngFor="let btD2 of btnData2" class="btn btn-outline-danger one8">{{btD2.btnData2}}</a>
       </div>
     </div>
     <div class="card car1" style="width: 18rem;">
       <img src="../../../../assets/Images/images/3.96741554.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title carbo">engine & drivetrain</h5>
+        <h5 class="card-title carbo">engine </h5>
         <p class="one7">
-          Watchmaking Conglomarates <br>
+          Watchmaking  <br>
           Breitling SA <br>
           Casio Watch <br>
           Citizen Watch
         </p>
-        <a href="#" class="btn btn-outline-danger one8">View More</a>
+        <a href="#" *ngFor="let btD2 of btnData2" class="btn btn-outline-danger one8">{{btD2.btnData2}}</a>
       </div>
     </div>
     <div class="card car1" style="width: 18rem;">
@@ -98,7 +99,7 @@
           Microbrand Watches <br>
           MIL-W-46374
         </p>
-        <a href="#" class="btn btn-outline-danger one8">View More</a>
+        <a href="#" *ngFor="let btD2 of btnData2" class="btn btn-outline-danger one8">{{btD2.btnData2}}</a>
       </div>
     </div>
     <div class="card car1" style="width: 18rem;">
@@ -113,11 +114,12 @@
             Dollar Watch
           </p>
         
-        <a href="#" class="btn btn-outline-danger one8">View More</a>
+          <a href="#" *ngFor="let btD2 of btnData2" class="btn btn-outline-danger one8">{{btD2.btnData2}}</a>
       </div>
     </div>
   </div>
-  
+  <br>
+  <br>
   
   
   <h2 class="pb">POPULAR PRODUCTS</h2>
@@ -127,56 +129,56 @@
       <img src="../../../../assets/Images/images/1.jpg" class="card-img-top">
       <div class="card-body">
         <h5 class="card-title carbo">Lubricants</h5>
-        <a href="#" class="btn btn-outline-danger one10">Shop</a>
+        <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
       </div>
      </div>
      <div class="card car2" style="width: 18rem;">
       <img src="../../../../assets/Images/images/2.jpg" class="card-img-top">
       <div class="card-body">
         <h5 class="card-title carbo">Cable </h5>
-        <a href="#" class="btn btn-outline-danger one10">Shop</a>
+        <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
       </div>
      </div>
      <div class="card car2" style="width: 18rem;">
       <img src="../../../../assets/Images/images/3 (1).jpg" class="card-img-top">
       <div class="card-body">
-        <h5 class="card-title carbo">Vaccum Pump</h5>
-        <a href="#" class="btn btn-outline-danger one10">Shop</a>
+        <h5 class="card-title carbo">Vaccum </h5>
+        <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
       </div>
      </div>
      <div class="card car2" style="width: 18rem;">
       <img src="../../../../assets/Images/images/4.jpg" class="card-img-top">
       <div class="card-body">
         <h5 class="card-title carbo">Cap Wheel</h5>
-        <a href="#" class="btn btn-outline-danger one10">Shop</a>
+        <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
       </div>
      </div>
      <div class="card car2" style="width: 18rem;">
       <img src="../../../../assets/Images/images/5.jpg" class="card-img-top">
       <div class="card-body">
-        <h5 class="card-title carbo">Air Cleaner</h5>
-        <a href="#" class="btn btn-outline-danger one10">Shop</a>
+        <h5 class="card-title carbo"> Cleaner</h5>
+        <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
       </div>
      </div>
      <div class="card car2" style="width: 18rem;">
       <img src="../../../../assets/Images/images/6.jpg" class="card-img-top">
       <div class="card-body">
         <h5 class="card-title carbo">Suspension</h5>
-        <a href="#" class="btn btn-outline-danger one10">Shop</a>
+        <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
       </div>
      </div>
      <div class="card car2" style="width: 18rem;">
       <img src="../../../../assets/Images/images/7.jpg" class="card-img-top">
       <div class="card-body">
         <h5 class="card-title carbo"> Bearing</h5>
-        <a href="#" class="btn btn-outline-danger one10">Shop</a>
+        <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
       </div>
      </div>
      <div class="card car2" style="width: 18rem;">
       <img src="../../../../assets/Images/images/8.jpg" class="card-img-top">
       <div class="card-body">
-        <h5 class="card-title carbo">Air Cleaner</h5>
-        <a href="#" class="btn btn-outline-danger one10">Shop</a>
+        <h5 class="card-title carbo"> Cleaner</h5>
+        <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
       </div>
      </div>
   </div>
@@ -219,21 +221,21 @@
           <img src="../../../../assets/Images/images/5.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title carbo">Air Cleaner</h5>
-            <a href="#" class="btn btn-outline-danger one10">Shop</a>
+            <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
           </div>
          </div>
          <div class="card car2" style="width: 18rem;">
           <img src="../../../../assets/Images/images/6.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title carbo">Suspension</h5>
-            <a href="#" class="btn btn-outline-danger one10">Shop</a>
+            <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
           </div>
          </div>
          <div class="card car2" style="width: 18rem;">
           <img src="../../../../assets/Images/images/8.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title carbo">Air Cleaner</h5>
-            <a href="#" class="btn btn-outline-danger one10">Shop</a>
+            <button *ngFor="let btD of btnData1" class="btn btn-danger one10">{{btD.btnData1}}</button>
           </div>
          </div>
       </div>
@@ -242,16 +244,6 @@
     
   </div>
   
-  <div class="one20">
-    <div class="d-flex">
-      <img src="../../../../assets/Images/images/1.png" class="t1"><br><br><br>
-      <img src="../../../../assets//Images/images/2.png" class="t2">
-      <img src="../../../../assets/Images/images/3.png" class="t3">
-      <img src="../../../../assets/Images/images/4.png" class="t4">
-      <img src="../../../../assets/Images/images/5.png" class="t5">
-      <img src="../../../../assets/Images/images/6.png" class="t6">
-      <img src="../../../../assets/Images/images/7.png" class="t7">
-      <img src="../../../../assets/Images/images/8.png" class="t8">
-    </div>
+  <div class="png">
+    <app-png></app-png>
   </div>
-  

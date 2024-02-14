@@ -37,6 +37,7 @@ import { ParallaxComponent } from './basics/parallax/parallax.component';
 import { FullpageComponent } from './basics/fullpage/fullpage.component';
 import { Electronics1Component } from './electronics/electronics1/electronics1.component';
 import { Electronics2Component } from './electronics/electronics2/electronics2.component';
+import { PngComponent } from './new-demos/png/png.component';
 
 const routes: Routes = [
   {path: "new/tools",component:ToolsComponent},
@@ -114,7 +115,8 @@ const routes: Routes = [
        ParallaxComponent,
        FullpageComponent,
        Electronics1Component,
-       Electronics2Component
+       Electronics2Component,
+       PngComponent
   ],
   imports: [
     CommonModule,

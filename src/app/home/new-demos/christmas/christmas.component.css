@@ -229,55 +229,8 @@ span{
     height: 50px;
 }
 
-.one20{
-    position: absolute;
-    width: 1430px;
-    height: 150px;
-    background-color: white;
-    border: 1px  gray;
-    top: 3500px;
-    left: 70px;
-    bottom: 50px;
-}
-.t1{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t2{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t3{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t4{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t5{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t6{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t7{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t8{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
+.png{
+    margin-left: 100px;
 }
 .z1{
     position: absolute;

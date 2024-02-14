@@ -84,17 +84,18 @@
 }
 .one17{
     position: absolute;
-    left: 470px;
-    top: 1700px;
+    left: 520px;
+    top: 1900px;
 }
 .pa{ 
     
     font-weight: bold;
     font-size: 50px;
+    text-align: center;
     color: black;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 450px;
+    /* margin-left: 450px; */
     margin-top: 10px;
 }
 .pb{ 
@@ -149,16 +150,7 @@
     text-align: center;
     margin-left: 5px;
 }
-.one20{
-    position: absolute;
-    width: 1430px;
-    height: 150px;
-    background-color: white;
-    border: 1px  gray;
-    top: 2250px;
-    left: 70px;
-    bottom: 50px;
-}
+
 .t1{
     padding: auto;
     margin-top: 20px;
@@ -198,4 +190,8 @@
     padding: auto;
     margin-top: 20px;
     margin-left: 40px;
+}
+
+.png{
+    margin-left: 100px;
 }

@@ -11,7 +11,7 @@
 
 .c1{
     position: absolute;
-    top: 980px;
+    top: 1080px;
     left: 155px;
     color:rgb(255, 3, 3);
     font-family: 'Times New Roman', Times, serif;
@@ -21,7 +21,7 @@
 }
 .c2{
     position: absolute;
-    top: 1000px;
+    top: 1100px;
     left: 145px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -31,7 +31,7 @@
 }
 .c3{
     position: absolute;
-    top: 980px;
+    top: 1080px;
     left: 1340px;
     color:rgb(255, 3, 3);
     font-family: 'Times New Roman', Times, serif;
@@ -41,7 +41,7 @@
 }
 .c4{
     position: absolute;
-    top: 1000px;
+    top: 1100px;
     left: 1150px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -103,7 +103,7 @@
 
 .g1{
     position: absolute;
-    top: 1850px;
+    top: 1950px;
     left: 120px;
 }
 .g2{
@@ -117,7 +117,7 @@
 .l1{
     position: absolute;
     max-width: 99%;
-    top: 2000px;
+    top: 2100px;
     left: 10px;
     right: 10px;
      
@@ -172,100 +172,53 @@
 }
 .z7{
     position: absolute;
-    top: 2600px;
+    top: 2650px;
     left: 380px;
+    text-align: center;
 }
 
 
 .m8{
     max-width: 14%;
     min-height: 10px;
-    margin-left: 70px;
+    margin-left: 100px;
 
 }
 .m9{
     max-width: 14%;
     min-height: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
 
 }
 .m10{
     max-width: 14%;
     min-height: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
 
 }
 .m11{
     max-width: 14%;
     min-height: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
 
 }
 .m12{
     max-width: 14%;
     min-height: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
 
 }
 .m13{
     max-width: 14%;
     min-height: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
 
 }
 .k1{
     position: absolute;
     top: 2800px;
+    margin-top: 50px;
     
 }
 
-.one20{
-    position: absolute;
-    width: 1430px;
-    height: 150px;
-    background-color: white;
-    border: 1px  gray;
-    top: 495px;
-    left: 70px;
-    bottom: 50px;
-}
-.t1{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t2{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t3{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t4{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t5{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t6{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t7{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-.t8{
-    padding: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
+
