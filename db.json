@@ -52,19 +52,93 @@
     }
   ],
 
-  "Electronic1":[
+
+
+  "Electronic1.2":[
     {
-      "image1":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9lqcgoxPXpNZ1Zgh35BTrpCN1Tnl6a9PfC4a8AAp8iNACM7hv",
-      "saving":"Save up to 30%",
-      "Title":"ELECTRONIC",
-      "Button":"Shop Now"
+      "image2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/sub1.jpg",
+      "Offer":"10% OFF",
+      "Heading1":"SPEAKER"
+
+
     },
 
     {
-      "image2":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZUlyDUx2xD0LaTUPw7PEEfVQ-q9b18V1ym4IPemLEKAf9_E-",
-      "saving":"Save up to 30%",
-      "Title":"HEADPHONE",
-      "Button":"Shop Now"
+      "image2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/sub2.jpg",
+      "Offer":"10% OFF",
+      "Heading1":"EARPLUG"
+
+    },
+    {
+      "image2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/sub3.jpg",
+      "Offer":"50% OFF",
+      "Heading1":"BEST DEAL"
+
+    }
+
+  ],
+
+  "Electronic1.3":[
+    {
+      "img1":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/1.jpg",
+      "img2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/2.jpg",
+      "rating": "4",
+      "title":"electronics 1",
+      "price":"$301.50",
+      "cart":"",
+      "wishlist":"",
+      "search":"",
+      "compare":""
+    },
+    {
+      "img1":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/2.jpg",
+      "img2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/1.jpg",
+      "rating": "4",
+      "title":"electronics 2",
+      "price":"$216.60"
+    },
+    {
+      "img1":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/3.jpg",
+      "img2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/4.jpg",
+      "rating": "4",
+      "title":"electronics 3",
+      "price":"$170.00"
+    },
+    {
+      "img1":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/4.jpg",
+      "img2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/3.jpg",
+
+      "rating": "4",
+      "title":"electronics 4",
+      "price":"$346.50"
+    },
+    {
+      "img1":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/5.jpg",
+      "img2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/6.jpg",
+      "rating": "4",
+      "title":"electronics 5",
+      "price":"$216.60"
+    },
+    {
+      "img1":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/6.jpg",
+      "img2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/5.jpg",
+      "rating": "4",
+      "title":"electronics 5",
+      "price":"$111.00"
+    },
+    {
+      "img1":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/7.jpg",
+      "img2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/8.jpg",
+      "rating": "4",
+      "title":"electronics 7",
+      "price":"$520.00"
+    },
+    {
+      "img1":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/8.jpg",
+      "img2":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/7.jpg",
+      "rating": "4",
+      "title":"electronics 8",
+      "price":"$170.00"
     }
 
   ]

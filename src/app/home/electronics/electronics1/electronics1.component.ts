@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 import { Electronic1Service } from 'src/app/service/electronic1.service';
 
 @Component({
@@ -6,21 +6,40 @@ import { Electronic1Service } from 'src/app/service/electronic1.service';
   templateUrl: './electronics1.component.html',
   styleUrls: ['./electronics1.component.css']
 })
-export class Electronics1Component {
-    public electronicData:any[]=[];
+export class Electronics1Component implements OnInit{
+
+    public ElectronicData1:any[]=[];
+    public ElectronicData2:any[]=[];
+    currentRating: number = 0;
+
 constructor(private electronic1:Electronic1Service){
-  this.getData();
+  this.fetchData1();
 }
 
-getData(){
-  this.electronic1.getElectronic1Data().subscribe({
-    next:(res:any)=>{
-      console.log(res);
-      this.electronicData=res;
+
+ngOnInit(): void {
+  this.electronic1.getElectronic1Data1().subscribe(
+    (res:any)=>{
+     this.ElectronicData1=res;
     }
-  })
+  )
+}
+
+fetchData1(){
+  this.electronic1.getElectronic1Data3().subscribe(
+    (res:any)=>{
+      this.ElectronicData2=res;
+    }
+  )
+}
 
 
 
+onClick(){
+  this.electronic1.getElectronic1Data3().subscribe(
+    (res:any)=>{
+      this.ElectronicData2=res;
+    }
+  )
 }
 }
