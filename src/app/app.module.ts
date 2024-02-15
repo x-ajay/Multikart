@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { CustPipe } from './common/cust.pipe';
 import { CustomDirective } from './common/custom.directive';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    NgModule
   ],
   schemas:[
     CUSTOM_ELEMENTS_SCHEMA

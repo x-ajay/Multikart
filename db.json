@@ -1,0 +1,74 @@
+
+
+{
+  "lookbook1":[
+    {
+      "id":1,
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":2,
+      "image2":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":3,
+      "image3":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":4,
+      "image4":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":5,
+      "image5":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":6,
+      "image6":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":7,
+      "image7":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":8,
+      "image8":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":9,
+      "image9":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":10,
+      "image10":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":11,
+      "image11":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    },
+    {
+      "id":12,
+      "image12":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+    }
+  ],
+
+  "Electronic1":[
+    {
+      "image1":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9lqcgoxPXpNZ1Zgh35BTrpCN1Tnl6a9PfC4a8AAp8iNACM7hv",
+      "saving":"Save up to 30%",
+      "Title":"ELECTRONIC",
+      "Button":"Shop Now"
+    },
+
+    {
+      "image2":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZUlyDUx2xD0LaTUPw7PEEfVQ-q9b18V1ym4IPemLEKAf9_E-",
+      "saving":"Save up to 30%",
+      "Title":"HEADPHONE",
+      "Button":"Shop Now"
+    }
+
+  ]
+
+
+}
+

@@ -1,4 +1,4 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -40,10 +40,15 @@ img{
   flex-direction: column;
   gap: 30px;
 }
+
+.dot1{
+  cursor: pointer;
+  position: absolute;
+} */
 /* /Responsive code for gallery */
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   .row{
     flex-direction: column;
   }
 
-}
+} */
