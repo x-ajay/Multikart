@@ -1,1 +1,212 @@
-<p>bundle-product works!</p>
+<!-- Section 1: Product title -->
+<div class="prod-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="page-title">
+                    <h2>PRODUCT</h2>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <nav aria-label="breadcrumb" class="theme-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/">HOME</a></li>
+                        <li class="breadcrumb-item" aria-current="page">PRODUCT</li>
+                    </ol>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Section 2: Product images and details -->
+<section class="mt-3">
+    <div class="container">
+        <div class="row">
+    <!-- Product details -->
+            <div class="col-lg-6">
+                <div class="prod_img_4 row">
+                    <!-- <div class="col-6">
+                        <img [src]="img1" class="img-fluid" alt="first_img">
+                    </div>
+                    <div class="col-6">
+                        <img [src]="img2" class="img-fluid" alt="second_img">
+                    </div>
+                    <div class="col-6">
+                        <img [src]="img3" class="img-fluid" alt="third_img">
+                    </div>
+                    <div class="col-6">
+                        <img [src]="img4" class="img-fluid" alt="fourth_img">
+                    </div> -->
+                </div>
+            </div>
+    <!-- Product details -->
+            <div class="rtl-text col-lg-6">
+                <div class="product-right">
+                    <h2> TRIM DRESS </h2>
+                    <h4><del>$145</del><span>40% off</span></h4>
+                    <h3>$87</h3>
+                    <ul class="color-variant">
+                        <li class="yellow" title="yellow"></li>
+                        <li class="white" title="white"></li>
+                        <li class="pink" title="pink"></li>
+                    </ul>
+                    <div class="product-description border-product">
+                        <div style="padding-top: 15px;">
+                            <h6 class="product-title size-text d-flex justify-content-between">Select Size<span><a data-toggle="modal"
+                                        data-target="#sizemodal">Size Chart</a></span></h6>
+                            <div class="size-box">
+                                <ul>
+                                    <li><a>s</a></li>
+                                    <li><a>m</a></li>
+                                    <li><a>l</a></li>
+                                </ul>
+                            </div>
+                        </div><span class="instock-cls">{{InStock}}</span>
+                        <h6 class="product-title">Quantity</h6>
+
+                        <div class="quantity-box d-flex align-baseline text-center">
+                            <button class="qtty-btn" (click)="decreaseQuantity()">
+                                <i class="pi pi-angle-left" ></i>
+                            </button>
+                            <p class="qty">{{ quantity }}</p>
+                            <button class="qtty-btn" (click)="increaseQuantity()">
+                                <i class="pi pi-angle-right"></i>
+                            </button>
+                          </div>
+                    </div>
+
+                    <div class="product-buttons"><a class="btn btn-solid"><span class="button-text">ADD TO CART</span></a>
+                        <a class="btn btn-solid btn-size" href="#"><span class="button-text">BUY NOW</span></a></div>
+
+                    <div class="border-product" style="border-top: 1px dashed #ddd;">
+                        <h6 class="product-title" style="padding-top: 15px; margin-bottom: 0px;">Product Details</h6>
+                        <p style="color:#777">It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters,It is a long established fact that a reader will
+                            be distracted by the readable content of a page when looking at its layout. The point of
+                            using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                    </div>
+                    <div class="border-product" style="border-top: 1px dashed #ddd;">
+                        <h6 class="product-title" style="padding-top: 15px;">Share It</h6>
+                        <div class="product-icon">
+                            <ul class="product-social">
+                                <li><a [href]="facebook" target="_blank"><i class="pi pi-facebook"></i></a></li>
+                                <li><a [href]="google" target="_blank"><i class="pi pi-google"></i></a></li>
+                                <li><a [href]="twitter" target="_blank"><i class="pi pi-twitter"></i></a></li>
+                                <li><a [href]="instagram" target="_blank"><i class="pi pi-instagram"></i></a></li>
+                                <li><a [href]="rss" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timereminder">
+                        <h6>Time Reminder</h6>
+                        <div class="timer">
+                          <div class="time-block">
+                            <div class="time-unit">{{ days }}</div>
+                            <div class="time-label">Days</div>
+                          </div>
+                          <div class="colon"><span>:</span></div>
+                          <div class="time-block">
+                            <div class="time-unit">{{ hours }}</div>
+                            <div class="time-label">Hours</div>
+                          </div>
+                          <div class="colon"><span>:</span></div>
+                          <div class="time-block">
+                            <div class="time-unit">{{ minutes }}</div>
+                            <div class="time-label">Minutes</div>
+                          </div>
+                          <div class="colon"><span>:</span></div>
+                          <div class="time-block">
+                            <div class="time-unit">{{ seconds }}</div>
+                            <div class="time-label">Seconds</div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="border-product">
+                        <h6 class="product-title">Frequently Bought Together</h6>
+                        <div class="bundle-img d-flex">
+                            <img [src]="bundleImg1" class="img-fluid " alt="first_img"><span class="plus">+</span>
+                            <img [src]="bundleImg2" class="img-fluid" alt="second_img"><span class="plus">+</span>
+                            <img [src]="bundleImg3" class="img-fluid" alt="third_img">
+                        </div>
+                    </div>
+
+                    <div class="checkbox-container mt-3">
+                     <div class="checkboxes">
+                        <input type="checkbox" name="product" value="shirt" style="width: 20px; height: 20px;">
+                        <label for="product" class="ms-2 mb-1">This Product: WOMEN BLACK SHIRT <span style="font-weight: bolder;">{{shirtPrice | currency:'USD': true:'1.0-0'}}</span></label>
+                     </div>
+                     <div class="checkboxes">
+                        <input type="checkbox" name="product" value="skirt" style="width: 20px; height: 20px;">
+                        <label for="product" class="ms-2 mb-1">Black Long Skirt <span style="font-weight: bolder;">{{skirtPrice |currency:'USD': true:'1.0-0'}}</span></label>
+                     </div>
+                     <div class="checkboxes">
+                        <input type="checkbox" name="product" value="Boots" style="width: 20px; height: 20px;">
+                        <label for="product" class="ms-2 mb-1">Women Heeled Boots <span style="font-weight: bolder;">{{bootPrice |currency:'USD': true:'1.0-0'}}</span></label>
+                     </div>
+                    </div>
+
+                    <div class="product-buttons">
+                        <a class="btn btn-solid btn-size btn-bundle" href="#"><span class="button-text">Buy This Bundle</span></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+</section>
+
+<!-- card section -->
+<br><br>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="product-related col">
+                <h2 style="font-size: 32px;">RELATED PRODUCTS</h2>
+            </div>
+        </div>
+
+<hr>
+        <div *ngFor="let product of products" class="card">
+            
+                    <div class="image-container">
+                        <div class="card-img-container">
+                            
+                            <img class="card-img-top" [src]="product.image" alt="Product Image">
+                            <img class="card-hover-image" [src]="product.hoverImageUrl" alt="Product Hover Image">
+                            <div class="icons">
+                                <div class="card-hover">
+                                    <i class="pi pi-shopping-cart"></i>
+                                    <i class="pi pi-search"></i>
+                                    <i class="pi pi-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="rating">
+                            <span *ngFor="let star of [1, 2, 3, 4, 5]" class="star"
+                                [class.filled]="star <= product.rating">
+                                <i class="bi bi-star-fill color-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text">{{ product.price | currency:'USD': true:'1.0-0' }}</p>
+
+                        <ul class="color-variant">
+                            <li class="skyblue"></li>
+                            <li class="lightpink"></li>
+                            <li class="grey"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+       
+</section>
+
+

@@ -25,7 +25,6 @@ body{
 .prod-section .breadcrumb {
     background-color: transparent;
     justify-content: flex-end;
-    text-transform: uppercase;
     font-size: 14px;
     color: #555;
     font-weight: 600;
@@ -111,6 +110,7 @@ li{
     margin-right: 5px;
     transition: all .1s ease;
     
+    
 }
 .yellow {
     background-color: #fdf791;
@@ -126,9 +126,11 @@ li{
 /*  */
 .product-right .product-title {
     color: #222;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    /* letter-spacing: .05em; */
 }
 .h6, h6 {
     font-size: 14px;
@@ -139,9 +141,15 @@ li{
     line-height: 24px;
 }
 
+.border-product{
+  border-top: 1px dashed #ddd;
+}
+
 .product-right .product-title span a {
     cursor: pointer;
 }
+
+
 
 /*  */
 .product-right .size-box ul li a {
@@ -151,6 +159,7 @@ li{
     align-items: center;
     justify-content: center;
     height: 100%;
+    
 }
 
 .product-right .size-box ul li {
@@ -179,36 +188,280 @@ li{
 }
 
 /* Buttons */
-.product-right .product-buttons .btn-outline, .product-right .product-buttons .btn-solid {
-    padding: 7px 25px;
+.btn {
+  width: 12vw;
+  height: 5vh;
+  /* line-height: 20px; */
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 0;
+  
 }
 
+.btn-size{
+  width: 9vw;
+  height: 5vh;
+}
+
+  /* Button transition */
 .btn-solid {
-    padding: 13px 29px;
-    margin:20px 20px 20px 0px;
-    color: #fff!important;
-    letter-spacing: .05em;
-    border: 2px solid #ff4c3b;
-    border-color:  #ff4c3b!important;
-    background-image: linear-gradient(30deg, #ff4c3b 50%,transparent 50%);
-    background-size: 540px;
-    background-repeat: no-repeat;
-    background-position: 0;
-    transition: .3s ease-in-out;
+  display: inline-block;
+  padding: 8px 29px;
+  margin:10px 20px 20px 0px;
+  background-color: #ff4c3b;
+  color: #fff; /* Button text color */
+  text-decoration: none;
+  letter-spacing: .05em;
+  border: 2px solid #ff4c3b;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.6s ease, color 0.6s ease;
 }
-.btn, .btn:hover {
-    transition: .3s ease-in-out;
+
+.btn-solid::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transform-origin: top right;
+  transform: scaleX(0) scaleY(0);
+  transition: transform 0.6s ease;
 }
-.btn {
-    line-height: 20px;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 0;
+
+.btn-solid:hover::before {
+  transform: scaleX(1) scaleY(1);
 }
+
+.btn-solid:hover {
+  background-color: white;
+  color: black; /* Button text color on hover */
+}
+
+.button-text {
+  position: relative;
+  z-index: 1; /* Ensure the text is in front of the pseudo-element */
+}
+
 
 /* social icons */
 .product-right .product-icon ul li i{
     color: #222;
     padding-right: 30px;
 }
+
+
+/* start card css */
+body{
+    font-family: 'Lato,sans-serif';
+}
+
+
+.card {
+    display: inline-block;
+    width: 15%;
+    height: auto;
+    margin: 10px;
+    /* padding: 20px; */
+    border: 1px  #ccc;
+    border-radius: 5px;
+
+    /* hover effect*/
+    overflow: hidden; 
+  }
+
+  
+  
+  /* .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+   */
+  .card-title {
+    font-size: 16px;
+    color:#777;
+    padding: 2px 0px 0px 0px;
+  }
+  
+  .card-text {
+    font-size: 18px;
+    color:#222222;
+    font-weight: 700;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+  }
+
+  /* hover effect */
+  .card-img-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-img-container img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+  }
+  
+  .card:hover .card-img-container img:nth-child(1) {
+    transform: translateX(-100%);
+  }
+  
+  .card:hover .card-img-container img:nth-child(2) {
+    left: 20;
+    transform: translateX(-100%);
+  }
+
+  /*rating  */
+  .rating {
+    font-size: 16px;
+    
+  }
+  
+  .star {
+    display: inline-block;
+    width: 10px;
+    height: 11px;
+    margin-right: 14px;
+    
+  }
+  
+  .filled {
+    color: #ffc107; /* Yellow color for filled stars */
+  }
+  
+
+  /* Color variant */
+  ul {
+    /* list-style-type: disc; */
+    padding-left: 0;
+    margin-bottom: 0;
+    
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.card-body .color-variant li {
+    height: 20px;
+    width: 20px!important;
+    cursor: pointer;
+   
+}
+.color-variant li {
+    display: inline-block;
+    border-radius: 100%;
+    margin-right: 5px;
+    transition: all .1s ease;
+    
+}
+.skyblue {
+    background-color: #d0edff;
+}
+.lightpink {
+    background-color: #f1e7e6;
+    
+}
+.grey {
+    background-color: #bfbfbf;
+}
+
+/* icons */
+.image-container {
+    position: relative;
+  }
+  
+  .icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+  }
+  
+  .image-container:hover .icons {
+    display: block;
+  }
+  
+  .card:hover .icons {
+    display: block;
+  }
+  
+  .card-hover {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-hover i {
+    margin-bottom: 10px;
+  }
+
+
+  /* timer css  */
+ .timereminder h6{
+  color: #222;
+  font-size: 14px;
+  font-weight: 600;
+  /* margin-left:10px ; */
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed #ddd;
+}
+  .timer {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    /* margin-left: 20px;  Adjust the margin as needed */
+    background-color: #f7f7f7;
+    margin-right: 305px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+  
+  .time-block {
+    width: 70px;
+    text-align: center;
+  }
+  
+  .time-unit {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+   }
+   
+   .time-label {
+     font-size: 12px;
+     color: #222;
+     font-weight: 500;
+   }
+  
+
+   .qtty-btn {
+    /* padding: 7px; */
+    width: 30px;
+    height: 38px;
+    background: #fff !important;
+    border: 1px solid #ced4da !important;
+  }
+  .qty {
+    border: 1px solid #ced4da !important;
+    height: 38px;
+    width: 100px !important;
+    padding-top: 5px;
+  }
+  

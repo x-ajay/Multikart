@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/39.jpg",
+      "hoverImageUrl":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/6.jpg",
+      "name": "trim dress",
+      "price": 145,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/3.jpg",
+      "hoverImageUrl":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/4.jpg",
+      "name": "belted dress",
+      "price": 185,
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/1.jpg",
+      "hoverImageUrl":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/2.jpg",
+      "name": "trim dress",
+      "price": 145,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/8.jpg",
+      "hoverImageUrl":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/7.jpg",
+      "name": "belted dress",
+      "price": 185,
+      "rating": 3
+    },
+    {
+      "id": 5,
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/10.jpg",
+      "hoverImageUrl":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/9.jpg",
+      "name": "trim dress",
+      "price": 145,
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/11.jpg",
+      "hoverImageUrl":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/12.jpg",
+      "name": "belted dress",
+      "price": 185,
+      "rating": 3
+    }
+  ]
+  
+  
