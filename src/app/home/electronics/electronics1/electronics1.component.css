@@ -68,11 +68,16 @@
   width: 30%;
   margin: 10px;
   box-sizing: border-box;
-  justify-content: flex-end;
+  /* justify-content: center;
+  align-items: center; */
   display: flex;
   flex-direction: row;
 
+}
 
+.row1{
+  justify-content: center;
+  align-items: center;
 }
 
 /* 3rd part */
@@ -92,6 +97,10 @@
   margin-top: 10px;
   font-family:  Lato,sans-serif;
   margin-bottom:60px;
+}
+a{
+  color: black;
+  font-size: 25px;
 }
 
 /* 4th part css */
@@ -160,5 +169,5 @@
   left: 5px;
   background: transparent;
   width: 60px;
-  content: url('https://multikart-react-reactpixelstrap.vercel.app/assets/images/electronics/pro/1.jpg');
+
 }

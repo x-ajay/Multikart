@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FullPageService } from 'src/app/service/full-page.service';
 
 @Component({
@@ -6,30 +6,16 @@ import { FullPageService } from 'src/app/service/full-page.service';
   templateUrl: './fullpage.component.html',
   styleUrls: ['./fullpage.component.css']
 })
-export class FullpageComponent {
+export class FullpageComponent implements OnInit {
+  public fullpageImage: any[] = [];
 
-  // images: any[] | undefined;
+  constructor(private fullPage:FullPageService) {}
+      ngOnInit(): void {
+        this.fullPage.getImages().subscribe(
+          (res:any)=>{
+            this.fullpageImage=res;
+          }
+        )
+      }
 
-  // responsiveOptions: any[] = [
-  //     {
-  //         breakpoint: '1024px',
-  //         numVisible: 5
-  //     },
-  //     {
-  //         breakpoint: '768px',
-  //         numVisible: 3
-  //     },
-  //     {
-  //         breakpoint: '560px',
-  //         numVisible: 1
-  //     }
-  // ];
-
-  // constructor(private fullPage: FullPageService) {}
-
-  //   ngOnInit() {
-  //       this.fullPage.getImages().then((images) => {
-  //           this.images = images;
-  //       });
-  //   }
 }

@@ -1,1 +1,24 @@
+h2{
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: italic;
+}
+p{
+  color: rgb(85, 83, 83);
 
+}
+button{
+  /* background-color: rgb(130, 100, 78); */
+}
+
+.data{
+  position: absolute;
+  left: 50px;
+  top: 250px;
+  border: 1px solid transparent;
+  width: 450px;
+  height: 300px;
+  padding: 10px;
+
+}

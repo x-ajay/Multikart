@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -5,5 +6,10 @@ import { Injectable } from '@angular/core';
 })
 export class ParallaxService {
 
-  constructor() { }
+  // public parallaxUrl="http://localhost:3000/parallax";
+  constructor(private http:HttpClient) { }
+
+  // getParallaxData(){
+  //   return this.http.get(this.parallaxUrl);
+  // }
 }

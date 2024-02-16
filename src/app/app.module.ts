@@ -7,12 +7,18 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CustPipe } from './common/cust.pipe';
 import { CustomDirective } from './common/custom.directive';
+// import { SidebarComponent } from 'Multikart/src/app/products/sidebar/sidebar.component';
+import { CommoncompComponent } from './commoncomp/commoncomp.component';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { GalleriaModule } from 'primeng/galleria';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
 
-import { ButtonModule } from 'primeng/button';
+
+
+
 
 @NgModule({
   declarations: [
@@ -20,7 +26,9 @@ import { ButtonModule } from 'primeng/button';
     NavbarComponent,
     FooterComponent,
     CustPipe,
-    CustomDirective
+    CustomDirective,
+    SidebarComponent,
+    CommoncompComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +36,8 @@ import { ButtonModule } from 'primeng/button';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    ButtonModule
+    GalleriaModule
+
 
   ],
   // schemas:[

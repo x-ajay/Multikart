@@ -3,52 +3,52 @@
 {
   "lookbook1":[
     {
-      "id":1,
+
       "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":2,
-      "image2":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":3,
-      "image3":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":4,
-      "image4":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":5,
-      "image5":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":6,
-      "image6":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":7,
-      "image7":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":8,
-      "image8":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":9,
-      "image9":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":10,
-      "image10":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":11,
-      "image11":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     },
     {
-      "id":12,
-      "image12":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
+
+      "image1":	"https://multikart-react-reactpixelstrap.vercel.app/assets/images/fashion/lookbook/7.jpg"
     }
   ],
 
@@ -141,6 +141,58 @@
       "price":"$170.00"
     }
 
+  ],
+  "parallax":[
+    {
+      "year":"2023",
+      "title":"FASHION TRENDS",
+      "offers":"SPECIAL OFFERS",
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/parallax/4.jpg"
+    },
+    {
+      "year":"2023",
+      "title":"THE SUMMER",
+      "offers":"SPECIAL OFFERS",
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/parallax/5.jpg"
+    },
+    {
+      "year":"2023",
+      "title":"TOP TRENDS",
+      "offers":"SPECIAL OFFERS",
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/parallax/6.jpg"
+    },
+    {
+      "year":"2023",
+      "title":"NEW COLLECTION",
+      "offers":"SPECIAL OFFERS",
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/parallax/7.jpg"
+    }
+  ],
+  "fullPage":[
+    {
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/25.jpg",
+      "title":"FRESH COFFEE & CUP",
+      "para":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500",
+      "button":"view collection"
+    },
+    {
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/24.jpg",
+      "title":"FRESH VEGETABLE & FRUIT",
+      "para":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500",
+      "button":"view collection"
+    },
+    {
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/23.jpg",
+      "title":"FRESH STRABERY & ICE-CREAM",
+      "para":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500",
+      "button":"view collection"
+    },
+    {
+      "image":"https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/26.jpg",
+      "title":"FRESH FRUIT & JUICE",
+      "para":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500",
+      "button":"view collection"
+    }
   ]
 
 

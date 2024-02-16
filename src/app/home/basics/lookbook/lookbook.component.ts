@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { LookbookService } from 'src/app/service/lookbook.service';
 
@@ -22,11 +22,5 @@ export class LookbookComponent {
  public imgPath11="../../../../assets/Images/Basics_Components_Images/full_page_img8.jpg";
  public imgPath12="../../../../assets/Images/Basics_Components_Images/full_page_img12.jpg";
 
-
-
-// constructor(private lookbook:LookbookService){
-
-// }
-
-
 }
+
