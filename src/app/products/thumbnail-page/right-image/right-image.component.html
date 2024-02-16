@@ -9,7 +9,7 @@
       <section class="sub-main col-12">
         <div class="sub-products-info d-flex flex-grow-1 justify-content-center">
           <div class="product me-0">
-            <div class="card">
+            <div class="card border-0">
               <p-galleria
                 [value]="images | slice : 0 : 3"
                 [responsiveOptions]="responsiveOptions"
@@ -31,7 +31,7 @@
           </div>
   
           <div
-            class="info col-6 border"
+            class="info col-6 border-0"
             *ngFor="let x of productDescription | slice : 0 : 1"
           >
             <div class="title ms-2 me-2 ps-3 pt-2">

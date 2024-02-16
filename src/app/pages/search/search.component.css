@@ -1,0 +1,190 @@
+
+ /* head  */
+ .p-heading {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    padding:30px;
+  }
+  .phead,
+  .phead2,
+  .b-word {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+  .sub{
+padding-top: 70px;
+  }
+  .homelink {
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+
+
+ /* searchbar css  */
+.searchbar{
+    border-radius: 0 0px 0px 0;
+    padding: 15px 20px;
+    height: auto;
+}
+
+
+.p-btn  {
+    border: none;
+    background-color: transparent !important;
+  }
+  .p-btn {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 7px 25px;
+    color: #fff !important;
+    letter-spacing: 0.05em;
+    border: 2px solid var(--theme-deafult);
+    /* border-color: var(--theme-deafult) !important; */
+    background-image: linear-gradient(
+      30deg,
+      var(--theme-deafult) 50%,
+      transparent 50%
+    );
+    background-size: 540px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    transition: background 0.3s ease-in-out;
+  }
+  .p-btn:hover {
+    background-position: 100%;
+    color: #000000 !important;
+    background-color: #fff;
+  }
+  .p-btn {
+    background-image: linear-gradient(30deg, #ff4c3b 50%, transparent 0);
+    border: 2px solid #ff4c3b;
+    border-radius: 0;
+  }
+  .p-btn:focus {
+    color: #fff;
+  }
+
+
+
+  /* result cards  */
+
+  .card {
+    position: relative;
+    width: 200px; /* Adjust the width as needed */
+    margin-top:  20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  .card-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    
+    height:284px;
+    width:209px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 8px;
+    color: #fff;
+  }
+  
+  .icons i  {
+    color: #ddd;
+    cursor: pointer;
+    font-size: 20px;
+   
+    
+  }
+  .icons i:hover{
+    color: orangered;
+  }
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Adjust this if needed to align the icons */
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  
+  .rating {
+    font-size: 24px;
+  }
+
+  .star {
+    cursor: pointer;
+    font-size: 13px;
+    margin-right: 7px;
+  }
+
+  /* Set non-rated star color */
+  .star:not(.rated) {
+    color: #ddd;
+  }
+  .rated {
+    color: #ffa200; /* or any color you want for rated stars */
+  }
+
+  
+  /* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); /* Adjust the transparency as needed */
+    /* z-index: 1; */
+  /* } */
+  
+  .icons {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+  }
+  .pricetxt{
+     font-size: 18px !important;
+   
+     color: #222;
+     font-weight: 500 !important;
+  }
+  .color-variants{
+    display: flex;
+    padding-left: 0px;
+  }
+  .color1,.color2,.color3{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px 0px 0px;
+  }
+  .color1{
+    background: #d0edff;
+  }
+  .color2{
+    background: #f1e7e6;
+  }
+  .color3{
+    background: #bfbfbf;
+  }

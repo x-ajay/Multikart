@@ -28,6 +28,8 @@ import { FaqComponent } from './faq/faq.component';
 import { RouterModule, Routes } from '@angular/router';
 import { OrderSucessComponent } from './../pages/order-sucess/order-sucess.component';
 import { SiteMapComponent } from './site-map/site-map.component';
+import { FormsModule } from '@angular/forms';
+import { SearchPipe } from './CustomPipe/search.pipe';
 
 
 
@@ -93,10 +95,12 @@ const routes: Routes = [
     ComingSoonComponent,
     FaqComponent,
     LookbookComponent,
-    SiteMapComponent
+    SiteMapComponent,
+    SearchPipe
   ],
   imports: [
     CommonModule,
+    FormsModule,
     [RouterModule.forChild(routes)],
   ]
 })

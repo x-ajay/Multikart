@@ -44,14 +44,16 @@
       bottom: 10px;
       right: 10px;
       display: flex;
-      gap: 10px;
+      gap: 8px;
       color: #fff;
     }
     
-    .icons i {
+    .icons i  {
       color: #ddd;
       cursor: pointer;
       font-size: 20px;
+     
+      
     }
     .icons i:hover{
       color: orangered;
