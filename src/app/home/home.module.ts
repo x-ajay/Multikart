@@ -125,7 +125,7 @@ const routes: Routes = [
     HttpClientModule,
     ReactiveFormsModule,
     CarouselModule,
-    [RouterModule.forChild(routes), CarouselModule],
+    [RouterModule.forChild(routes)],
   ]
 })
 export class HomeModule {}

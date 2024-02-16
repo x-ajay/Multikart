@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .main{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+    /* head  */
+    .p-heading {
+      background-color: #f8f8f8;
+      padding: 30px 0;
+      padding:30px;
+    }
+    .phead,
+    .phead2,
+    .b-word {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: 0.02em;
+    }
+    .sub{
+  padding-top: 70px;
+    }
+    .homelink {
+      text-decoration: none;
+      color: black;
+    }
+  
+   
+    /* description list group  */
+  
+    .desc-list {
+      width: 55%;
+      display: flex;
+      text-align: center;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: nowrap;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    .desc-nav {
+      /* border-bottom: 1px solid #777; */
+    }
+  
+    .list-group-item {
+      cursor: pointer;
+      padding: 10px;
+      margin: 0;
+      transition: border-bottom-color 0.3s ease;
+    }
+  
+    .list-group-item.active {
+      border-bottom: 3px solid orangered;
+      color: #ff4c3b;
+    }
+  
+    /* main banner  */
+    :host::ng-deep {
+      .p-galleria .p-galleria-thumbnail-container {
+        background: white !important;
+        /* padding-top:10px; */
+        margin-top: 7px;
+        width: 463px;
+      }
+      .p-galleria-thumbnail-item {
+        overflow: hidden;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        opacity: 0.5;
+      }
+      .p-galleria-thumbnail-item-current {
+        opacity: 1;
+      }
+      .p-galleria-item {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+        padding: 0px;
+        height: 100%;
+        width: 100%;
+      }
+      .p-galleria .p-galleria-thumbnail-container .p-galleria-thumbnail-prev,
+      .p-galleria .p-galleria-thumbnail-container .p-galleria-thumbnail-next {
+        /* margin:0px;
+        background-color: transparent;
+        color: #147ce4;
+        width: 0rem;
+        height: ;
+        transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+        border-radius: 50%; */
+        display: none;
+      }
+  
+      .p-items-hidden .p-galleria-thumbnail-item {
+        visibility: visible;
+        border: #777;
+      }
+    }
+  
+    /* price and other info  */
+    .discount {
+      color: #ff4c3b;
+    }
+    .prod-title {
+      letter-spacing: 6px;
+      font-weight: 500;
+    }
+    .sub-products {
+      letter-spacing: 8px;
+    }
+    .title {
+      margin-top: 10px;
+      border-bottom: 1px dashed #ddd;
+    }
+    .color-variants {
+      margin-bottom: 10px;
+      padding-left: 0px;
+    }
+    .yellow,
+    .white,
+    .pink {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 5px;
+      transition: all 0.1s ease;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+    .yellow {
+      background: #fdf791;
+    }
+    .white {
+      background-color: #fff;
+      border: 1px solid #aaa;
+    }
+    .pink {
+      background: #ffc0cb;
+    }
+  
+    .size-text {
+      font-size: 14px !important;
+      font-weight: 700;
+    }
+    .size-box ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100%;
+    }
+    .size-box ul li {
+      border-radius: 50%;
+      width: 33px;
+      height: 33px;
+      border: 1px solid #e8e5e5;
+      color: #222;
+      font-size: 18px;
+      text-align: center;
+      cursor: pointer;
+    }
+  
+    .size-box {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .instock-label {
+      color: #ff4c3b;
+      margin-left: 10px;
+    }
+    .size-box h6 {
+      font-size: 14px !important;
+      line-height: 20px;
+      font-weight: bold;
+    }
+    .instock-label h6 {
+      letter-spacing: 8px;
+    }
+  
+    .qtty-btn {
+      /* padding: 7px; */
+      width: 30px;
+      height: 38px;
+      background: #fff !important;
+      border: 1px solid #ced4da !important;
+    }
+    .qty {
+      border: 1px solid #ced4da !important;
+      height: 38px;
+      width: 100px !important;
+      padding-top: 5px;
+    }
+    .p-btn btn {
+      border: none;
+      background-color: transparent !important;
+    }
+    .p-btn {
+      line-height: 20px;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 7px 25px;
+      color: #fff !important;
+      letter-spacing: 0.05em;
+      border: 2px solid var(--theme-deafult);
+      /* border-color: var(--theme-deafult) !important; */
+      background-image: linear-gradient(
+        30deg,
+        var(--theme-deafult) 50%,
+        transparent 50%
+      );
+      background-size: 540px;
+      background-repeat: no-repeat;
+      background-position: 0;
+      transition: background 0.3s ease-in-out;
+    }
+    .p-btn:hover {
+      background-position: 100%;
+      color: #000000 !important;
+      background-color: #fff;
+    }
+    .p-btn {
+      background-image: linear-gradient(30deg, #ff4c3b 50%, transparent 0);
+      border: 2px solid #ff4c3b;
+      border-radius: 0;
+    }
+    .p-btn:focus {
+      color: #fff;
+    }
+    .p-buttons {
+      margin-right: 10px;
+      margin-left: 10px;
+      padding-bottom: 20px;
+      border-bottom: 1px dashed #ddd;
+    }
+    .p-details h6 {
+      font-size: 14px !important;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+    .p-details p {
+      font-size: 14px !important;
+    }
+    .p-details {
+      
+      border-bottom: 1px dashed #ddd;
+    }
+    .shareit {
+      margin-top: 10px;
+      margin-left: 18px;
+      
+    }
+    .shareit h6 {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .share-icons i {
+      font-size: 18px;
+      color: #333;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      margin: 10px;
+      margin-top: 0 !important;
+    }
+    .share-icons i:hover {
+      color: #ff4c3b;
+    }
+   
+    /* timer css  */
+  .timereminder h6{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left:20px ;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #ddd;
+  }
+    .timer {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 14px;
+      font-weight: bold;
+      align-items: center;
+      margin-left: 30px; /* Adjust the margin as needed */
+      background-color: #f7f7f7;
+      margin-right: 205px;
+     padding: 15px;
+    }
+    
+    .time-block {
+      width: 70px;
+      text-align: center;
+    }
+    
+    .time-unit {
+     font-size: 14px;
+     font-weight: 500;
+    }
+    
+    .time-label {
+      font-size: 12px;
+      color: #666;
+      font-weight: 500;
+    }
+    
+  
+  @media (min-width: 1200px) {
+  }
+  @media (max-width: 1199px) {
+  }
+  @media (max-width: 991px) {
+  }
+  

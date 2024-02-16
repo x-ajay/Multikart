@@ -1,1 +1,272 @@
-<p>no-sidebar works!</p>
+<div class="main container-fluid mt-4">
+  <div class="p-heading d-flex justify-content-between">
+    <div class="phead">PRODUCT</div>
+    <div class="phead2">
+      <a class="homelink" routerLink="home">HOME</a> / <span>PRODUCT</span>
+    </div>
+  </div>
+  <div class="sub col-12 d-flex ms-3 me-3">
+   
+    <section class="sub-main col-12">
+      <div class="sub-products-info d-flex flex-grow-1 justify-content-center">
+        <div class="product me-0">
+          <div class="card border-0">
+            <p-galleria
+              [value]="images | slice : 0 : 3"
+              [responsiveOptions]="responsiveOptions"
+              [containerStyle]="{ 'max-width': '640px' }"
+              [numVisible]="3"
+            >
+              <ng-template pTemplate="item" let-item>
+                <img [src]="item.itemImageSrc" style="width: 450px" />
+              </ng-template>
+              <ng-template pTemplate="thumbnail" let-item>
+                <div class="p-grid grid-no-gutter justify-content-center">
+                  <img
+                    [src]="item.thumbnailImageSrc"
+                    height="200px"
+                    width="160px"
+                    class=""
+                  />
+                </div>
+              </ng-template>
+            </p-galleria>
+          </div>
+        </div>
+
+        <div class="info col-6 border-0">
+          <div class="title ms-2 me-2 ps-3 pt-2">
+            <h4 class="prod-title">TRIM DRESS</h4>
+            <del class="text-black-50">$145</del> &nbsp;
+            <span class="discount">40% Off</span>
+            <h3>$87</h3>
+            <ul type="none" class="color-variants">
+              <li class="yellow"></li>
+              <li class="white"></li>
+              <li class="pink"></li>
+            </ul>
+          </div>
+          <div class="product-description ms-3">
+            <div class="sizes">
+              <div class="size-text d-flex justify-content-between p-3">
+                <h6>Select Size</h6>
+                <h6>Size Chart</h6>
+              </div>
+              <div class="size-box">
+                <ul type="none">
+                  <li class="ms-0"><a>s</a></li>
+                  <li class="m-2"><a>m</a></li>
+                  <li class=""><a>l</a></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <span class="instock-label">In Stock</span>
+              <h6 class="ms-3 mt-2">Quantity</h6>
+            </div>
+            <div class="quantity-box d-flex align-baseline text-center">
+              <button class="qtty-btn" (click)="decreaseQuantity()">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+              </button>
+              <p class="qty">{{ quantity }}</p>
+              <button class="qtty-btn" (click)="increaseQuantity()">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+          <div class="p-buttons">
+            <div class="p-btn btn ms-3">
+              <a (click)="GotoCart()">Add To Cart</a>
+            </div>
+
+            <div class="p-btn btn ms-2">
+              <a (click)="Checkout()">Buy Now</a>
+            </div>
+          </div>
+          <div class="p-details p-3">
+            <h6>Product Details</h6>
+            <p class="text-black-50">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters,It is a long established fact that a
+              reader will be distracted by the readable content of a page when
+              looking at its layout. The point of using Lorem Ipsum is that it
+              has a more-or-less normal distribution of letters.
+            </p>
+          </div>
+          <div class="shareit">
+            <h6>Share it</h6>
+            <div class="share-icons">
+              <i class="pi pi-facebook" aria-hidden="true"></i>
+              <i class="pi pi-google" aria-hidden="true"></i>
+              <i class="pi pi-twitter" aria-hidden="true"></i>
+              <i class="pi pi-instagram" aria-hidden="true"></i>
+              <i class="fa fa-rss" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="timereminder">
+            <h6>Time Reminder</h6>
+            <div class="timer">
+              <div class="time-block">
+                <div class="time-unit">{{ days }}</div>
+                <div class="time-label">Days</div>
+              </div>
+              <div class="colon"><span>:</span></div>
+              <div class="time-block">
+                <div class="time-unit">{{ hours }}</div>
+                <div class="time-label">Hours</div>
+              </div>
+              <div class="colon"><span>:</span></div>
+              <div class="time-block">
+                <div class="time-unit">{{ minutes }}</div>
+                <div class="time-label">Minutes</div>
+              </div>
+              <div class="colon"><span>:</span></div>
+              <div class="time-block">
+                <div class="time-unit">{{ seconds }}</div>
+                <div class="time-label">Seconds</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="description-toggler mt-4 ">
+        <div class="row">
+          <div class="mb-3 desc-nav border-bottom border-dark-subtle">
+            <div class="desc-list" id="list-tab" role="tablist">
+              <a
+                class="list-group-item list-group-item-action active"
+                id="list-home-list"
+                data-bs-toggle="list"
+                href="#list-home"
+                role="tab"
+                aria-controls="list-home"
+                (click)="setActive(0)"
+                >DESCRIPTION</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-profile-list"
+                data-bs-toggle="list"
+                href="#list-profile"
+                role="tab"
+                aria-controls="list-profile"
+                (click)="setActive(1)"
+                >DETAILS</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-messages-list"
+                data-bs-toggle="list"
+                href="#list-messages"
+                role="tab"
+                aria-controls="list-messages"
+                (click)="setActive(2)"
+                >VIDEO</a
+              >
+              <a
+                class="list-group-item list-group-item-action"
+                id="list-settings-list"
+                data-bs-toggle="list"
+                href="#list-settings"
+                role="tab"
+                aria-controls="list-settings"
+                (click)="setActive(3)"
+                >WRITE REVIEW</a
+              >
+            </div>
+          </div>
+          <div class="col-12">
+            <div
+              class="tab-content ps-5 pe-5 text-black-50"
+              id="nav-tabContent"
+            >
+              <div
+                class="tab-pane fade show active"
+                id="list-home"
+                role="tabpanel"
+                aria-labelledby="list-home-list"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                consequuntur error incidunt placeat maxime aliquid magni veniam
+                rem tenetur optio earum possimus illum, quaerat mollitia minima
+                ratione eveniet quisquam. Aliquid possimus ducimus officia
+                tempore error consequuntur, tempora nulla ipsa provident?
+                Commodi doloremque provident magni? Architecto, impedit suscipit
+                sit, mollitia, aliquam quo enim sequi voluptate repellat aperiam
+                odit adipisci molestias. Sit, reprehenderit animi id iusto
+                alias, delectus aliquam voluptate esse nam magnam in perferendis
+                nisi itaque expedita Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Eaque molestiae eos ea. Fuga sit cupiditate
+                obcaecati minus ipsum ad perferendis repellat laudantium
+                delectus tempore explicabo, id consequatur ratione eaque natus
+                esse nemo quaerat velit. Inventore aliquid nobis illum ex
+                voluptas vero qui laudantium atque saepe magni dolores, sed
+                labore nemo?
+              </div>
+              <div
+                class="tab-pane fade"
+                id="list-profile"
+                role="tabpanel"
+                aria-labelledby="list-profile-list"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+                laboriosam quis minima, tempore perferendis fugit repellat
+                dolorem praesentium laborum obcaecati cupiditate, id incidunt
+                provident quidem. Nisi porro facere molestiae repellendus
+                impedit nobis, vel necessitatibus, officia ab sit vitae aliquid
+                nemo est consequuntur amet? Nulla voluptatem perferendis
+                veritatis consectetur natus inventore! Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Libero fugit, voluptate
+                exercitationem distinctio autem corporis ipsum sunt alias odit
+                sit quo quae, deserunt saepe? Aut dolor molestiae labore quam
+                distinctio voluptas voluptatum consequatur dolore, repellendus,
+                facere dolorem molestias quis ullam a repellat, accusamus nulla
+                debitis odit! Asperiores provident id quod!
+              </div>
+              <div
+                class="tab-pane fade"
+                id="list-messages"
+                role="tabpanel"
+                aria-labelledby="list-messages-list"
+              >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Similique ducimus a, cum fugiat animi eligendi nulla provident
+                optio delectus unde mollitia, impedit deserunt molestias aut in.
+                In nesciunt dolorem excepturi perspiciatis officiis amet
+                consequuntur modi. Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Libero eveniet praesentium consectetur,
+                mollitia explicabo itaque dolores modi labore odit corporis
+                excepturi vitae cum sed corrupti. Sit praesentium enim
+                consequatur voluptate.
+              </div>
+              <div
+                class="tab-pane fade"
+                id="list-settings"
+                role="tabpanel"
+                aria-labelledby="list-settings-list"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptate, molestiae! Illo ipsam sint libero quam nam. Omnis
+                beatae impedit dolores suscipit dignissimos obcaecati voluptatum
+                itaque aut voluptas ullam soluta sunt in nobis consequatur
+                repellendus aliquam, odit cumque quisquam illum perspiciatis
+                quasi eligendi ducimus vel deserunt! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Sint repellendus quas autem
+                voluptates nam, provident aperiam? Ratione obcaecati quis,
+                corrupti repellat rem accusamus iste cupiditate, eius corporis,
+                recusandae odit debitis assumenda iusto reiciendis numquam
+                laboriosam inventore doloremque. Voluptate, accusamus veniam!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="common-comp">
+    <app-common-comp1></app-common-comp1>
+  </div>
+</div>

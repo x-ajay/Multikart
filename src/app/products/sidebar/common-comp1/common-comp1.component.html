@@ -1,65 +1,121 @@
 <div class="common-products mt-5">
-    <div class="prod-head mb-3 mt-3">
-      <h2>RELATED PRODUCTS</h2>
-  
-    </div>
-    <div class="row me-4 ms-4">
-      <div
-        class="col-2"
-        *ngFor="let product of products | slice : 0 : 6; let i = index"
-      >
-        <div class="card mb-3 col-2 border-0">
-          <div class="main card d-flex border-0">
-            <div
-              class="card-image"
-              (mouseover)="showSecondImage[i] = true"
-              (mouseout)="showSecondImage[i] = false"
-            >
-              <div class="overlay" *ngIf="showSecondImage[i]"></div>
-              <img
-                *ngIf="!showSecondImage[i]"
-                [src]="product.image1"
-                alt="{{ product.title }}"
-                style="height: 284px; width: 209px"
-              />
-              <img
-                *ngIf="showSecondImage[i]"
-                [src]="product.image2"
-                alt="{{ product.title }}"
-                style="height: 284px; width: 209px"
-              />
-              <div class="icons" *ngIf="showSecondImage[i]">
-                <i class="fa fa-shopping-cart" (click)="addToCart(product)"></i>
-                <i class="fa fa-heart" (click)="addToWishlist(product)"></i>
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <i
-                  class="fa fa-refresh"
-                  (click)="scrollToTop()"
-                  aria-hidden="true"
-                ></i>
-              </div>
+  <div class="prod-head mb-3 mt-3">
+    <h2>RELATED PRODUCTS</h2>
+  </div>
+  <div class="row me-4 ms-4">
+    <div
+      class="col-2"
+      *ngFor="let product of products | slice : 0 : 6; let i = index"
+    >
+      <div class="card mb-3 col-2 border-0" (click)="GotoInfoPage(product)">
+        <div class="main card d-flex border-0">
+          <div
+            class="card-image"
+            (mouseover)="showSecondImage[i] = true"
+            (mouseout)="showSecondImage[i] = false"
+          >
+            <div class="overlay" *ngIf="showSecondImage[i]"></div>
+            <img
+              *ngIf="!showSecondImage[i]"
+              [src]="product.image1"
+              alt="{{ product.title }}"
+              style="height: 284px; width: 209px"
+            />
+            <img
+              *ngIf="showSecondImage[i]"
+              [src]="product.image2"
+              alt="{{ product.title }}"
+              style="height: 284px; width: 209px"
+            />
+            <div class="icons" *ngIf="showSecondImage[i]">
+              <!-- <i class="fa fa-shopping-cart" (click)="addToCart(product)"></i> -->
+              <i (click)="addToCart(product)">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-cart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                  /></svg
+              ></i>
+              <!-- <i class="fa fa-heart" (click)="addToWishlist(product)"></i> -->
+              <i (click)="addToWishlist(product)"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-heart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
+                  /></svg
+              ></i>
+              <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+              <i aria-label="Close"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                  />
+                </svg>
+              </i>
+              <!-- <i
+                class="fa fa-refresh"
+                (click)="scrollToTop()"
+                aria-hidden="true"
+              ></i> -->
+              <i (click)="scrollToTop()" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z"/>
+                <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466"/>
+              </svg></i>
             </div>
-            <div class="card-details">
-              <div class="card-body">
-                <ng-container *ngFor="let star of [1, 2, 3, 4, 5]">
-                  <span class="star" [class.rated]="star <= product.rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                  </span>
-                </ng-container>
-                <p class="card-text text-muted mt-0 mb-0">{{ product.title }}</p>
-                <h5 class="card-text pricetxt fw-bold mt-0">{{ "$" + product.price }}</h5>
-                <ul type="none" class="color-variants">
-                  <li class="color1"></li>
-                  <li class="color2"></li>
-                  <li class="color3"></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
+          </div>
+          <div class="card-details">
+            <div class="card-body">
+              <ng-container *ngFor="let star of [1, 2, 3, 4, 5]">
+                <span class="star" [class.rated]="star <= product.rating">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-star-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                    />
+                  </svg>
+                </span>
+              </ng-container>
+              <p class="card-text text-muted mt-0 mb-0">{{ product.title }}</p>
+              <h5 class="card-text pricetxt fw-bold mt-0">
+                {{ "$" + product.price }}
+              </h5>
+              <ul type="none" class="color-variants">
+                <li class="color1"></li>
+                <li class="color2"></li>
+                <li class="color3"></li>
+                <li></li>
+                <li></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+</div>

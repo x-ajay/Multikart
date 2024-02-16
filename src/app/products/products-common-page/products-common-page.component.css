@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
-  font-family: "lato", sans-serif;
-}
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+  }
   
   .main{
     padding-left: 0px !important;
@@ -164,8 +164,9 @@
       color: #ff4c3b;
     }
     .prod-title {
-      letter-spacing: 2px;
-      font-weight: 700;
+      letter-spacing: 6px;
+      font-weight: 500;
+      text-transform: uppercase;
     }
     .sub-products {
       letter-spacing: 8px;
@@ -233,7 +234,7 @@
     .size-box h6 {
       font-size: 14px !important;
       line-height: 20px;
-      font-weight: 700;
+      font-weight: bold;
     }
     .instock-label h6 {
       letter-spacing: 8px;

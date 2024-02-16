@@ -27,24 +27,25 @@ import { NgbDropdownModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'primeng/carousel';
 import { ButtonModule } from 'primeng/button';
 import { GalleriaModule } from 'primeng/galleria';
+import { ProductsCommonPageComponent } from './products-common-page/products-common-page.component';
 
 const routes: Routes = [
-  { path: "",component:LeftSidebarComponent},
+  { path: "", component: LeftSidebarComponent },
   { path: "right", component: RightSidebarComponent },
   { path: "no", component: NoSidebarComponent },
-  { path: "left1", component: LeftImageComponent},
+  { path: "left1", component: LeftImageComponent },
   { path: "right1", component: RightImageComponent },
   { path: "image", component: ImageOutsideComponent },
-  { path: "left2", component: ThumbnailLeftComponent},
+  { path: "left2", component: ThumbnailLeftComponent },
   { path: "right2", component: ThumbnailRightComponent },
   { path: "bottom", component: ThumbnailBottomComponent },
   { path: "image2", component: FourImageComponent },
   { path: "bundle", component: BundleProductComponent },
-  {path:"sticky",component:StickyComponent},
+  { path: "sticky", component: StickyComponent },
   { path: "accordian", component: AccordianComponent },
   { path: "image", component: ImageSwatchComponent },
-  { path: "vertical", component: VerticalTabComponent},
-
+  { path: "vertical", component: VerticalTabComponent },
+  { path: "productpage", component: ProductsCommonPageComponent }
 
 
 ];
@@ -71,7 +72,8 @@ const routes: Routes = [
     AccordianComponent,
     ImageSwatchComponent,
     VerticalTabComponent,
-    CommonComp1Component
+    CommonComp1Component,
+    ProductsCommonPageComponent
   ],
   imports: [
     CommonModule,
