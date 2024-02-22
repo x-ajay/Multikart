@@ -1,5 +1,13 @@
 .container{
-    padding: 70px;
+    padding: 50px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.innerRow1{
+    width: 50%;
+
 }
 a{
     text-decoration:none;
@@ -19,4 +27,13 @@ a.head2{
     color: black;
     font-size: 18px;
 }
-        
+   
+span{
+    font-size:12px ;
+}
+
+span.new{
+    color: red;
+    font-weight: 400;
+    font-size: 20px;
+}
