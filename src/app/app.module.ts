@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'primeng/carousel';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +12,8 @@ import { CustPipe } from './common/cust.pipe';
 import { CustomDirective } from './common/custom.directive';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { CommoncompComponent } from './commoncomp/commoncomp.component';
-import { HttpClientModule } from '@angular/common/http';
+import { CascadeSelectModule } from 'primeng/cascadeselect';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,14 +24,16 @@ import { HttpClientModule } from '@angular/common/http';
     CustomDirective,
     SidebarComponent,
     CommoncompComponent,
-    CommoncompComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    CarouselModule,
+    CascadeSelectModule,
+    FormsModule,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

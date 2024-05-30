@@ -1,1 +1,384 @@
-<p>bags works!</p>
+<!-- carousel -->
+
+<div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/6.jpg"
+                class="d-block w-100" alt="...">
+            <div class="banner-text1">
+                <h4 class="texth4">summer sale</h4>
+                <h1 class="texth1">the bag</h1>
+                <div class="p-buttons1">
+                    <button class="p-btn btn">
+                        SHOP NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/8.jpg"
+                class="d-block w-100" alt="...">
+
+            <div class="banner-text1">
+                <h4 class="texth4">summer sale</h4>
+                <h1 class="texth1">the bag</h1>
+                <div class="p-buttons">
+                    <button class="p-btn btn">
+                        SHOP NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/7.jpg"
+                class="d-block w-100" alt="...">
+
+            <div class="banner-text1">
+                <h4 class="texth4">summer sale</h4>
+                <h1 class="texth1">the bag</h1>
+                <div class="p-buttons">
+                    <button class="p-btn btn">
+                        SHOP NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<!-- trending products -->
+<div class="container trendborder">
+    <div class="mb-5">
+        <div class="title1 pt-3">
+            <h6>new collection</h6>
+            <h4>trending product</h4>
+        </div>
+        <div class="ullist">
+            <ul type="none" class="list">
+                <li (click)="showcontent4($event)" [style.color]="active">new arrival</li>
+                <li (click)="showcontent1($event)" [style.color]="active1">women</li>
+                <li (click)="showcontent2($event)" [style.color]="active2">men</li>
+                <li (click)="showcontent3($event)" [style.color]="active3">kids</li>
+                <li (click)="showcontent4($event)" [style.color]="active4">school bags</li>
+            </ul>
+        </div>
+
+        <!-- tab-container -->
+
+        <!-- new arrival tab -->
+        <div class="card1" *ngIf="showData  && active">
+            <div class="card" style="width: 19rem" *ngFor="let item of newarrivalData">
+                <img [src]="item.image" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>{{item.title}}</h6>
+                    <h4>${{item.price}}<del class="ms-2 delprice">${{item.price1}}</del></h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- women tab -->
+
+        <div class="card1" *ngIf="showData1 && active1">
+            <div class="card" style="width: 19rem" *ngFor="let item of womanData">
+                <img [src]="item.image" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>{{item.title}}</h6>
+                    <h4>${{item.price}}<del class="ms-2 delprice">${{item.price1}}</del></h4>
+                </div>
+            </div>
+        </div>
+        <!-- man tab  -->
+
+        <div class="cardflex1" *ngIf="showData2  && active2">
+            <div class="card" style="width: 19rem" *ngFor="let item of manData">
+                <img [src]="item.image" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>{{item.title}}</h6>
+                    <h4>${{item.price}}<del class="ms-2 delprice">${{item.price1}}</del></h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- kids tab -->
+
+
+        <div class="card1" *ngIf="showData3  && active3">
+            <div class="card" style="width: 19rem" *ngFor="let item of kidsData">
+                <img [src]="item.image" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>{{item.title}}</h6>
+                    <h4>${{item.price}}<del class="ms-2 delprice">${{item.price1}}</del></h4>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- school bag tab -->
+        <div class="card1" *ngIf="showData4  && active4">
+            <div class="card" style="width: 19rem" *ngFor="let item of schoolbagData">
+                <img [src]="item.image" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>{{item.title}}</h6>
+                    <h4>${{item.price}}<del class="ms-2 delprice">${{item.price1}}</del></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- buttons -->
+<div class=" container buttonflex">
+    <button class="btn-fle">Airbag</button>
+    <button class="btn-fle">burn bag</button>
+    <button class="btn-fle">brifecase</button>
+    <button class="btn-fle">carpet bag</button>
+    <button class="btn-fle">money bag</button>
+    <button class="btn-fle">tucker bag</button>
+</div>
+
+<div class="bgleather">
+    <div class="leathertext">
+        <h4 class="texth4">special offer for you</h4>
+        <h1 class="texth1">leather bag</h1>
+        <h4 class="texth4" style="color: #fff;">extra 50% off</h4>
+        <button class="btn p-btn">shop now</button>
+    </div>
+</div>
+
+<!-- season sale -->
+<!-- left -->
+<div class="ms-5 me-5 seasonflex">
+    <div class="seabor">
+        <div class="seabor">
+            <h5 class="ms-5">new products</h5>
+            <i class="fa-light fa-code-simple"></i>
+        </div>
+        <div class="card" style="width: 27rem" *ngFor="let item of newarrivalData | slice:0:3">
+            <div class="ps-5 newflex">
+                <div>
+                    <img [src]="item.image" height="150px" width="120px">
+
+                </div>
+                <div class="ms-5 card-body">
+                    <div class="star-rating">
+                        <span *ngFor="let star of stars" class="fa fa-star"
+                            [ngClass]="{ 'checked': star <= rating }"></span>
+                    </div>
+                    <h6>{{item.title}}</h6>
+                    <h4>${{item.price}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- middle -->
+    <div class="middle">
+        <h5>on sale</h5>
+        <h2>season sale</h2>
+        <div class="card" style="width: 19rem">
+            <img src="https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/1.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h6>bag1</h6>
+                <h4>$216.00<del class="ms-2 delprice">$360.00</del></h4>
+            </div>
+        </div>
+    </div>
+    <!-- right -->
+    <div class="seabor">
+        <div class="seabor">
+            <h5 class="ms-5">new products</h5>
+            <i class="fa-light fa-code-simple"></i>
+        </div>
+        <div class="card" style="width: 27rem" *ngFor="let item of newarrivalData | slice:0:3">
+            <div class="ps-5 newflex">
+                <div>
+                    <img [src]="item.image" height="150px" width="120px">
+
+                </div>
+                <div class="ms-5 card-body">
+                    <div class="star-rating">
+                        <span *ngFor="let star of stars" class="fa fa-star"
+                            [ngClass]="{ 'checked': star <= rating }"></span>
+                    </div>
+                    <h6>{{item.title}}</h6>
+                    <h4>${{item.price}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- servicese -->
+
+<div class="ms-5 me-5 mb-5 ">
+    <div class="maindiv1 row">
+        <div class="col borderlr" *ngFor="let serv of showserv3">
+            <div class="serv">
+                <div>
+                    <img src="{{serv.image}}" class="hoverimg" style="color: #f0b54d" height="80px" width="80px">
+                </div>
+                <div>
+                    <h2 class="servtitle">{{serv.title}}</h2>
+                    <h6 class="servdis">{{serv.discription}}</h6>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- shoose -->
+<div class="category-bg ratio_sqare">
+    <div class="d-flex bg-white pt-3">
+        <div class="card" style="width: 30rem">
+            <img src="https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/cat1.6b6ec245.jpg">
+
+        </div>
+        <div class="shotext" style="width: 30rem">
+            <h4 class="texth4">new products</h4>
+            <h2>zipper storage bag</h2>
+            <button class="hovbtn btn p-btn">-80% off</button>
+            <h6 class="mt-3">shop now</h6>
+        </div>
+        <div class="card" style="width: 30rem">
+            <img src="https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/cat2.12800236.jpg" alt="">
+
+        </div>
+    </div>
+
+
+
+    <div class="d-flex bg-white">
+
+        <div class="shotext" style="width: 30rem">
+            <h4 class="texth4">on sale</h4>
+            <h2>tucker bag</h2>
+            <button class="hovbtn btn p-btn">-80% off</button>
+            <h6 class="mt-3">shop now</h6>
+        </div>
+
+        <div class="card" style="width: 30rem">
+            <img src="https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/cat3.77d89e17.jpg">
+        </div>
+
+        <div class="shotext" style="width: 30rem">
+            <h4 class="texth4">summer sale</h4>
+            <h2>gate check bag</h2>
+            <button class="hovbtn btn p-btn">-80% off</button>
+            <h6 class="mt-3">shop now</h6>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- top collection -->
+
+
+<div class="middle mt-5">
+    <h5>special offer</h5>
+    <h2>top collection</h2>
+</div>
+
+<div id="carouselExampleControls" class="carousel slide  mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+        <div class="carousel-item active ">
+            <div class="ms-5 me-5 card1">
+                <div class="card" style="width: 19rem" *ngFor="let item of newarrivalData">
+                    <img [src]="item.image" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="star-rating">
+                            <span *ngFor="let star of stars" class="fa fa-star"
+                                [ngClass]="{ 'checked': star <= rating }"></span>
+                        </div>
+                        <h6>{{item.title}}</h6>
+                        <h4>${{item.price}}<del class="ms-2 delprice">${{item.price1}}</del></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item active ">
+            <div class="ms-5 me-5 card1">
+                <div class="card" style="width: 19rem" *ngFor="let item of womanData">
+                    <img [src]="item.image" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="star-rating">
+                            <span *ngFor="let star of stars" class="fa fa-star"
+                                [ngClass]="{ 'checked': star <= rating }"></span>
+                        </div>
+                        <h6>{{item.title}}</h6>
+                        <h4>${{item.price}}<del class="ms-2 delprice">${{item.price1}}</del></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- special products -->
+<div class="container mt-3">
+    <div class="title1">
+        <h6>our collection</h6>
+        <h4>special product</h4>
+    </div>
+</div>
+<!-- special product tab -->
+<div class="ms-5 ps-5 container row pt-5">
+    <div class="col card3" *ngFor="let item of specialData">
+        <div class="card" style="width:30% 18rem;">
+
+            <img src="{{item.image}}" class="card-img-top cardimg hover-image " alt="">
+
+
+            <div class="card-body1">
+
+                <h6 class="carddate">{{item.date}}</h6>
+                <h4 class="carddis">{{item.discription}}</h4>
+                <p class="cardcomm">{{item.comment}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- instagram -->
+
+<div class="mt-3">
+    <div class="title1">
+        <h4>#instagram</h4>
+    </div>
+</div>
+<div class="ms-1 d-flex">
+    <div *ngFor="let item of instaData">
+        <div>
+            <img src="{{item.image}}" class="hover-image" height="189px" width="189px" alt="">
+        </div>
+    </div>
+
+</div>

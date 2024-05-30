@@ -1,38 +1,47 @@
-
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
+import { CommoncompComponent } from './commoncomp/commoncomp.component';
 
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then(mod => mod.HomeModule)
+    loadChildren: () =>
+      import('./home/home.module').then((mod) => mod.HomeModule),
+  },
+  {
+    path: 'commonComp',
+    component: CommoncompComponent,
   },
   {
     path: 'shop',
-    loadChildren: () => import('./shop/shop.module').then(mod => mod.ShopModule)
+    loadChildren: () =>
+      import('./shop/shop.module').then((mod) => mod.ShopModule),
   },
   {
     path: 'blogs',
-    loadChildren: () => import('./blogs/blogs.module').then(mod => mod.BlogsModule)
+    loadChildren: () =>
+      import('./blogs/blogs.module').then((mod) => mod.BlogsModule),
   },
   {
     path: 'product',
-    loadChildren: () => import('./products/products.module').then(mod => mod.ProductsModule)
+    loadChildren: () =>
+      import('./products/products.module').then((mod) => mod.ProductsModule),
   },
   {
     path: 'features',
-    loadChildren: () => import('./features/features.module').then(mod => mod.FeaturesModule)
+    loadChildren: () =>
+      import('./features/features.module').then((mod) => mod.FeaturesModule),
   },
   {
     path: 'pages',
-    loadChildren: () => import('./pages/pages.module').then(mod => mod.PagesModule)
+    loadChildren: () =>
+      import('./pages/pages.module').then((mod) => mod.PagesModule),
   },
-  { path: "**", redirectTo: "home" }
+  { path: '**', redirectTo: 'home' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

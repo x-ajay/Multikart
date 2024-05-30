@@ -168,4 +168,44 @@
 
 .comment-color {
   color: #777;
+} /* ratnig */
+.star-rating {
+  color: #e2e3e5; /* Color for the stars */
+  font-size: 14px; /* Adjust the size of the stars */
 }
+
+.star-rating .fa-star {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.star-rating .fa-star.checked {
+  color: #ffa200;
+  margin-bottom: 10px;
+}
+
+/* .p-btn btn{
+  border: none;
+  background-color: transparent !important;
+}
+.p-btn {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  color: #fff !important;
+  letter-spacing: 0.05em;
+  border: 2px solid var(--theme-deafult);
+   border-color: var(--theme-deafult) !important; 
+  background-image: linear-gradient(
+    30deg,
+    var(--theme-deafult) 50%,
+    transparent 50%
+  );
+  background-size: 540px;
+  background-repeat: no-repe
+<div class="p-buttons1">
+                      <button class="p-btn btn">
+                        SHOP NOW
+                      </button>
+                  </div> */

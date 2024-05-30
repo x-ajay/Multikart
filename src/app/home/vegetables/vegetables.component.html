@@ -129,7 +129,7 @@
 
 <section class="treading-div">
     <div class="">
-        <h1 class="text-center m-3 mt-5">TRENDING PRODUCTS</h1>
+        <h1 class="text-center m-3 mt-5" style="font-weight: 800; font-family: sans-serif;">TRENDING PRODUCTS</h1>
     </div>
     <div class=" container card-5-container mb-5">
         <div class="row row-cols-1 row-cols-md-5 g-4">
@@ -141,8 +141,13 @@
                             <h5 class="add-cart-color ">Add To Cart</h5>
                         </div>
                         <div class="text-center">
+                            <div class="star-rating">
+                                <span *ngFor="let star of stars" class="fa fa-star"
+                                    [ngClass]="{ 'checked': star <= rating }"></span>
+                            </div>
                             <p class="card-title" style="color: #777777;">{{x.name}}</p>
-                            <strong class="card-text">{{x.price}}</strong><del style="color: #AAAAAA;"><small>
+                            <strong class="card-text" style="font-size: 20px;">{{x.price}}</strong><del
+                                style="color: #AAAAAA;"><small>
                                     {{x.discunt}} </small></del>
                             <br>
                         </div>
@@ -161,6 +166,31 @@
         </div>
     </div>
 </section>
-<section>
+<section class=" mt-5">
+    <div class="last-fur-block">
+        <p class="exclusive-product text-center " style="font-size: 20px;">Our Collection</p>
+        <h1 class="special-product text-center" style="font-weight:600;">SPECIAL PRODUCTS</h1>
+    </div>
+    <div class="">
+        <div class="">
+            <p-carousel [value]="products" [numVisible]="3" [numScroll]="3" [circular]="true"
+                [responsiveOptions]="responsiveOptions" [autoplayInterval]="4000">
+                <ng-template let-product pTemplate="item">
+                    <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+                        <div class="mb-3">
+                            <img width="400px" src="{{ product.img }}" alt="{{ product.date }}" class="w-6 shadow-2" />
+                        </div>
+                        <div>
+                            <p class="mb-1 date-furnitue">{{ product.date }}</p>
+                            <h4 class="mt-0 mb-3  text-fur">{{ product.text }}</h4>
+                            <h6 class="comment-color">{{product.comment}}</h6>
+                        </div>
+                    </div>
+                </ng-template>
+            </p-carousel>
+        </div>
+
+
+    </div>
 
 </section>

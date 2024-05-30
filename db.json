@@ -1,16 +1,48 @@
 {
+  "singUp": [
+    {
+      "id": "04af",
+      "fname": "Amar",
+      "lname": "Kumbhar",
+      "email": "amarakumbhar1234@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "4380",
+      "fname": "Amar",
+      "lname": "kumbhar",
+      "email": "amarakumbhar1234@gmail.com",
+      "password": "Amar@1234"
+    },
+    {
+      "id": "8e0d",
+      "fname": "shri",
+      "lname": "ram",
+      "email": "shri@gmail.com",
+      "password": "1234@Amar"
+    },
+    {
+      "id": "1601",
+      "fname": "",
+      "lname": "",
+      "email": ""
+    }
+  ],
   "furnitureproduct": [
     {
+      "id": "1",
       "img": "./assets/Images/imgFurniture/2banner1.jpg",
       "title": "SOFA",
       "test": "SAVE 30%"
     },
     {
+      "id": "2",
       "img": "./assets/Images/imgFurniture/2banner2.jpg",
       "title": "NEW ARRIVAL",
       "test": "SAVE 60%"
     },
     {
+      "id": "3",
       "img": "./assets/Images/imgFurniture/2banner3.jpg",
       "title": "CHAIR",
       "test": "SAVE 60%"
@@ -18,68 +50,84 @@
   ],
   "furnitureproduct2": [
     {
+      "id": "1",
       "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/product/1.jpg",
       "img2": "./assets/Images/imgFurniture/2.jpg",
       "title": "arm chair",
       "price": "$200.00",
       "discunt": "$250.00",
-      "rating": 4
+      "rating": 4,
+      "inventoryStatus": "INSTOCK"
     },
     {
+      "id": "2",
       "img": "./assets/Images/imgFurniture/3 (2).jpg",
       "img2": "./assets/Images/imgFurniture/1 (1).jpg",
       "title": "oak Finish chair",
       "price": "$275.50",
       "discunt": "$290.00",
-      "rating": 4
+      "rating": 4,
+      "inventoryStatus": "INSTOCK"
     },
     {
+      "id": "3",
       "img": "./assets/Images/imgFurniture/7.jpg",
       "img2": "./assets/Images/imgFurniture/10.jpg",
       "title": "Metal Table Lamp",
       "price": "$240.00",
       "discunt": "$300.00",
-      "rating": 4
+      "rating": 4,
+      "inventoryStatus": "INSTOCK"
     },
     {
+      "id": "4",
       "img": "./assets/Images/imgFurniture/19.jpg",
       "img2": "./assets/Images/imgFurniture/20.jpg",
       "title": "Wood End Table",
       "price": "$400.00",
       "discunt": "$500.00",
-      "rating": 4
+      "rating": 4,
+      "inventoryStatus": "LOWSTOCK"
     },
     {
+      "id": "5",
       "img": "./assets/Images/imgFurniture/4.jpg",
       "img2": "./assets/Images/imgFurniture/6.jpg",
       "title": "wooden chair",
       "price": "$160.00",
       "discunt": "$400.00",
-      "rating": 4
+      "rating": 4,
+      "inventoryStatus": "LOWSTOCK"
     },
     {
+      "id": "6",
       "img": "./assets/Images/imgFurniture/5.jpg",
       "img2": "./assets/Images/imgFurniture/9.jpg",
       "title": "Lounge Chair",
       "price": "$378.00",
       "discunt": "$420.00",
-      "rating": 4
+      "rating": 4,
+      "inventoryStatus": "LOWSTOCK"
     },
     {
+      "id": "7",
       "img": "./assets/Images/imgFurniture/8.jpg",
       "img2": "./assets/Images/imgFurniture/21.jpg",
       "title": "Rocking Chair",
       "price": "$448.00",
       "discunt": "$560.00",
-      "rating": 4
+      "rating": 4,
+      "inventoryStatus": "LOWSTOCK"
     },
     {
+      "id": "8",
       "img": "./assets/Images/imgFurniture/2.jpg",
       "img2": "./assets/Images/imgFurniture/24.jpg",
       "title": "Barrel Chair",
       "price": "$457.50",
       "discunt": "$610.00",
-      "rating": 4
+      "rating": 4,
+      "inventoryStatus": "INSTOCK"
     }
   ],
   "furnitureproduct3": [
@@ -87,25 +135,29 @@
       "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/selk.jpg",
       "date": "26 January 2018",
       "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
-      "comment": "by: by: John Dio , 2 Comment"
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "6544"
     },
     {
       "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/blog1.jpg",
       "date": "26 January 2018",
       "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
-      "comment": "by: by: John Dio , 2 Comment"
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "aadd"
     },
     {
       "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/blog3.jpg",
       "date": "26 January 2018",
       "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
-      "comment": "by: by: John Dio , 2 Comment"
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "8169"
     },
     {
       "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/blog2.jpg",
       "date": "26 January 2018",
       "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
-      "comment": "by: by: John Dio , 2 Comment"
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "2e65"
     }
   ],
   "vegetableData1": [
@@ -114,106 +166,857 @@
       "rating": 4,
       "name": "beetroot",
       "price": "$31.50",
-      "discunt": "$35.00"
+      "discunt": "$35.00",
+      "id": "0e4c"
     },
     {
       "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/pro/2.jpg",
       "rating": 4,
       "name": "cabbage",
       "price": "$20.00",
-      "discunt": "$25.00"
+      "discunt": "$25.00",
+      "id": "284f"
     },
     {
       "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/pro/3.jpg",
       "rating": 4,
       "name": "Onion",
       "price": "$27.55",
-      "discunt": "$29.00"
+      "discunt": "$29.00",
+      "id": "77f3"
     },
     {
       "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/pro/4.jpg",
       "rating": 4,
       "name": "brinjal",
       "price": "$19.60",
-      "discunt": "$20.00"
+      "discunt": "$20.00",
+      "id": "3e6f"
     },
     {
       "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/pro/5.jpg",
       "rating": 4,
       "name": "cucumber",
       "price": "$35.20",
-      "discunt": "$44.00"
+      "discunt": "$44.00",
+      "id": "c272"
+    }
+  ],
+  "vegetableData2": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/blog/1.jpg",
+      "date": "26 January 2018",
+      "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "3737"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/blog/2.jpg",
+      "date": "26 January 2018",
+      "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "64e2"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/blog/3.jpg",
+      "date": "26 January 2018",
+      "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "4f43"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/vegetables/blog/4.jpg",
+      "date": "26 January 2018",
+      "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "dceb"
+    }
+  ],
+  "watchData1": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/1.png",
+      "id": "7374"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/2.png",
+      "id": "e14d"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/3.png",
+      "id": "655c"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/4.png",
+      "id": "eaa1"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/5.png",
+      "id": "1e30"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/6.png",
+      "id": "f817"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/7.png",
+      "id": "b6e6"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/8.png",
+      "id": "bdac"
+    }
+  ],
+  "watchData2": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/cat2.69f214ab.png",
+      "title": "CALCULATOR WATCH",
+      "li1": "shock-resistant watch",
+      "li2": "skeleton watch",
+      "li3": "slow watch",
+      "li4": "solar-powered watch",
+      "id": "59ab"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/cat3.167cb5cb.png",
+      "title": " ANTIMEGNATIC WATCH",
+      "li1": "watchmaking conglomarates",
+      "li2": "breitling SA",
+      "li3": "casio watch",
+      "li4": "citizen watch",
+      "id": "8fca"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/cat2.69f214ab.png",
+      "title": " HISTORY OF WATCHES",
+      "li1": "Manufacture D'horlogerie",
+      "li2": "Mechanical watche",
+      "li3": "Microbrand watches",
+      "li4": "MIL-W-46374",
+      "id": "a997"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/cat1.278dac49.png",
+      "title": " WATCH MODELS",
+      "li1": "D1 milano",
+      "li2": "Damaskeening",
+      "li3": "Diving watch",
+      "li4": "Dollar watch",
+      "id": "768e"
+    }
+  ],
+  "watchData3": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/2.jpg",
+      "rating": 4,
+      "title": "watch1",
+      "price": "$156.00",
+      "discunt": "$44.00",
+      "id": "d292"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/3.jpg",
+      "rating": 4,
+      "title": "watch2",
+      "price": "$207.00",
+      "discunt": "$345.00",
+      "id": "4339"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/6.jpg",
+      "rating": 4,
+      "title": "watch3",
+      "price": "$356.00",
+      "discunt": "$445.00",
+      "id": "28c6"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/15.jpg",
+      "rating": 4,
+      "title": "watch4",
+      "price": "$466.40 ",
+      "discunt": "$530.00",
+      "id": "d303"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/8.jpg",
+      "rating": 4,
+      "title": "watch5",
+      "price": "$218.40",
+      "discunt": "$420.00",
+      "id": "5b76"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/9.jpg",
+      "rating": 4,
+      "title": "watch6",
+      "price": "$135.00",
+      "discunt": "$225.00",
+      "id": "4c0b"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/13.jpg",
+      "rating": 4,
+      "title": "watch7",
+      "price": "$156.60",
+      "discunt": "$174.00",
+      "id": "28ab"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/4.jpg",
+      "rating": 4,
+      "title": "watch8",
+      "price": "$132.30",
+      "discunt": "$189.00",
+      "id": "306b"
+    }
+  ],
+  "watchData4": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/8.jpg",
+      "rating": 4,
+      "title": "watch5",
+      "price": "$218.40",
+      "discunt": "$420.00",
+      "id": "6ed0"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/9.jpg",
+      "rating": 4,
+      "title": "watch6",
+      "price": "$135.00",
+      "discunt": "$225.00",
+      "id": "af4a"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/13.jpg",
+      "rating": 4,
+      "title": "watch7",
+      "price": "$156.60",
+      "discunt": "$174.00",
+      "id": "966b"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/4.jpg",
+      "rating": 4,
+      "title": "watch8",
+      "price": "$132.30",
+      "discunt": "$189.00",
+      "id": "fa4d"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/17.jpg",
+      "rating": 4,
+      "title": "watch9",
+      "price": "$94.05",
+      "discunt": "$99.00",
+      "id": "fe47"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/19.jpg",
+      "rating": 4,
+      "title": "watch10",
+      "price": "$346.50",
+      "discunt": "$495.00",
+      "id": "291a"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/16.jpg",
+      "rating": 4,
+      "title": "watch11",
+      "price": "$86.00",
+      "discunt": "$215.00",
+      "id": "56c2"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro2/14.jpg",
+      "rating": 4,
+      "title": "watch12",
+      "price": "$135.00",
+      "discunt": "$150.00",
+      "id": "cebd"
+    }
+  ],
+  "watchData5": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/layout4/1.jpg",
+      "date": "26 January 2018",
+      "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "49a2"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/layout4/2.jpg",
+      "date": "26 January 2018",
+      "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "43d1"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/layout4/3.jpg",
+      "date": "26 January 2018",
+      "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "4261"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/layout4/4.jpg",
+      "date": "26 January 2018",
+      "text": "Lorem ipsum dolor sit consectetur adipiscing elit",
+      "comment": "by: by: John Dio , 2 Comment",
+      "id": "3bdb"
+    }
+  ],
+  "watchData6": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/service1.fe754775.png",
+      "title": "FREE SHIPPING",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+      "id": "26ea"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/service2.324e1dc7.png",
+      "title": "24 X 7 SERVICE",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+      "id": "dbf2"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/service4.6993a4ad.png",
+      "title": "ONLINE PAYMENT",
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+      "id": "1359"
+    }
+  ],
+  "lightData1": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/1.jpg",
+      "title": "Light 1",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "e096"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/2.jpg",
+      "title": "Light 2",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "96be"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/3.jpg",
+      "title": "Light 3",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "4124"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/4.jpg",
+      "title": "Light 4",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "f9dc"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/5.jpg",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "0698"
+    }
+  ],
+  "lightData2": [
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/4.jpg",
+      "title": "Light 1",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "4227"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/6.jpg",
+      "title": "Light 2",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "c8c0"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/7.jpg",
+      "title": "Light 3",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "a6c1"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/8.jpg",
+      "title": "Light 4",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "e49b"
+    },
+    {
+      "img": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/furniture/9.jpg",
+      "title": "Light 5",
+      "price": "$500",
+      "discunt": "$600.00",
+      "id": "5792"
+    }
+  ],
+  "home": [
+    {
+      "id": "1",
+      "title": "courosoul",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "courosoul",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "blogs",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/1.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Blogs",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/2.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Blogs",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/3.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Blogs",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/4.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Blogs",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/5.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Blogs",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/6.jpg"
+    }
+  ],
+  "home1": [
+    {
+      "id": "1",
+      "title": "home1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/sub-banner1.5d5f9c6f.jpg"
+    },
+    {
+      "id": "2",
+      "title": "home2",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/sub-banner2.3b2448f3.jpg"
+    }
+  ],
+  "top": [
+    {
+      "id": "1",
+      "text": "top1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/6.jpg"
+    },
+    {
+      "id": "2",
+      "text": "top2",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/10.jpg"
+    },
+    {
+      "id": "3",
+      "text": "top3",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/12.jpg"
+    },
+    {
+      "id": "4",
+      "text": "top4",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/4.jpg"
+    },
+    {
+      "id": "5",
+      "text": "top5",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/2.jpg"
+    },
+    {
+      "id": "6",
+      "text": "top6",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/14.jpg"
+    },
+    {
+      "id": "7",
+      "text": "top7",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/16.jpg"
+    },
+    {
+      "id": "8",
+      "text": "top8",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/10.jpg"
+    }
+  ],
+  "special": [
+    {
+      "id": "1",
+      "text": "special1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/39.jpg"
+    },
+    {
+      "id": "2",
+      "text": "special2",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/6.jpg"
+    },
+    {
+      "id": "3",
+      "text": "special3",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/25.jpg"
+    },
+    {
+      "id": "4",
+      "text": "special4",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/4.jpg"
+    },
+    {
+      "id": "5",
+      "text": "special5",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/5.jpg"
+    },
+    {
+      "id": "6",
+      "text": "special6",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/15.jpg"
+    },
+    {
+      "id": "7",
+      "text": "special7",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/7.jpg"
+    },
+    {
+      "id": "8",
+      "text": "special8",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/8.jpg"
+    },
+    {
+      "id": "9",
+      "text": "special8",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/7.jpg"
+    },
+    {
+      "id": "10",
+      "text": "special9",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/9.jpg"
+    },
+    {
+      "id": "11",
+      "text": "special10",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/10.jpg"
+    },
+    {
+      "id": "12",
+      "text": "special11",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/11.jpg"
+    },
+    {
+      "id": "13",
+      "text": "special12",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/12.jpg"
+    },
+    {
+      "id": "14",
+      "text": "special13",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/22.jpg"
+    },
+    {
+      "id": "15",
+      "text": "special14",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/13.jpg"
+    },
+    {
+      "id": "16",
+      "text": "special15",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/15.jpg"
+    },
+    {
+      "id": "17",
+      "text": "special16",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/1.jpg"
+    },
+    {
+      "id": "17",
+      "text": "special17",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/2.jpg"
+    }
+  ],
+  "insta": [
+    {
+      "id": "1",
+      "text": "insta1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/1.jpg"
+    },
+    {
+      "id": "2",
+      "text": "insta1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/2.jpg"
+    },
+    {
+      "id": "3",
+      "text": "insta1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/3.jpg"
+    },
+    {
+      "id": "4",
+      "text": "insta1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/4.jpg"
+    },
+    {
+      "id": "5",
+      "text": "insta1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/5.jpg"
+    },
+    {
+      "id": "6",
+      "text": "insta1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/6.jpg"
+    },
+    {
+      "id": "7",
+      "text": "insta1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/7.jpg"
+    }
+  ],
+  "logos": [
+    {
+      "id": "1",
+      "text": "logos1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/1.png"
+    },
+    {
+      "id": "2",
+      "text": "logos2",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/2.png"
+    },
+    {
+      "id": "3",
+      "text": "logos3",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/3.png"
+    },
+    {
+      "id": "4",
+      "text": "logos4",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/4.png"
+    },
+    {
+      "id": "5",
+      "text": "logos5",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/5.png"
+    },
+    {
+      "id": "6",
+      "text": "logos6",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/6.png"
+    },
+    {
+      "id": "7",
+      "text": "logos7",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/7.png"
+    },
+    {
+      "id": "8",
+      "text": "logos8",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/8.png"
+    }
+  ],
+  "trendkids1": [
+    {
+      "id": "1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/kids/product/14.jpg",
+      "title": "pink baby suit",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "2",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/kids/product/4.jpg",
+      "title": "skykidz phone",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "3",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/kids/product/12.jpg",
+      "title": "tomy cowboy",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "4",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/kids/product/1.jpg",
+      "title": "dumbo soft toy",
+      "price": 300,
+      "price1": 500
+    }
+  ],
+  "trendkids2": [
+    {
+      "id": "1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/kids/product/20.jpg",
+      "title": "kitty blue",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "2",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/kids/product/18.jpg",
+      "title": "musical box",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "3",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/kids/product/17.jpg",
+      "title": "splash drum stick",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "4",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/kids/product/17.jpg",
+      "title": "fidget spinner",
+      "price": 300,
+      "price1": 500
+    }
+  ],
+  "trendwoman": [
+    {
+      "id": "1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/15.jpg",
+      "title": "bag9",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "2",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/5.jpg",
+      "title": "bag10",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "3",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/8.jpg",
+      "title": "bag11",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "4",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/11.jpg",
+      "title": "bag12",
+      "price": 300,
+      "price1": 500
+    }
+  ],
+  "trendman": [
+    {
+      "id": "1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/9.jpg",
+      "title": "bag17",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "2",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/3.jpg",
+      "title": "bag18",
+      "price": 300,
+      "price1": 500
+    }
+  ],
+  "trendschoolbag": [
+    {
+      "id": "1",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/1.jpg",
+      "title": "bag1",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "2",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/4.jpg",
+      "title": "bag2",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "3",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/10.jpg",
+      "title": "bag3",
+      "price": 300,
+      "price1": 500
+    },
+    {
+      "id": "4",
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro1/2.jpg",
+      "title": "bag4",
+      "price": 300,
+      "price1": 500
+    }
+  ],
+  "cartopspepro": [
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/layout3/5.jpg",
+      "date": "26 January 2018",
+      "discription": "lorem ipsum dolor sit consecteture adipiscing elit",
+      "comment": "by:by: john Dio , 2 comment",
+      "id": "6775"
+    },
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/layout3/1.jpg",
+      "date": "26 January 2018",
+      "discription": "lorem ipsum dolor sit consecteture adipiscing elit",
+      "comment": "by:by: john Dio , 2 comment",
+      "id": "df72"
+    },
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/layout3/4.jpg",
+      "date": "26 January 2018",
+      "discription": "lorem ipsum dolor sit consecteture adipiscing elit",
+      "comment": "by:by: john Dio , 2 comment",
+      "id": "951d"
+    }
+  ],
+  "instacarttop": [
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/bags/1.jpg",
+      "id": "8762"
+    },
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/bags/2.jpg",
+      "id": "cd80"
+    },
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/bags/3.jpg",
+      "id": "0f0d"
+    },
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/bags/4.jpg",
+      "id": "6a0e"
+    },
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/bags/5.jpg",
+      "id": "a64f"
+    },
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/bags/6.jpg",
+      "id": "be82"
+    },
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/bags/7.jpg",
+      "id": "d22a"
+    },
+    {
+      "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/slider/bags/8.jpg",
+      "id": "be6c"
     }
   ]
-  }
-  {
-    "home": [
-        { "id": "1", "title": "courosoul", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/1.jpg" },
-        { "id": "2", "title": "courosoul", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/home-banner/2.jpg" },
-        { "id": "3", "title": "blogs", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/1.jpg" },
-        { "id": "4", "title": "Blogs", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/2.jpg" },
-        { "id": "5", "title": "Blogs", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/3.jpg" },
-        { "id": "6", "title": "Blogs", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/4.jpg" },
-        { "id": "7", "title": "Blogs", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/5.jpg" },
-        { "id": "8", "title": "Blogs", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/blog/6.jpg" }
-
-    ],
-    "home1": [
-        { "id": "1", "title": "home1", "image": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/sub-banner1.5d5f9c6f.jpg" },
-        { "id": "2", "title": "home2", "image": "https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/sub-banner2.3b2448f3.jpg" }
-
-    ],
-    "top": [
-        { "id": "1", "text": "top1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/6.jpg" },
-        { "id": "2", "text": "top2", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/10.jpg" },
-        { "id": "3", "text": "top3", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/12.jpg" },
-        { "id": "4", "text": "top4", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/4.jpg" },
-        { "id": "5", "text": "top5", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/2.jpg" },
-        { "id": "6", "text": "top6", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/14.jpg" },
-        { "id": "7", "text": "top7", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/16.jpg" },
-        { "id": "8", "text": "top8", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/10.jpg" }
-    ],
-    "special": [
-        { "id": "1", "text": "special1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/39.jpg" },
-        { "id": "2", "text": "special2", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/6.jpg" },
-        { "id": "3", "text": "special3", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/25.jpg" },
-        { "id": "4", "text": "special4", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/4.jpg" },
-        { "id": "5", "text": "special5", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/5.jpg" },
-        { "id": "6", "text": "special6", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/15.jpg" },
-        { "id": "7", "text": "special7", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/7.jpg" },
-        { "id": "8", "text": "special8", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/8.jpg" },
-        { "id": "9", "text": "special8", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/7.jpg" },
-        { "id": "10", "text": "special9", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/9.jpg" },
-        { "id": "11", "text": "special10", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/10.jpg" },
-        { "id": "12", "text": "special11", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/11.jpg" },
-        { "id": "13", "text": "special12", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/12.jpg" },
-        { "id": "14", "text": "special13", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/22.jpg" },
-        { "id": "15", "text": "special14", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/13.jpg" },
-        { "id": "16", "text": "special15", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/15.jpg" },
-        { "id": "17", "text": "special16", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/1.jpg" },
-        { "id": "17", "text": "special17", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/pro3/2.jpg" }
-    ],
-    "insta": [
-        { "id": "1", "text": "insta1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/1.jpg" },
-        { "id": "2", "text": "insta1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/2.jpg" },
-        { "id": "3", "text": "insta1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/3.jpg" },
-        { "id": "4", "text": "insta1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/4.jpg" },
-        { "id": "5", "text": "insta1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/5.jpg" },
-        { "id": "6", "text": "insta1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/6.jpg" },
-        { "id": "7", "text": "insta1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/insta/7.jpg" }
-    ],
-    "logos": [
-        { "id": "1", "text": "logos1", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/1.png" },
-        { "id": "2", "text": "logos2", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/2.png" },
-        { "id": "3", "text": "logos3", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/3.png" },
-        { "id": "4", "text": "logos4", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/4.png" },
-        { "id": "5", "text": "logos5", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/5.png" },
-        { "id": "6", "text": "logos6", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/6.png" },
-        { "id": "7", "text": "logos7", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/7.png" },
-        { "id": "8", "text": "logos8", "image": "https://multikart-react-reactpixelstrap.vercel.app/assets/images/logos/8.png" }
-    ],
-    "profile": {
-        "name": "typicode"
-    }
-
 }

@@ -1,0 +1,286 @@
+/*first carosole */
+.main-caroel-section {
+  position: relative;
+}
+.carousel-center-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.caption-positon {
+  left: 12%;
+  top: 40%;
+  color: #222222;
+  max-width: 700px;
+}
+.small-text {
+  color: #777;
+  font-size: 18px;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.heading-size {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.shop-btn {
+  line-height: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px 25px;
+  margin-top: 10px;
+  color: rgb(255, 253, 253);
+  background-color: #ff4c3b;
+  border: none;
+  overflow: hidden;
+}
+.shop-btn:hover {
+  color: #222222;
+  background-color: white;
+  border: 1px solid #ff4c3b;
+  animation: ani 0.7s steps(70) forwards;
+  cursor: pointer;
+}
+
+/* timer css  */
+.time-img {
+  position: relative;
+}
+.timereminder {
+  position: absolute;
+  right: 10%;
+  top: 18%;
+}
+.save-30 {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.timereminder h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed #ddd;
+}
+.timer {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 30px; /* Adjust the margin as needed */
+  background-color: #222222;
+  margin-right: 205px;
+  padding: 15px;
+}
+
+.time-block {
+  width: 70px;
+  text-align: center;
+}
+
+.time-unit {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f1e7f6;
+}
+
+.time-label {
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+}
+.colon {
+  color: #f1e7f6;
+}
+
+/* watch-hover-img */
+.watch-hover-img img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+.watch-hover-img img:hover {
+  filter: grayscale(100%);
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+/* card-img-top */
+.li-item {
+  color: #948e8c;
+  padding: 10px;
+}
+.li-item:hover {
+  color: #e4604a;
+}
+
+.border-style:hover {
+  border: 2px solid #ff4c3b;
+}
+
+.shop-btn-rev {
+  color: #222222;
+  background-color: white;
+  border: 1px solid #ff4c3b;
+  line-height: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px 25px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.shop-btn-rev:hover {
+  color: rgb(255, 253, 253);
+  background-color: #ff4c3b;
+
+  animation: ani 0.7s steps(70) forwards;
+  cursor: pointer;
+}
+/* ratnig */
+.star-rating {
+  color: #e2e3e5; /* Color for the stars */
+  font-size: 14px; /* Adjust the size of the stars */
+}
+
+.star-rating .fa-star {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.star-rating .fa-star.checked {
+  color: #ffa200;
+  margin-bottom: 10px;
+}
+/* tabview */
+.bg-color-tab {
+  background-color: #e4604a;
+}
+
+/* trending-product-bg-color */
+.trending-product-bg-color {
+  background-color: #fdf1ef;
+  height: 90vh;
+}
+.tending-pro-center {
+  font-weight: 700;
+}
+
+/* unisex-circle
+ */
+.unisex-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.blue {
+  border: 1px solid #d0edff;
+  background-color: #d0edff;
+}
+.white {
+  border: 1px solid #f1e7f6;
+  background-color: #f1e7f6;
+}
+.grey {
+  border: 1px solid #d0edff;
+  background-color: #bfbfbf;
+}
+
+:host ::ng-deep {
+  .product-item {
+    .product-item-content {
+      border: 1px solid var(--surface-d);
+      border-radius: 3px;
+      margin: 0.3rem;
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    .product-image {
+      width: 50%;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+  }
+  .hide-navigation {
+    display: none !important;
+  }
+
+  .img-rel-class {
+    position: relative;
+  }
+  .card-ab-class {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    font-family: sans-serif;
+  }
+  .card-ab-class h5 {
+    font-weight: 500;
+  }
+  .card-ab-class h2 {
+    font-weight: 900;
+  }
+
+  .last-fur-block {
+    text-align: center;
+  }
+
+  .zoom-effect {
+    margin-right: 80px;
+  }
+}
+
+/* svg-watch */
+.svg-watch {
+  width: 304px;
+  text-align: center;
+  margin: 30px;
+}
+.svg-watch h5 {
+  padding-top: 5px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.svg-watch h5:hover {
+  color: #ff4c3b;
+}
+
+.svg-watch p {
+  color: #948e8c;
+}
+.insta {
+  margin: 50px 0 30px 0;
+  text-align: center;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+/* last owl carosole */
+.text-fur:hover {
+  color: #e4604a;
+}
+
+/* Three img Hover */
+.zoom-img {
+  overflow: hidden;
+}
+
+.zoom-img img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.7s ease;
+}
+
+.zoom-img img:hover {
+  transform: scale(1.1);
+}

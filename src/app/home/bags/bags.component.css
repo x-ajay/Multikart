@@ -1,0 +1,364 @@
+/* carousel image and text */
+
+.banner-text1 {
+  position: absolute;
+  top: 30vh;
+  left: 40vw;
+  text-align: center;
+}
+.texth4 {
+  font-weight: 600;
+  letter-spacing: 0.4em;
+  color: #777;
+  font-size: 19px;
+}
+.texth1 {
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  color: #222;
+}
+
+/* banner button */
+.p-btn btn {
+  border: none;
+  background-color: transparent;
+}
+.p-btn {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 25px;
+  color: #fff !important;
+  letter-spacing: 0.05em;
+  border: 2px solid var(--theme-deafult);
+  /* border-color: var(--theme-deafult) !important; */
+  background-image: linear-gradient(
+    30deg,
+    var(--theme-deafult) 50%,
+    transparent 50%
+  );
+  background-size: 540px;
+  background-repeat: no-repeat;
+  background-position: 0;
+  transition: background 0.3s ease-in-out;
+}
+.p-btn:hover {
+  background-position: 100%;
+  color: #000000 !important;
+  background-color: #fff;
+  border: 2px solid #f0b54d;
+}
+.p-btn {
+  background-image: linear-gradient(30deg, #f0b54d 50%, transparent 0);
+  border: 2px solid #f0b54d;
+  border-radius: 0;
+}
+.p-btn:focus {
+  color: #fff;
+}
+
+/* title  */
+
+.title1 h4 {
+  font-size: 35px;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: bolder;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding-bottom: 3vh;
+}
+.title1 h6 {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #f0b54d;
+}
+
+/* ulist class */
+
+.ullist {
+  margin-left: 25%;
+  font-size: 20px;
+  margin-top: 1%;
+  margin-bottom: 3vh;
+}
+li {
+  display: inline;
+  margin-left: 5%;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+/* trendborder */
+.trendborder {
+  border-bottom: 1px solid #ddd;
+}
+
+/* cart */
+.card1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.card1 h6 {
+  text-transform: capitalize;
+  color: #777;
+}
+.card h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.delprice {
+  color: #777;
+  font-size: 17px;
+}
+.card {
+  border: none;
+}
+.cardflex1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.buttonflex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.btn-fle {
+  border: 2px solid #f0b54d;
+  padding: 13px 50px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 550;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+.btn-fle:hover {
+  background-color: #f0b54d;
+  color: #fff;
+  font-size: 1rem;
+
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  transition: 0.3s ease-in-out;
+}
+
+.bgleather {
+  background-image: url("https://multikart-react-reactpixelstrap.vercel.app/assets/images/parallax/2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 10vh;
+}
+
+.leathertext {
+  text-align: center;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+}
+.leathertext h4 {
+  color: #f0b54d;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.leathertext h1 {
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  color: #fff;
+}
+
+.seasonflex {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.seabor {
+  border: 1px solid #ddd;
+}
+.seabor h5 {
+  text-transform: uppercase;
+  padding: 15px 15px;
+  font-weight: 550;
+}
+
+.newflex {
+  display: flex;
+  align-items: center;
+}
+.card-body h6 {
+  color: #777;
+}
+.middle {
+  text-align: center;
+}
+.middle h5 {
+  color: #f0b54d;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.middle h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* ratnig */
+.star-rating {
+  color: #e2e3e5; /* Color for the stars */
+  font-size: 14px; /* Adjust the size of the stars */
+}
+
+.star-rating .fa-star {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.star-rating .fa-star.checked {
+  color: #ffc107; /* Change color for checked stars */
+}
+
+/* services */
+
+.borderlr {
+  border: 1px solid #ddd;
+  padding-left: 5%;
+  border-top: hidden;
+  border-bottom: hidden;
+  border-right: hidden;
+}
+.servtitle {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+}
+.servtitle:hover {
+  color: #f0b54d;
+}
+
+.servdis {
+  line-height: 1;
+  color: #555;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.serv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servimg {
+  margin-left: 35%;
+}
+.servtext {
+  text-align: center;
+}
+
+.maindiv1 {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin-top: 10vh;
+}
+
+.hoverimg {
+  transition: transform 0.5s ease-out;
+  background-color: none;
+}
+
+.hoverimg:hover {
+  transform: scale(1.05); /* Increase the size on hover */
+}
+
+.category-bg {
+  padding: 40px 50px;
+  position: relative;
+  z-index: 1;
+}
+.shotext {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.shotext:hover h2 {
+  color: #f0b54d;
+  transition: transform 0.5s ease-in;
+}
+.shotext:hover h6 {
+  color: #f0b54d;
+  transition: transform 0.5s ease-in;
+}
+.ratio_sqare {
+  background-color: rgb(255, 228, 206);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.shotext:hover .hovbtn {
+  background-image: linear-gradient(30deg, #222 50%, transparent 0);
+}
+
+.shotext h4 {
+  color: #f0b54d;
+}
+.shotext h2 {
+  font-weight: 700;
+}
+
+.shotext h6 {
+  color: #777;
+}
+
+/* special product */
+
+.card-body1 {
+  text-align: center;
+  margin-top: 5vh;
+}
+.card-body1 h6 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.title1 h6 {
+  text-transform: capitalize;
+
+  color: #f0b54d;
+}
+.carddate {
+  color: #f0b54d;
+  cursor: default;
+}
+.carddis:hover {
+  color: #f0b54d;
+  cursor: pointer;
+}
+.carddis {
+  text-transform: uppercase;
+}
+.cardcomm {
+  cursor: default;
+}
+.cardimg {
+  cursor: pointer;
+}
+
+.hover-image:hover {
+  opacity: 0.6;
+  background-color: #81ba00;
+  z-index: 2; /* Hide the first image when hovered */
+}

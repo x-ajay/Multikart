@@ -1,1 +1,23 @@
-<p>commoncomp works!</p>
+<section class="mt-5 " style="background-color: #f1f5f4;">
+    <div class="last-fur-block ">
+        <h1 class="special-product pt-5" style="font-weight: 600;">SPECIAL PRODUCTS</h1>
+    </div>
+
+    <div class="container">
+        <p-carousel [value]="products1" [numVisible]="3" [circular]="true" [responsiveOptions]="responsiveOptions"
+            [autoplayInterval]="4000">
+            <ng-template let-product pTemplate="item">
+                <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+                    <div class="mb-3">
+                        <img width="350px" src="{{ product.img }}" alt="{{ product.date }}" class="w-6 shadow-2" />
+                    </div>
+                    <div>
+                        <h4 class="mb-1 date-furnitue">{{ product.date }}</h4>
+                        <h4 class="mt-0 mb-3  text-fur">{{ product.text }}</h4>
+                        <h6 class="comment-color">{{product.comment}}</h6>
+                    </div>
+                </div>
+            </ng-template>
+        </p-carousel>
+    </div>
+</section>

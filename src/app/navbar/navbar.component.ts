@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { Route, Router, Routes } from '@angular/router';
+import { CartService } from '../pages/service/cart.service';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent {
-  constructor(private router: Router) {
-
-  }
+  public totalItem: number = 0;
+  constructor(private router: Router, private cartService: CartService) {}
 
   Ontools() {
     this.router.navigate(['home/tools']);
@@ -38,7 +38,7 @@ export class NavbarComponent {
   Onpets() {
     this.router.navigate(['home/pets']);
   }
-  OnMetros(){
+  OnMetros() {
     this.router.navigate(['home/metros']);
   }
   Onvideoslider() {
@@ -60,13 +60,13 @@ export class NavbarComponent {
     this.router.navigate(['home/kids']);
   }
   Onlookbook() {
-     this.router.navigate(['home/lookbook']);
+    this.router.navigate(['home/lookbook']);
   }
   OnInstagram() {
-     this.router.navigate(['home/instagram']);
+    this.router.navigate(['home/instagram']);
   }
   OnVideo() {
-     this.router.navigate(['home/video']);
+    this.router.navigate(['home/video']);
   }
   Onparallax() {
     this.router.navigate(['home/parallax']);
@@ -75,10 +75,23 @@ export class NavbarComponent {
     this.router.navigate(['home/fullpage']);
   }
   Electronic1() {
-     this.router.navigate(['home/electronic1']);
+    this.router.navigate(['home/electronic1']);
   }
   Electronic2() {
-     this.router.navigate(['home/electronic2']);
+    this.router.navigate(['home/electronic2']);
   }
 
+  ngOnInit() {
+    this.cartService.getProduct().subscribe({
+      next: (res: any) => {
+        console.log(res);
+        this.totalItem = res.length;
+      },
+    });
+  }
+
+  logout() {
+    localStorage.removeItem('access_token');
+    this.router.navigate(['/']);
+  }
 }

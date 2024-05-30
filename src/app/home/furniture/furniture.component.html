@@ -28,14 +28,12 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-
 <div class="card-group mt-5">
     <div *ngFor="let item of data1" class="card p-3 border-0" style="width: 18rem;">
         <div class="zoom-img">
             <img [src]="item.img" class="card-img-top card-img" alt="...">
         </div>
         <div class="b-card">
-
             <h5 class="card-text " style="color: #d4b196;">{{ item.test }}</h5>
             <h2 class="card-title main-txt">{{ item.title }}</h2>
         </div>
@@ -48,11 +46,9 @@
             <h1 class="special-product">SPECIAL PRODUCTS</h1>
             <div class="space-div">
                 <h1 class="space"></h1>
-
             </div>
         </div>
         <div class="d-flex justify-content-center align-item-center">
-
             <p class=" p-4 exclusive-product ">NEW ARRIVAL</p>
             <p class=" p-4 exclusive-product " style="color: black;">FEATURED</p>
             <p class=" p-4 exclusive-product" style="color: black;">SPECIAL</p>
@@ -61,9 +57,12 @@
     <div class="row">
         <div *ngFor="let item of furnitureData" class="col-md-3">
             <div class="card border-0" style="width: 18rem;">
-                <img [src]="item.img" class="card-img-top" alt="...">
+                <img [src]="item.img" (click)="onClick(item)" class="card-img-top" alt="...">
                 <div class="card-body ">
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <div class="star-rating">
+                        <span *ngFor="let star of stars" class="fa fa-star"
+                            [ngClass]="{ 'checked': star <= rating }"></span>
+                    </div>
                     <p class="card-title" style="color: #777777;">{{item.title}}</p>
                     <strong class="card-text">{{item.price}}</strong><del style="color: #AAAAAA;"><small>
                             {{item.discunt}} </small></del>
@@ -73,9 +72,6 @@
                         <p class="circle " style="background-color: #556B2f;"></p>
                     </div>
                 </div>
-            </div>
-            <div class="">
-
             </div>
         </div>
     </div>
@@ -93,31 +89,29 @@
     <div class="last-fur-block">
         <p class="exclusive-product">Our Collection</p>
         <h1 class="special-product">SPECIAL PRODUCTS</h1>
+        <div class="space-div">
+            <h1 class="space"></h1>
+        </div>
     </div>
     <div class="">
-        <div class="">
-            <p-carousel [value]="products" [numVisible]="3" [numScroll]="3" [circular]="true"
-                [responsiveOptions]="responsiveOptions" [autoplayInterval]="4000">
-                <ng-template let-product pTemplate="item">
-                    <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
-                        <div class="mb-3">
-                            <img width="400px" src="{{ product.img }}" alt="{{ product.date }}" class="w-6 shadow-2" />
-                        </div>
-                        <div>
-                            <ng-container *ngFor="let star of [1, 2, 3, 4, 5]">
-                                <span class="star" [class.rated]="star <= product.rating"><i class="fa fa-star"
-                                        aria-hidden="true"></i></span>
-                            </ng-container>
-                            <h4 class="mb-1 date-furnitue">{{ product.date }}</h4>
-                            <h4 class="mt-0 mb-3  text-fur">{{ product.text }}</h4>
-                            <h6 class="comment-color">{{product.comment}}</h6>
-                        </div>
+        <p-carousel [value]="products" [numVisible]="3" [circular]="true" [responsiveOptions]="responsiveOptions"
+            [autoplayInterval]="4000">
+            <ng-template let-product pTemplate="item">
+                <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+                    <div class="mb-3">
+                        <img width="400px" src="{{ product.img }}" alt="{{ product.date }}" class="w-6 shadow-2" />
                     </div>
-                </ng-template>
-            </p-carousel>
-        </div>
-
-
+                    <div>
+                        <h4 class="mb-1 date-furnitue">{{ product.date }}</h4>
+                        <h4 class="mt-0 mb-3  text-fur">{{ product.text }}</h4>
+                        <h6 class="comment-color">{{product.comment}}</h6>
+                    </div>
+                </div>
+            </ng-template>
+        </p-carousel>
     </div>
-
 </section>
+
+<div class="card flex justify-content-center">
+    <p-toast [breakpoints]="{'920px': {width: '100%', right: '0', left: '0'}}"></p-toast>
+</div>

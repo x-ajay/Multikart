@@ -13,17 +13,19 @@
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>   </span>wishlist</a>
+                    <a class="nav-link fw-bold" href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>
+                        </span>wishlist</a>
                 </li>
                 <li class="nav-item dropdown">
                     <!-- <a class="nav-link fw-bold" href="#"><i class="fa fa-user" aria-hidden="true"></i><span>   </span>myAccount</a> -->
-                    <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-user" aria-hidden="true"></i><span>   </span>myAccount
+                    <a class="nav-link fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fa fa-user" aria-hidden="true"></i><span> </span>myAccount
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Login &raquo </a></li>
-                        <li><a class="dropdown-item" href="#">Register &raquo </a></li>
-                        <li><a class="dropdown-item" href="#">Logout &raquo </a></li>
+                        <li><a class="dropdown-item" routerLink="pages/login">Login </a></li>
+                        <li><a class="dropdown-item" routerLink="pages/register">Register </a></li>
+                        <li><a class="dropdown-item" (click)="logout()">Logout </a></li>
                     </ul>
                 </li>
             </ul>
@@ -34,15 +36,17 @@
     <a class="navbar-brand" href="#">
         <Img src="assets/Images/logo1.png" alt="multikart">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav w-100 order-3 ms-auto">
             <li class="nav-item active dropdown ms-5">
-                <a class="nav-link dropdown-toggle fw-bold" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="home">
-            HOME
-            </a>
+                <a class="nav-link dropdown-toggle fw-bold" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" routerLink="home">
+                    HOME
+                </a>
                 <!-- <li class="nav-item active"><a class="nav-link" routerLink="">Home</a></li> -->
                 <ul class="dropdown-menu nav-item active" aria-labelledby="navbarDropdown">
                     <li class="nav-item active"><a class="dropdown-item nav-link">New Demos &raquo </a>
@@ -143,8 +147,9 @@
                 </ul>
             </li>
             <li class="nav-item dropdown ms-5">
-                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="shop">
-                SHOP
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" routerLink="shop">
+                    SHOP
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><button class="dropdown-item" routerLink="shop">left sidebar</button></li>
@@ -159,8 +164,9 @@
                 </ul>
             </li>
             <li class="nav-item dropdown ms-5">
-                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="product">
-                PRODUCTS
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" routerLink="product">
+                    PRODUCTS
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#">sidebar &raquo</a>
@@ -211,8 +217,9 @@
                 </ul>
             </li>
             <li class="nav-item dropdown ms-5">
-                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="features">
-                FEATURES
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" routerLink="features">
+                    FEATURES
                 </a>
                 <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="navbarDropdown">
                     <div class="container-fluid p-4 d-flex justify-content-lg-evenly">
@@ -227,22 +234,28 @@
                                         <button class="dropdown-item" routerLink="features">Portfolio 2</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/portfolio3">Portfolio 3</button>
+                                        <button class="dropdown-item" routerLink="features/portfolio3">Portfolio
+                                            3</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/portfolio4">Portfolio 4</button>
+                                        <button class="dropdown-item" routerLink="features/portfolio4">Portfolio
+                                            4</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/masonary2">Masonary grid 2</button>
+                                        <button class="dropdown-item" routerLink="features/masonary2">Masonary grid
+                                            2</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/masonary3">Masonary grid 3</button>
+                                        <button class="dropdown-item" routerLink="features/masonary3">Masonary grid
+                                            3</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/masonary4">Masonary grid 4</button>
+                                        <button class="dropdown-item" routerLink="features/masonary4">Masonary grid
+                                            4</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/fullwidth">Masonary Full width</button>
+                                        <button class="dropdown-item" routerLink="features/fullwidth">Masonary Full
+                                            width</button>
                                     </li>
                                 </ul>
                             </div>
@@ -254,7 +267,8 @@
 
                                 <ul class="list-unstyled mb-0">
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/cartmodal">Cart Modal Popup</button>
+                                        <button class="dropdown-item" routerLink="features/cartmodal">Cart Modal
+                                            Popup</button>
                                     </li>
                                     <li>
                                         <button class="dropdown-item" routerLink="features/qtyc">Qty Quanter</button>
@@ -263,13 +277,15 @@
                                         <button class="dropdown-item" routerLink="features/carttop">Cart top</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/cartbottom">Cart Bottom</button>
+                                        <button class="dropdown-item" routerLink="features/cartbottom">Cart
+                                            Bottom</button>
                                     </li>
                                     <li>
                                         <button class="dropdown-item" routerLink="features/cartleft">Cart Left</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/cartright">Cart Right</button>
+                                        <button class="dropdown-item" routerLink="features/cartright">Cart
+                                            Right</button>
                                     </li>
                                 </ul>
                             </div>
@@ -284,7 +300,8 @@
                                         <button class="dropdown-item" routerLink="features/tittle">Tittle</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/collection">Collection Banner</button>
+                                        <button class="dropdown-item" routerLink="features/collection">Collection
+                                            Banner</button>
                                     </li>
                                     <li>
                                         <button class="dropdown-item" routerLink="features/home2">Home Slider</button>
@@ -308,7 +325,8 @@
                                         <button class="dropdown-item" routerLink="features/box">Product Box</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/slider">Product Slider</button>
+                                        <button class="dropdown-item" routerLink="features/slider">Product
+                                            Slider</button>
                                     </li>
                                     <li>
                                         <button class="dropdown-item" routerLink="features/nos">No Slider</button>
@@ -328,10 +346,12 @@
 
                                 <ul class="list-unstyled mb-0">
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/orders">Order Success</button>
+                                        <button class="dropdown-item" routerLink="features/orders">Order
+                                            Success</button>
                                     </li>
                                     <li>
-                                        <button class="dropdown-item" routerLink="features/orders2">Order Success 2</button>
+                                        <button class="dropdown-item" routerLink="features/orders2">Order Success
+                                            2</button>
                                     </li>
                                 </ul>
                             </div>
@@ -343,11 +363,12 @@
                 </ul>
             </li>
             <li class="nav-item dropdown ms-5">
-                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerLink="pages">
-                PAGES
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" routerLink="pages">
+                    PAGES
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Vendor New  &raquo</a>
+                    <li><a class="dropdown-item" href="#">Vendor New &raquo</a>
                         <ul class="dropdown-menu dropdown-submenu">
                             <li>
                                 <button class="dropdown-item" routerLink="pages">Vendor dashboard</button>
@@ -360,7 +381,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a class="dropdown-item" href="#">Account  &raquo</a>
+                    <li><a class="dropdown-item" href="#">Account &raquo</a>
                         <ul class="dropdown-menu dropdown-submenu">
                             <li>
                                 <button class="dropdown-item" routerLink="pages/wishlist">wishlist</button>
@@ -399,7 +420,7 @@
                     <li><button class="dropdown-item" routerLink="pages/typographyn">typography New</button></li>
                     <li><button class="dropdown-item" routerLink="pages/review">Review</button></li>
                     <li><button class="dropdown-item" routerLink="pages/sucess1">order-success</button></li>
-                    <li><button class="dropdown-item">compare  &raquo</button>
+                    <li><button class="dropdown-item">compare &raquo</button>
                         <ul class="dropdown-menu dropdown-submenu">
                             <li>
                                 <button class="dropdown-item" routerLink="pages/compare1">compare</button>
@@ -418,8 +439,9 @@
                 </ul>
             </li>
             <li class="nav-item dropdown ms-5">
-                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" routerlink="blogs">
-                BLOGS
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" routerlink="blogs">
+                    BLOGS
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><button class="dropdown-item" routerLink="blogs">Blog left Sidebar</button></li>
@@ -432,12 +454,14 @@
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link fw-bold me-2" href="#"><i class="fa fa-search fa-lg" aria-hidden="true"></i><span>   </span></a>
+                    <a class="nav-link fw-bold me-2" href="#"><i class="fa fa-search fa-lg"
+                            aria-hidden="true"></i><span> </span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <!-- <a class="nav-link fw-bold" href="#"><i class="fa fa-user" aria-hidden="true"></i><span>   </span>myAccount</a> -->
-                    <a class="nav-link fw-bold me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-cog fa-lg " aria-hidden="true"></i><span>   </span>
+                    <a class="nav-link fw-bold me-2" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-cog fa-lg " aria-hidden="true"></i><span> </span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">Language </a></li>
@@ -449,13 +473,15 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <!-- <a class="nav-link fw-bold" href="#"><i class="fa fa-user" aria-hidden="true"></i><span>   </span>myAccount</a> -->
-                    <a class="nav-link fw-bold me-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-shopping-cart fa-lg fa-lg" aria-hidden="true"></i><span>   </span>
+                    <a class="nav-link fw-bold me-5 position-relative" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-shopping-cart fa-lg fa-lg" routerLink="pages/cart" aria-hidden="true"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            {{totalItem}}
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">This cart is currently Empty</a></li>
-                    </ul>
+
                 </li>
             </ul>
         </div>

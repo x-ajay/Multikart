@@ -1,3 +1,17 @@
+.star-rating {
+  color: #e2e3e5; /* Color for the stars */
+  font-size: 14px; /* Adjust the size of the stars */
+}
+
+.star-rating .fa-star {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.star-rating .fa-star.checked {
+  color: #ffa200;
+  margin-bottom: 10px;
+}
+
 /*first carosole */
 .main-caroel-section {
   position: relative;
@@ -111,4 +125,17 @@
   font-weight: 600;
   letter-spacing: 0.6rem;
   padding-top: 10px;
+}
+
+/* last carosole */
+.date-furnitue {
+  color: #ff4c3b;
+  font-size: 20px;
+}
+
+.text-fur {
+  color: #222222;
+}
+.text-fur:hover {
+  color: #ff4c3b;
 }

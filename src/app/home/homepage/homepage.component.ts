@@ -4,13 +4,12 @@ import { HomepageService } from '../../service/homepage.service';
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.css']
+  styleUrls: ['./homepage.component.css'],
 })
 export class HomepageComponent {
   public formdata: any = [];
-  constructor(private dt: HomepageService) {
-
-  }
+  data: any;
+  constructor(private dt: HomepageService) {}
   getdata1() {
     // this.dt.gethomeApidata().subscribe({
     //   next: (res: any) => {
@@ -21,5 +20,3 @@ export class HomepageComponent {
     // });
   }
 }
-
-

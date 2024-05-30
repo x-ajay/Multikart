@@ -1,9 +1,13 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DataService {
+  constructor(private http: HttpClient) {}
 
-  constructor() { }
+  getwatchData5(): Promise<any> {
+    return this.http.get('http://localhost:3000/watchData5').toPromise();
+  }
 }

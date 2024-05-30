@@ -28,41 +28,42 @@ import { FaqComponent } from './faq/faq.component';
 import { RouterModule, Routes } from '@angular/router';
 import { OrderSucessComponent } from './../pages/order-sucess/order-sucess.component';
 import { SiteMapComponent } from './site-map/site-map.component';
-
+import { TableModule } from 'primeng/table';
+import { ButtonModule } from 'primeng/button';
+import { RatingModule } from 'primeng/rating';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TagModule } from 'primeng/tag';
+import { BadgeModule } from 'primeng/badge';
+import { DividerModule } from 'primeng/divider';
+import { PasswordModule } from 'primeng/password';
 
 const routes: Routes = [
-  { path: "", component: VendorDashboardComponent },
-  { path: "became", component: BecomeVendorComponent },
-  { path: "profilev", component: VendorProfileComponent },
-  { path: "wishlist", component: WishlistComponent },
-  { path: "cart", component: CartComponent },
-  { path: "dashboard2", component: DashboardComponent },
-  { path: "login", component: LoginComponent },
-  { path: "loginauth", component: LoginAuthComponent },
-  { path: "register", component: RegisterComponent },
-  { path: "conatct", component: ContactComponent },
-  { path: "forgetpass", component: ForgotPasswordComponent },
-  { path: "profile3", component: ProfileComponent },
-  { path: "checkout", component: CheckoutComponent },
-  { path: "aboutus", component:AboutusComponent },
-  { path: "search", component: SearchComponent },
-  { path: "typographyn", component: TypographyComponent },
-  { path: "review", component: ReviewComponent },
-  { path: "sucess1", component: OrderSucessComponent },
-  { path: "compare1", component: CompareComponent },
-  { path: "compare2", component: Compare2Component },
-  { path: "collection", component: CollectionComponent },
-  { path: "lookbook1", component: LookbookComponent },
-  { path: "sitemap", component: SiteMapComponent},
-  { path: "comingsoon", component: ComingSoonComponent },
-  { path: "faq", component: FaqComponent },
-
-
-
+  { path: '', component: VendorDashboardComponent },
+  { path: 'became', component: BecomeVendorComponent },
+  { path: 'profilev', component: VendorProfileComponent },
+  { path: 'wishlist', component: WishlistComponent },
+  { path: 'cart', component: CartComponent },
+  { path: 'dashboard2', component: DashboardComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'loginauth', component: LoginAuthComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'conatct', component: ContactComponent },
+  { path: 'forgetpass', component: ForgotPasswordComponent },
+  { path: 'profile3', component: ProfileComponent },
+  { path: 'checkout', component: CheckoutComponent },
+  { path: 'aboutus', component: AboutusComponent },
+  { path: 'search', component: SearchComponent },
+  { path: 'typographyn', component: TypographyComponent },
+  { path: 'review', component: ReviewComponent },
+  { path: 'sucess1', component: OrderSucessComponent },
+  { path: 'compare1', component: CompareComponent },
+  { path: 'compare2', component: Compare2Component },
+  { path: 'collection', component: CollectionComponent },
+  { path: 'lookbook1', component: LookbookComponent },
+  { path: 'sitemap', component: SiteMapComponent },
+  { path: 'comingsoon', component: ComingSoonComponent },
+  { path: 'faq', component: FaqComponent },
 ];
-
-
-
 
 @NgModule({
   declarations: [
@@ -91,12 +92,20 @@ const routes: Routes = [
     CollectionComponent,
     ComingSoonComponent,
     FaqComponent,
-    LookbookComponent,
-    SiteMapComponent
+    SiteMapComponent,
   ],
   imports: [
     CommonModule,
     [RouterModule.forChild(routes)],
-  ]
+    TableModule,
+    ButtonModule,
+    RatingModule,
+    FormsModule,
+    TagModule,
+    BadgeModule,
+    ReactiveFormsModule,
+    DividerModule,
+    PasswordModule,
+  ],
 })
-export class PagesModule { }
+export class PagesModule {}

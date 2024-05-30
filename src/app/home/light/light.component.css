@@ -1,0 +1,63 @@
+.caption-positon {
+  left: 12%;
+  top: 40%;
+  color: #222222;
+  text-align: left;
+  max-width: 800px;
+}
+.small-text {
+  color: #777;
+  font-size: 18px;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.heading-size {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+/* .shop-btn {
+  line-height: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px 25px;
+  margin-top: 10px;
+  color: rgb(255, 253, 253);
+  background-color: #d4b196;
+  border: none;
+  position: absolute;
+  overflow: hidden;
+}
+.shop-btn:hover {
+  color: #222222;
+  background-color: white;
+  border: 1px solid #d4b196;
+  animation: ani 0.7s steps(70) forwards;
+  cursor: pointer;
+} */
+
+.p-btn btn {
+  border: none;
+  background-color: transparent !important;
+}
+.p-btn {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  color: #fff !important;
+  letter-spacing: 0.05em;
+  border: 2px solid var(--theme-deafult);
+  border-color: var(--theme-deafult) !important;
+  background-image: linear-gradient(
+    30deg,
+    var(--theme-deafult) 50%,
+    transparent 50%
+  );
+  background-size: 540px;
+  background-repeat: no-repe;
+}
